@@ -6,10 +6,13 @@ import Cards from '../Components/Cards'
 const Home = () => {
   return (
     <>
-     <Navbar/>
-     <Carousal/>
+      <div>
+        <Navbar />
+        <Carousal />
+        <Cards/>
+      </div>
     </>
-  )
+  );
 }
 
 export default Home
