@@ -5,10 +5,12 @@ import Carousal from '../Components/Carousal'
 const Home = () => {
   return (
     <>
-     <Navbar/>
-     <Carousal/>
+      <div>
+        <Navbar />
+        <Carousal />
+      </div>
     </>
-  )
+  );
 }
 
 export default Home

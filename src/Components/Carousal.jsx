@@ -39,13 +39,19 @@ const Carousal = () => {
         modules={[Autoplay, Pagination, Navigation, Mousewheel]}
       >
         <SwiperSlide>
-          <img className=" w-full height" src="../../Images/img1.jpg" alt="" />
+          <img className=" w-full height" src="../../Images/img1.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img className=" w-full height" src="../../Images/img2.jpg" alt="" />
+          <img className=" w-full height" src="../../Images/img2.png" alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img className=" w-full height" src="../../Images/img3.jpg" alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className=" w-full height" src="../../Images/img4.png" alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img className=" w-full height" src="../../Images/img5.jpg" alt="" />
         </SwiperSlide>
       </Swiper>
       </div>
