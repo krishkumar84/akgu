@@ -15,6 +15,9 @@ const Carousal = () => {
         //   spaceBetween={}
         slidesPerView={1}
         // centeredSlides={true}
+        pagination={{
+          clickable:true,
+        }}
         loop={true}
         autoplay={{
           delay: 2500,
@@ -31,6 +34,7 @@ const Carousal = () => {
         breakpoints={{
           0: {
             slidesPerView: 1,
+            
           },
           640: {
             slidesPerView: 1,
