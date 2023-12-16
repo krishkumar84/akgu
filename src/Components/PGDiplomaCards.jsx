@@ -6,10 +6,10 @@ import { faGraduationCap, faClock } from '@fortawesome/free-solid-svg-icons';
 function PGDiplomaCards() {
 
   return (
-    <div className="w-full h-auto flex flex-wrap flex-row tems-center justify-center ">
+    <div className="w-full h-auto flex flex-wrap flex-row tems-center justify-center bg-customWhite">
    
       
-   <div className="w-1/4 p-4 shadow-lg mr-6">
+   <div className="w-1/4 p-4 shadow-lg mr-6 bg-white">
     <div className="overflow-hidden">
       <img className="h-full w-full object-cover" src="../../Images/download_1.jpg" alt="" />
       <div className="p-4">
@@ -27,7 +27,7 @@ function PGDiplomaCards() {
     </div>
   </div>
     
-  <div className="w-1/4 p-4 shadow-lg mr-6">
+  <div className="w-1/4 p-4 shadow-lg mr-6 bg-white">
     <div className="overflow-hidden">
       <img className="h-full w-full object-cover" src="../../Images/download_1.jpg" alt="" />
       <div className="p-4">
@@ -45,7 +45,7 @@ function PGDiplomaCards() {
     </div>
   </div>
     
-  <div className="w-1/4 p-4 shadow-lg">
+  <div className="w-1/4 p-4 shadow-lg bg-white">
     <div className="overflow-hidden">
       <img className="h-full w-full object-cover" src="../../Images/download_1.jpg" alt="" />
       <div className="p-4">

@@ -22,8 +22,8 @@ function Program() {
   };
 
   return (
-    <div className="mb-24" >
-    <h1 className='font-semibold text-4xl text-center mb-24 text-customblue'>OUR TOP PROGRAMMES</h1>
+    <div className="mb-24 bg-customWhite" >
+    <h1 className='font-semibold text-4xl text-center mb-24 text-customblue '>OUR TOP PROGRAMMES</h1>
     <div className='flex flex-wrap flex-row items-center justify-center mb-24 mr-4 ml-5'>
       <ul className='flex flex-wrap flex-row justify-evenly w-full '>
         <li className={`uppercase mr-4 text-center text-lg hover:cursor-pointer ${selectedDegree === 'bachelor' ?   'border-b-4 border-customYellow w-1/4' : 'border-b-4 border-transparent w-1/5'}`} onClick={handleOnClick_1}>Bachelor</li>
