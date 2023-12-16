@@ -10,7 +10,7 @@ function PGDiplomaCards() {
     <div className=" overflow-hidden">
       <img className="h-full w-full object-cover" src="../../Images/download_1.jpg" alt="" />
       <div className="p-4">
-        <h3 className="text-xl font-bold mb-2 text-customblue">Card Heading 1</h3>
+        <h3 className="text-xl font-bold mb-2 text-customblue">Card 2</h3>
         <div className="flex items-center text-gray-600 mb-2">
           <FontAwesomeIcon icon={faGraduationCap} className="mr-2" />
           <p>Degree: Bachelor</p>
@@ -28,7 +28,7 @@ function PGDiplomaCards() {
     <div className="overflow-hidden">
       <img className="h-full w-full object-cover" src="../../Images/download_1.jpg" alt="" />
       <div className="p-4">
-        <h3 className="text-xl font-bold mb-2 text-customblue">Card Heading 1</h3>
+        <h3 className="text-xl font-bold mb-2 text-customblue">Card 2</h3>
         <div className="flex items-center text-gray-600 mb-2">
           <FontAwesomeIcon icon={faGraduationCap} className="mr-2" />
           <p>Degree: Bachelor</p>
@@ -46,7 +46,7 @@ function PGDiplomaCards() {
     <div className="overflow-hidden">
       <img className="h-full w-full object-cover" src="../../Images/download_1.jpg" alt="" />
       <div className="p-4">
-        <h3 className="text-xl font-bold mb-2 text-customblue">Card Heading 1</h3>
+        <h3 className="text-xl font-bold mb-2 text-customblue">Card 2</h3>
         <div className="flex items-center text-gray-600 mb-2">
           <FontAwesomeIcon icon={faGraduationCap} className="mr-2" />
           <p>Degree: Bachelor</p>
