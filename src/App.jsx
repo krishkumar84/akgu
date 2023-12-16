@@ -5,6 +5,9 @@ import Home from './pages/Home';
 import Home2 from './pages/Home2';
 import './App.css';
 
+import './Components/CSS/Locomotive.css'
+
+
 function App() {
   return (
     <Router>
