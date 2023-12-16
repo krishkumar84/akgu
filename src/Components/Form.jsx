@@ -37,13 +37,13 @@ function Form(){
         
         }}>
     
-          <div className='bg-white border-2 w-1/4 border-yellow-300 rounded-lg'
+          <div className='bg-white border-2 w-1/4 h-[70vh] relative border-yellow-300 rounded-lg'
         >
            <h1 className='text-3xl text-center p-6 font-semibold'>Know More</h1>
-           <form className='flex flex-col items-center justify-center  ' onSubmit={handleSubmit}>
+           <form className='flex flex-col items-center justify-center ' onSubmit={handleSubmit}>
              
               <input
-               className='m-4 p-2 w-[90%] border-2'
+               className=' p-2 w-[90%] border-2'
                 type="text"
                 name="name"
                 value={formData.name}
@@ -55,7 +55,7 @@ function Form(){
             <br />
            
               <input
-               className='m-1 p-2 w-[90%] border-2'
+               className=' p-2 w-[90%] border-2'
                type="email"
                 name="email"
                 value={formData.email}
@@ -66,7 +66,7 @@ function Form(){
             <br />
             
               <input
-               className='m-1 p-2 w-[90%] border-2'
+               className=' p-2 w-[90%] border-2'
                type="tel"
                 name="mobile"
                 value={formData.mobile}
@@ -77,7 +77,7 @@ function Form(){
             <br />
     
               <input
-               className='m-1 p-2 w-[90%] border-2'
+               className=' p-2 w-[90%] border-2'
                type="text"
                 name="State"
                 value={formData.mobile}
@@ -88,7 +88,7 @@ function Form(){
            <br />
     
               <input
-               className='m-1 p-2 w-[90%] border-2'
+               className=' p-2 w-[90%] border-2'
                type="text"
                 name="City"
                 value={formData.mobile}
@@ -97,7 +97,7 @@ function Form(){
                 required
               />
             <br />
-            <button className='bg-yellow-300 m-4 ' type="submit" >Submit</button>
+            <button className='bg-yellow-300 m-1 ' type="submit" >Submit</button>
           </form> 
     
            </div>
