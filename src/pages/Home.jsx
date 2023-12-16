@@ -10,6 +10,7 @@ import Facultycards from '../Components/Faculty-cards'
 import Faq from '../Components/Faq'
 import { useRef } from "react";
 import LocomotiveScroll from 'locomotive-scroll';
+import { DivComponent } from '../Components/DivComponent'
 
 const Home = () => {
 
@@ -39,6 +40,7 @@ const Home = () => {
         <Cta/>
         <Faq/>
         <Footer/>
+        <DivComponent/>
       </div>
     </>
   );
