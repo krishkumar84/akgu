@@ -55,3 +55,29 @@ html,body{
     width: 40vw !important;
     /* margin: 0px !important; */
 }
+
+.swiper-pagination-bullet{
+    background-color: #fff;
+}
+
+@media (max-width:600px) {
+    .main-carousel-cards .swiper-slide-active{
+        /* margin-right:63vw  !important; */
+        /* margin-left: 63vw; */
+    }
+    
+    
+    .main-carousel-cards .swiper-slide{
+        /* margin-right:  63vw !important; */
+    }
+}
+
+
+
+
+
+
+
+
+
+

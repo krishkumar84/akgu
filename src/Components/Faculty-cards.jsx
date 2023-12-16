@@ -30,7 +30,7 @@ const Facultycards = () => {
         navigation={true}
         breakpoints={{
           0: {
-            slidesPerView: 1,
+            slidesPerView: 1/2,
           },
           640: {
             slidesPerView: 1,
@@ -39,7 +39,7 @@ const Facultycards = () => {
         modules={[Autoplay, Pagination, Navigation, Mousewheel]}
       >
         <SwiperSlide>
-          <div className="container ml-2">
+          <div className="container ml-[0.9vw]">
             <div className="card">
               <div className="imgBx">
                 <img src="../../Images/ruchi-ma'am.png" />
@@ -56,7 +56,7 @@ const Facultycards = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="container ml-2">
+          <div className="container ml-[0.7vw]">
             <div className="card">
               <div className="imgBx">
                 <img src="../../Images/chairman.png" />
@@ -73,7 +73,7 @@ const Facultycards = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="container ml-2">
+          <div className="container ml-[0.7vw]">
             <div className="card">
               <div className="imgBx">
                 <img src="../../Images/director.png" />
@@ -90,7 +90,7 @@ const Facultycards = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="container ml-2">
+          <div className="container ml-[0.7vw]">
             <div className="card">
               <div className="imgBx">
                 <img src="../../Images/sarvachan-sir.png" />
@@ -107,7 +107,7 @@ const Facultycards = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="container ml-2">
+          <div className="container ml-[0.7vw]">
             <div className="card">
               <div className="imgBx">
                 <img src="../../Images/ruchi-ma'am.png" />

@@ -14,10 +14,14 @@ html,body{
     background: transparent;
 }
 
+.main-carousel .swiper-pagination-bullet{
+    display: none;
+}
+
 @media (max-width:600px) {
     .height{
         width: 85vw;
-        height: 26vh;
+        height: 38vh;
         margin-top: 5vh;
         background: transparent;
     }
@@ -26,8 +30,9 @@ html,body{
         display: none;
     } 
     
-    {
-        display: none;
+    .main-carousel .swiper-pagination-bullet{
+        display: inline-block;
     }
+   
     
 }
