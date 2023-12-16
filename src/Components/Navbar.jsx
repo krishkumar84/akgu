@@ -4,7 +4,7 @@ function Navbar() {
     <div>
       
 
-<nav className="bg-white border-gray-200 dark:bg-gray-800">
+<nav className="bg-white border-gray-200 dark:bg-blue-950">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
   <a href="https://www.akgec.ac.in/" className="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="https://www.akgec.ac.in/wp-content/themes/twentysixteen/img/AKGEC_1_0.png" className="h-8" alt="AKGU Logo" />
