@@ -7,6 +7,7 @@ import Features from '../Components/Features'
 import Cta from '../Components/Cta'
 import CarousalCards from '../Components/CarousalCards'
 import Facultycards from '../Components/Faculty-cards'
+import Faq from '../Components/Faq'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <Features/>
         <CarousalCards/>
         <Cta/>
+        <Faq/>
         <Footer/>
       </div>
     </>
