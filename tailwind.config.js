@@ -8,7 +8,8 @@ export default {
     extend: {
       colors:{
         customblue: 'rgb(28 63 119)',
-        customYellow:' #fff500'
+        customYellow:' #fff500',
+        customWhite: 'rgb(225 225 225)'
       }
     },
   },
