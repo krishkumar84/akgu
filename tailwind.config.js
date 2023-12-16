@@ -9,8 +9,8 @@ export default {
       colors:{
         customblue: 'rgb(28 63 119)',
         customYellow:' #fff500',
-        customWhite: 'rgb(240 240 240)'
-      
+        customWhite: 'rgb(240 240 240)',
+        customBlack: 'rgb(55 55 55)'
       }
     },
   },
