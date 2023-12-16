@@ -4,6 +4,8 @@ import Footer from '../Components/Footer'
 import Program from '../Components/Program'
 import Form from '../Components/Form';
 import Testimonial from '../Components/Testimonial';
+import Highlights from '../Components/Highlights';
+import Belowtext from '../Components/Belowtext';
  
 
 function Home2() {
@@ -14,6 +16,10 @@ function Home2() {
       <Form/>
       <Program/>
       <Testimonial/>
+      
+      <Highlights/>
+      <Belowtext/>
+      
       <Footer/>
     </div>
   )
