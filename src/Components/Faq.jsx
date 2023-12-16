@@ -28,7 +28,7 @@ function Faq() {
               {Array.from({ length: 4 }).map((_, i) => (
                 <div
                   key={i}
-                  className="cursor-pointer rounded-md border border-gray-400 transition-all duration-200"
+                  className="cursor-pointer rounded-md border border-gray-400 transition-all duration-400"
                 >
                   <button
                     type="button"

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
 export const DivComponent = () => {
-  const [showDiv, setShowDiv] = useState(false);
+  const [showDiv, setShowDiv] = useState(true);
 
   useEffect(() => {
     const timerId = setTimeout(() => {
-      setShowDiv(true);
+      setShowDiv(false);
     }, 1000);
 
     // Clear the timeout if the component unmounts
@@ -14,7 +14,7 @@ export const DivComponent = () => {
 
   return (
     <div>
-      {showDiv && <div className='h-[40vh]'></div>}
+      {showDiv && <div className='h-[3vh]'></div>}
     </div>
   );
 };
