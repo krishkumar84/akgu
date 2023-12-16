@@ -5,7 +5,7 @@ import PGDiplomaCards from './PGDiplomaCards';
 
 
 function Program() {
-  const [selectedDegree, setSelectedDegree] = useState(null);
+  const [selectedDegree, setSelectedDegree] = useState('bachelor');
 
   const handleOnClick_1 = () => {
     setSelectedDegree('bachelor');

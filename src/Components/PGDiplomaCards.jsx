@@ -7,7 +7,7 @@ function PGDiplomaCards() {
    
       
    <div className="w-1/3 p-4 shadow-lg">
-    <div className="rounded-lg overflow-hidden">
+    <div className=" overflow-hidden">
       <img className="h-full w-full object-cover" src="../../Images/download_1.jpg" alt="" />
       <div className="p-4">
         <h3 className="text-xl font-bold mb-2 text-customblue">Card Heading 1</h3>
@@ -25,7 +25,7 @@ function PGDiplomaCards() {
   </div>
     
   <div className="w-1/3 p-4 shadow-lg">
-    <div className="rounded-lg overflow-hidden">
+    <div className="overflow-hidden">
       <img className="h-full w-full object-cover" src="../../Images/download_1.jpg" alt="" />
       <div className="p-4">
         <h3 className="text-xl font-bold mb-2 text-customblue">Card Heading 1</h3>
@@ -43,7 +43,7 @@ function PGDiplomaCards() {
   </div>
     
   <div className="w-1/3 p-4 shadow-lg">
-    <div className="rounded-lg overflow-hidden">
+    <div className="overflow-hidden">
       <img className="h-full w-full object-cover" src="../../Images/download_1.jpg" alt="" />
       <div className="p-4">
         <h3 className="text-xl font-bold mb-2 text-customblue">Card Heading 1</h3>
