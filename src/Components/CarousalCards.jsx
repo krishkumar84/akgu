@@ -19,6 +19,9 @@ const CarousalCards = () => {
           // slidesPerView={3/2}
           centeredSlides={true}
           loop={true}
+          // pagination={{
+          //   clickable: true,
+          // }}
           //   autoplay={{
           //     delay: 2500,
           //     // disableOnInteraction: false,
@@ -33,18 +36,17 @@ const CarousalCards = () => {
           navigation={true}
           breakpoints={{
             0: {
-              spaceBetween:270,
               slidesPerView: 1,
-              
+              spaceBetween:250,
             },
             640: {
-              slidesPerView: 4,
+              slidesPerView: 1,
             },
           }}
           modules={[Autoplay, Pagination, Navigation, Mousewheel]}
         >
           <SwiperSlide className='transition-transform transform hover:scale-105'>
-          <div className=" boxes h-[64vh] mr-[100vw] sm:w-[100%] w-[100vw] transition-transform transform hover:scale-105">
+          <div className=" boxes h-[64vh] sm:w-[100%] w-[100vw] transition-transform transform hover:scale-105">
               <img
                 src="https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
                 alt="AirMax Pro"
@@ -64,7 +66,7 @@ const CarousalCards = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className='transition-transform transform hover:scale-105'>
-          <div className=" boxes h-[64vh] sm:w-[100%] w-[80vw] transition-transform transform hover:scale-105">
+          <div className=" boxes h-[64vh] sm:w-[100%] w-[100vw] transition-transform transform hover:scale-105">
               <img
                 src="https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
                 alt="AirMax Pro"
@@ -84,7 +86,7 @@ const CarousalCards = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className='transition-transform transform hover:scale-105'>
-          <div className=" boxes h-[64vh] sm:w-[100%] w-[80vw] transition-transform transform hover:scale-105">
+          <div className=" boxes h-[64vh] sm:w-[100%] w-[100vw] transition-transform transform hover:scale-105">
               <img
                 src="https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
                 alt="AirMax Pro"
@@ -104,7 +106,7 @@ const CarousalCards = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className='transition-transform transform hover:scale-105'>
-          <div className=" boxes h-[64vh] sm:w-[100%] w-[80vw] transition-transform transform hover:scale-105">
+          <div className=" boxes h-[64vh] sm:w-[100%] w-[100vw] transition-transform transform hover:scale-105">
               <img
                 src="https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
                 alt="AirMax Pro"
@@ -124,7 +126,7 @@ const CarousalCards = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className='transition-transform transform hover:scale-105'>
-          <div className=" boxes h-[64vh] sm:w-[100%] w-[80vw] transition-transform transform hover:scale-105">
+          <div className=" boxes h-[64vh] sm:w-[100%] w-[100vw] transition-transform transform hover:scale-105">
               <img
                 src="https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
                 alt="AirMax Pro"
@@ -144,7 +146,7 @@ const CarousalCards = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className='transition-transform transform hover:scale-105'>
-          <div className=" boxes h-[64vh] sm:w-[100%] w-[80vw] transition-transform transform hover:scale-105">
+          <div className=" boxes h-[64vh] sm:w-[100%] w-[100vw] transition-transform transform hover:scale-105">
               <img
                 src="https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
                 alt="AirMax Pro"
@@ -164,7 +166,7 @@ const CarousalCards = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className='transition-transform transform hover:scale-105'>
-          <div className=" boxes h-[64vh] sm:w-[100%] w-[80vw] transition-transform transform hover:scale-105">
+          <div className=" boxes h-[64vh] sm:w-[100%] w-[100vw] transition-transform transform hover:scale-105">
               <img
                 src="https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
                 alt="AirMax Pro"
