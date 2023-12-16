@@ -1,0 +1,13 @@
+:root{
+    --blue-color:rgb(28 63 119);
+    --yellow-color:#fff500;
+    --offWhite-color:  rgb(225 225 225);
+    --black-color: rgb(55 55 55);
+
+}
+.yellow{
+    color: #fff500;
+}
+.yellow-bg{
+    background-color: var(--yellow-color) !important;   
+}
