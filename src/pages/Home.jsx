@@ -5,15 +5,19 @@ import Cards from '../Components/Cards'
 import Footer from '../Components/Footer'
 import Features from '../Components/Features'
 import Cta from '../Components/Cta'
+import CarousalCards from '../Components/CarousalCards'
+import Facultycards from '../Components/Faculty-cards'
 
 const Home = () => {
   return (
     <>
-      <div>
+      <div className=' '>
         <Navbar />
         <Carousal />
         <Cards/>
+        <Facultycards/>
         <Features/>
+        <CarousalCards/>
         <Cta/>
         <Footer/>
       </div>
