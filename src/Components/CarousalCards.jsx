@@ -11,7 +11,7 @@ const CarousalCards = () => {
       
   return (
     <>
-      <div className="main-carousel-cards ">
+      <div className="main-carousel-cards mb-24 mt-24">
         <h1 className='mb-[5vh] ml-[14vw] text-4xl font-bold'>Explore Our Online Degree Programs</h1>
         <hr  className='mb-[9vh]'/>
         <Swiper className='bg-black h-[100vh] pt-9 w-[100%] bg-gradient-to-tl from-black via-yellow-400 relative  overflow-hidden'

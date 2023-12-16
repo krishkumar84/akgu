@@ -9,7 +9,9 @@ import "./CSS/Faculty-card.css"
 
 const Facultycards = () => {
   return (
-    <div className="main-faculty-carousel mb-10">
+    <div className="main-faculty-carousel mb-24">
+         <h1 className='mb-[3vh] ml-[14vw] text-4xl font-bold'>Lorem ipsum</h1>
+        <hr  className='mb-[9vh]'/>
       <Swiper
           spaceBetween={0}
         slidesPerView={1}
