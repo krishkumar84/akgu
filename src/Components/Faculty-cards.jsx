@@ -6,6 +6,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import "./CSS/Faculty-card.css"
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 const Facultycards = () => {
   return (
@@ -13,6 +15,7 @@ const Facultycards = () => {
          <h1 className='mb-[3vh] ml-[14vw] text-4xl font-bold'>Lorem ipsum</h1>
         <hr  className='mb-[9vh]'/>
       <Swiper
+      className='sm:block hidden'
           spaceBetween={0}
         slidesPerView={1}
         // centeredSlides={true}
@@ -30,10 +33,10 @@ const Facultycards = () => {
         navigation={true}
         breakpoints={{
           0: {
-            slidesPerView: 1/2,
-          },
-          640: {
             slidesPerView: 1,
+          },
+          600: {
+            slidesPerView: 5,
           },
         }}
         modules={[Autoplay, Pagination, Navigation, Mousewheel]}
@@ -42,7 +45,7 @@ const Facultycards = () => {
           <div className="container ml-[0.9vw]">
             <div className="card">
               <div className="imgBx">
-                <img src="../../Images/ruchi-ma'am.png" />
+                <img className='sm:block hidden' src="../../Images/ruchi-ma'am.png" />
               </div>
               <div className="contentBx">
                 <h2>Assistant Profesor</h2>
@@ -59,7 +62,7 @@ const Facultycards = () => {
           <div className="container ml-[0.7vw]">
             <div className="card">
               <div className="imgBx">
-                <img src="../../Images/chairman.png" />
+                <img className='sm:block hidden' src="../../Images/chairman.png" />
               </div>
               <div className="contentBx">
                 <h2>Chairman</h2>
@@ -76,7 +79,7 @@ const Facultycards = () => {
           <div className="container ml-[0.7vw]">
             <div className="card">
               <div className="imgBx">
-                <img src="../../Images/director.png" />
+                <img className='sm:block hidden' src="../../Images/director.png" />
               </div>
               <div className="contentBx">
                 <h2>Director General</h2>
@@ -93,7 +96,7 @@ const Facultycards = () => {
           <div className="container ml-[0.7vw]">
             <div className="card">
               <div className="imgBx">
-                <img src="../../Images/sarvachan-sir.png" />
+                <img className='sm:block hidden' src="../../Images/sarvachan-sir.png" />
               </div>
               <div className="contentBx">
                 <h2>Assistant Profesor</h2>
@@ -110,7 +113,7 @@ const Facultycards = () => {
           <div className="container ml-[0.7vw]">
             <div className="card">
               <div className="imgBx">
-                <img src="../../Images/ruchi-ma'am.png" />
+                <img className='sm:block hidden' src="../../Images/ruchi-ma'am.png" />
               </div>
               <div className="contentBx">
                 <h2>Assistant Profesor</h2>
@@ -124,6 +127,89 @@ const Facultycards = () => {
           </div>
         </SwiperSlide>
       </Swiper>
+
+      <Carousel
+              showArrows={true}
+              // autoPlay={true}
+              // infiniteLoop={true}
+              className="block sm:hidden"
+            >
+          <div className="container ml-[7vw]">
+            <div className="card">
+              <div className="imgBx">
+                <img className='' src="../../Images/ruchi-ma'am.png" />
+              </div>
+              <div className="contentBx">
+                <h2>Assistant Profesor</h2>
+                
+                <div className="color">
+                    <h1>DR. RUCHI GUPTA</h1>
+                </div>
+                  <a href="#">View Profile</a>
+              </div>
+            </div>
+          </div>
+          <div className="container ml-[7vw]">
+          <div className="card">
+              <div className="imgBx">
+                <img className='sm:block hidden' src="../../Images/chairman.png" />
+              </div>
+              <div className="contentBx">
+                <h2>Chairman</h2>
+                
+                <div className="color">
+                    <h1>Ashok Pal</h1>
+                </div>
+                  <a href="#">View Profile</a>
+              </div>
+            </div>
+          </div>
+          <div className="container ml-[7vw]">
+          <div className="card">
+              <div className="imgBx">
+                <img className='sm:block hidden' src="../../Images/director.png" />
+              </div>
+              <div className="contentBx">
+                <h2>Director General</h2>
+                
+                <div className="color">
+                    <h1>DR. R.K Agrawal</h1>
+                </div>
+                  <a href="#">View Profile</a>
+              </div>
+            </div>
+          </div>
+          <div className="container ml-[7vw]">
+          <div className="card">
+              <div className="imgBx">
+                <img className='sm:block hidden' src="../../Images/sarvachan-sir.png" />
+              </div>
+              <div className="contentBx">
+                <h2>Assistant Profesor</h2>
+                
+                <div className="color">
+                    <h1>SARVACHAN VERMA</h1>
+                </div>
+                  <a href="#">View Profile</a>
+              </div>
+            </div>
+          </div>
+          <div className="container ml-[7vw]">
+            <div className="card">
+              <div className="imgBx">
+                <img className='' src="../../Images/ruchi-ma'am.png" />
+              </div>
+              <div className="contentBx">
+                <h2>Assistant Profesor</h2>
+                
+                <div className="color">
+                    <h1>DR. RUCHI GUPTA</h1>
+                </div>
+                  <a href="#">View Profile</a>
+              </div>
+            </div>
+          </div>
+      </Carousel>
     </div>
   );
 }
