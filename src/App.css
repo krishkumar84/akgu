@@ -8,3 +8,7 @@
 .yellow-bg{
     background-color: var(--yellow-color) !important;   
 }
+
+.placement .control-dots .dot.selected{
+   background-color: black;
+}

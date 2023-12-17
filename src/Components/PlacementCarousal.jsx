@@ -1,25 +1,22 @@
 import React from 'react'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 import deepak from '../assets/deepakaws.png'
 import muskan from '../assets/muskancloud-removebg-preview.png'
-import PlacementCarousal from './PlacementCarousal'
+import "../App.css"
 
 
-function Placements() {
+const PlacementCarousal = () => {
   return (
-    <section className="relative overflow-hidden py-24">
-    <div className="relative mx-auto max-w-7xl px-4">
-      <div className="mx-auto mb-24 max-w-2xl text-center lg:max-w-5xl">
-        <h1 className="mb-8 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl">
-        Placement Highlights
-        </h1>
-        <p className="text-lg text-gray-500">
-        HIGHEST SALARY PACKAGES
-        </p>
-      </div>
-      <div className="mx-auto max-w-5xl sm:block hidden">
-        <div className="flex flex-wrap items-center">
+    <>
+    <Carousel
+              showArrows={true}
+              // autoPlay={true}
+              // infiniteLoop={true}
+              className="block sm:hidden placement"
+            >
           <div className="w-full  hover:scale-110 hover:cursor-pointer transition-transform lg:-mr-2 lg:w-1/3">
-            <div className="mx-auto max-w-sm rounded-md border border-gray-200 bg-white pb-15 pl-5 pr-8 pt-6 lg:pb-8">
+            <div className="mx-auto max-w-sm rounded-md border border-gray-200 bg-white pb-[8vh] pl-5 pr-8 pt-6 lg:pb-8">
             <img src="https://media.licdn.com/dms/image/C4E03AQHOT6IGmZC-fA/profile-displayphoto-shrink_800_800/0/1641287483407?e=1708560000&v=beta&t=_ClIgDD3yHhA7R_Yqwh6TwBygCAtvCuHRHSJd3AfDhk" className='h-auto mb-6 rounded-b-xl  bg-cover' />
               <span className="flex items-end">
               <span className="text-4xl font-extrabold leading-none">32.41</span>
@@ -98,16 +95,9 @@ function Placements() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    
-    <PlacementCarousal/>
-
-    </div>
-  </section>
+      </Carousel>    
+    </>
   )
 }
 
-export default Placements
-
-
+export default PlacementCarousal

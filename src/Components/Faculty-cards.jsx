@@ -134,7 +134,7 @@ const Facultycards = () => {
               // infiniteLoop={true}
               className="block sm:hidden"
             >
-          <div className="container ml-[7vw]">
+          <div className="container ml-[4vw]">
             <div className="card">
               <div className="imgBx">
                 <img className='' src="../../Images/ruchi-ma'am.png" />
@@ -149,7 +149,7 @@ const Facultycards = () => {
               </div>
             </div>
           </div>
-          <div className="container ml-[7vw]">
+          <div className="container ml-[4vw]">
           <div className="card">
               <div className="imgBx">
                 <img className='sm:block hidden' src="../../Images/chairman.png" />
@@ -164,7 +164,7 @@ const Facultycards = () => {
               </div>
             </div>
           </div>
-          <div className="container ml-[7vw]">
+          <div className="container ml-[4vw]">
           <div className="card">
               <div className="imgBx">
                 <img className='sm:block hidden' src="../../Images/director.png" />
@@ -179,7 +179,7 @@ const Facultycards = () => {
               </div>
             </div>
           </div>
-          <div className="container ml-[7vw]">
+          <div className="container ml-[4vw]">
           <div className="card">
               <div className="imgBx">
                 <img className='sm:block hidden' src="../../Images/sarvachan-sir.png" />
@@ -194,7 +194,7 @@ const Facultycards = () => {
               </div>
             </div>
           </div>
-          <div className="container ml-[7vw]">
+          <div className="container ml-[4vw]">
             <div className="card">
               <div className="imgBx">
                 <img className='' src="../../Images/ruchi-ma'am.png" />

@@ -31,7 +31,7 @@ const Home = () => {
     },[])
   return (
     <>
-      <div ref={scrollRef} className='data-scroll-container data-scroll data-scroll-offset h-[970vh] '>
+      <div ref={scrollRef} className='data-scroll-container data-scroll data-scroll-offset sm:h-[970vh] '>
         <Navbar />
         <Carousal />
         <Cards/>
