@@ -26,7 +26,7 @@ function Form(){
         <>
     
           <div className=" h-screen w-screen flex items-center justify-center  " style={{
-             backgroundImage: 'url("/Images/back.avif")' ,
+             backgroundImage: 'url("/Images/backg.webp")' ,
               backgroundRepeat: 'no-repeat' ,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
@@ -36,7 +36,7 @@ function Form(){
     
         
         }}>
-           <div className='w-full flex '>
+           <div className='w-full flex items-center justify-center '>
           <div className='bg-white border-2  w-3/4 sm:w-1/3  lg:w-1/4  md:ml-auto md:mr-[10vw] relative border-yellow-300 rounded-lg'>
            <h1 className='text-3xl text-center p-6 font-semibold'>Know More</h1>
            <form className='flex flex-col items-center justify-center ' onSubmit={handleSubmit}>

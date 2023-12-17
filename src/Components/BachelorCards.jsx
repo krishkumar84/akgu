@@ -3,11 +3,11 @@ import { faGraduationCap, faClock } from '@fortawesome/free-solid-svg-icons';
 
 function BachelorCards() {
   return (
-    <div className="w-4/5 h-auto flex flex-wrap flex-row items-center justify-center bg-customWhite">
+    <div className="  w-5/6 h-auto flex flex-wrap flex-row items-center justify-center bg-customWhite">
    
-   <div className="sm:w-1/2 md:w-1/4 w-full p-4 shadow-lg mr-6 bg-white">
+   <div className="sm:w-3/4 md:w-1/3 lg:w-1/4 w-full p-4 shadow-lg  m-3 bg-white">
     <div className="overflow-hidden">
-      <img className="h-full w-full object-cover" src="../../Images/download_1.jpg" alt="" />
+      <img className="h-[250px]  object-cover  " src="../../Images/pro1.jpg" alt="" />
       <div className="p-4">
         <h3 className="text-xl font-bold mb-2 text-customblue">Card Heading 1</h3>
         <div className="flex items-center text-gray-600 mb-2">
@@ -23,9 +23,9 @@ function BachelorCards() {
     </div>
   </div>
     
-  <div className="sm:w-1/2 md:w-1/4 w-full p-4 shadow-lg mr-6 bg-white">
+  <div className="sm:w-3/4 md:w-1/3 lg:w-1/4 w-full p-4 shadow-lg m-3 bg-white">
     <div className=" overflow-hidden">
-      <img className="h-full w-full object-cover" src="../../Images/download_1.jpg" alt="" />
+      <img className="h-[250px] w-full object-cover" src="../../Images/pro2.jpg" alt="" />
       <div className="p-4">
         <h3 className="text-xl font-bold mb-2 text-customblue">Card Heading 1</h3>
         <div className="flex items-center text-gray-600 mb-2">
@@ -41,9 +41,9 @@ function BachelorCards() {
     </div>
   </div>
      
-  <div className="sm:w-1/2 md:w-1/4 w-full p-4 shadow-lg bg-white">
+  <div className="sm:w-3/4 md:w-1/3 lg:w-1/4 w-full p-4 shadow-lg m-3 bg-white">
     <div className=" overflow-hidden">
-      <img className="h-full w-full object-cover" src="../../Images/download_1.jpg" alt="" />
+      <img className="h-[250px] w-full object-cover" src="../../Images/pro3.jpeg" alt="" />
       <div className="p-4">
         <h3 className="text-xl font-bold mb-2 text-customblue">Card Heading 1</h3>
         <div className="flex items-center text-gray-600 mb-2">
@@ -59,9 +59,9 @@ function BachelorCards() {
     </div>
   </div>
      
-  <div className="sm:w-1/2 md:w-1/4 w-full p-4 shadow-lg mr-6 bg-white">
+  <div className="sm:w-3/4 md:w-1/3 lg:w-1/4 w-full p-4 shadow-lg m-3 bg-white">
     <div className=" overflow-hidden">
-      <img className="h-full w-full object-cover" src="../../Images/download_1.jpg" alt="" />
+      <img className="h-[250px] w-full object-cover" src="../../Images/pro4.avif" alt="" />
       <div className="p-4">
         <h3 className="text-xl font-bold mb-2 text-customblue">Card Heading 1</h3>
         <div className="flex items-center text-gray-600 mb-2">
@@ -77,9 +77,9 @@ function BachelorCards() {
     </div>
   </div>
     
-  <div className="sm:w-1/2 md:w-1/4 w-full p-4 shadow-lg mr-6 bg-white">
+  <div className="sm:w-3/4 md:w-1/3 lg:w-1/4 w-full p-4 shadow-lg m-3 bg-white">
     <div className="overflow-hidden">
-      <img className="h-full w-full object-cover" src="../../Images/download_1.jpg" alt="" />
+      <img className="h-[250px] w-full object-cover" src="../../Images/pro5.jpg" alt="" />
       <div className="p-4">
         <h3 className="text-xl font-bold mb-2 text-customblue">Card Heading 1</h3>
         <div className="flex items-center text-gray-600 mb-2">
@@ -95,9 +95,9 @@ function BachelorCards() {
     </div>
   </div>
      
-  <div className="sm:w-1/2 md:w-1/4 w-full  p-4 shadow-lg bg-white">
+  <div className="sm:w-3/4 md:w-1/3 lg:w-1/4 w-full  p-4 shadow-lg m-3 bg-white">
     <div className="overflow-hidden">
-      <img className="h-full w-full object-cover" src="../../Images/download_1.jpg" alt="" />
+      <img className="h-[250px] w-full object-cover" src="../../Images/download_1.jpg" alt="" />
       <div className="p-4">
         <h3 className="text-xl font-bold mb-2 text-customblue">Card Heading 1</h3>
         <div className="flex items-center text-gray-600 mb-2">
