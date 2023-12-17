@@ -10,28 +10,27 @@ import Facultycards from '../Components/Faculty-cards'
 import Faq from '../Components/Faq'
 import { useRef } from "react";
 import LocomotiveScroll from 'locomotive-scroll';
-import { DivComponent } from '../Components/DivComponent'
 import AchievementCarousal from '../Components/AchievementCarousal'
 
 const Home = () => {
 
-    // const scrollRef = useRef(null);
+    const scrollRef = useRef(null);
 
    
 
-    // useEffect(()=>{
-    //     const scroll = new LocomotiveScroll({
-    //         el: scrollRef.current,
-    //         smooth:true, 
-    //     });
+    useEffect(()=>{
+        const scroll = new LocomotiveScroll({
+            el: scrollRef.current,
+            smooth:true, 
+        });
 
-    //     return()=>{
-    //         scroll.destroy();
-    //     }
-    // },[])
+        return()=>{
+            scroll.destroy();
+        }
+    },[])
   return (
     <>
-      <div className=''>
+      <div ref={scrollRef} className='data-scroll-container data-scroll data-scroll-offset h-[770vh]'>
         <Navbar />
         <Carousal />
         <Cards/>
@@ -42,7 +41,6 @@ const Home = () => {
         <Faq/>
         <AchievementCarousal/>
         <Footer/>
-        <DivComponent/>
       </div>
     </>
   );

@@ -16,7 +16,7 @@ import "./CSS/Achievement.css"
           <div className="App1 flex justify-center items-center pt-16 ml-[7vw] w-[85vw] h-[55vh] bg-[#1e1616ae] text-white">
             <Carousel
               showArrows={true}
-              //   autoPlay={true}
+              autoPlay={true}
               infiniteLoop={true}
               className="carousel-container max-w-[75vw]"
             >
