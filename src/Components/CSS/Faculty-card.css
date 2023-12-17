@@ -189,3 +189,23 @@
 .main-faculty-carousel .swiper-button-next:after{
     display: none;
   }
+
+  @media (max-width:600px) {
+    .control-next.control-arrow:before ,.carousel .control-prev.control-arrow:before{
+      /* background-color: #d9cf10; */
+      /* padding: 20px; */
+      /* border-radius: 50%; */
+      /* border-left: 26px solid red !important; */
+    }
+
+    .carousel-status{
+      display: none;
+    }
+
+    .control-arrow{
+      top:0 !important;
+      padding: 0;
+      margin-top: 0;
+      color: black;
+    }
+  }

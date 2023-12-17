@@ -15,17 +15,17 @@ li .dot{
 }
 
 
-.carousel .slide img{
+.carousel-container .slide img{
     height: 20vh;
     width: 9vw;
     background-color: black;
 }
 
-.carousel .slide p{
+.carousel-container .slide p{
     margin-top: 4vh;
     padding-right: 6px;
 }
 
-.carousel .control-next.control-arrow:before ,.carousel .control-prev.control-arrow:before{
+.carousel-container .control-next.control-arrow:before ,.carousel-container .control-prev.control-arrow:before{
     display: none;
 }
