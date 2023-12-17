@@ -119,3 +119,6 @@ function BachelorCards() {
 }
 
 export default BachelorCards
+
+
+

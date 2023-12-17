@@ -37,10 +37,10 @@ function Program() {
       {selectedDegree === 'pgDiploma' && <PGDiplomaCards />} 
     </div>
 
-    <div className='w-full  bg-customblue flex flex-wrap flex-row  box-border  '>
-    <div className='flex  flex-row align-middle justify-center text-center space-around px-24 pb-7 pt-10  '>
+     <div className='w-full  bg-customblue flex flex-wrap flex-row  box-border  '>
+    <div className='flex flex-row align-middle justify-center text-center space-around px-24 pb-7 pt-10  '>
 
-    <div className='w-1/4  '>
+    <div className='w-1/4'>
       <h2 className='text-white font-normal text-center text-lg mb-3.5'>Flexible</h2>
       <p className='text-customWhite text-sm'>Freedom to juggle between full time job and pursuing a coveted degree</p>
      </div>
@@ -62,7 +62,8 @@ function Program() {
     </div>
     </div>
     </div>
-  );
+  ); 
+
 }
 
 export default Program
