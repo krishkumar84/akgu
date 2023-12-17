@@ -7,10 +7,12 @@ export default {
   theme: {
     extend: {
       colors:{
-        customblue: 'rgb(28 63 119)',
+        customblue: 'rgb(23 49 92)',
         customYellow:' #fff500',
         customWhite: 'rgb(240 240 240)',
-        customBlack: 'rgb(55 55 55)'
+        customBlack: 'rgb(55 55 55)',
+        customGreen:'rgb(54 133 111)',
+        customGrey:'rgb(134 133 122)'
       }
     },
   },
