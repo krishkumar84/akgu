@@ -22,9 +22,8 @@ function Program() {
   };
 
   return (
-    <div className='bg-customWhite'>
-    
-    <h1 className='font-semibold text-4xl text-center mb-24 pt-12 text-customblue'>OUR TOP PROGRAMMES</h1>
+    <div className="mb-24 bg-customWhite" >
+    <h1 className='font-semibold text-4xl text-center mb-24 text-customblue '>OUR TOP PROGRAMMES</h1>
     <div className='flex flex-wrap flex-row items-center justify-center mb-24 mr-4 ml-5'>
       <ul className='flex flex-wrap flex-row justify-evenly w-full '>
         <li className={`uppercase mr-4 text-center text-lg hover:cursor-pointer ${selectedDegree === 'bachelor' ?   'border-b-4 border-customYellow w-1/4' : 'border-b-4 border-transparent w-1/5'}`} onClick={handleOnClick_1}>Bachelor</li>
@@ -38,10 +37,10 @@ function Program() {
       {selectedDegree === 'pgDiploma' && <PGDiplomaCards />} 
     </div>
 
-     <div className='w-full  bg-customblue flex flex-wrap flex-row  box-border  '>
-    <div className='flex flex-row align-middle justify-center text-center space-around px-24 pb-7 pt-10  '>
+     <div className='w-full  bg-customblue flex flex-wrap   box-border  '>
+    <div className='flex  flex-row align-middle justify-center text-center space-around px-24 pb-7 pt-10  '>
 
-    <div className='w-1/4'>
+    <div className='w-1/4  '>
       <h2 className='text-white font-normal text-center text-lg mb-3.5'>Flexible</h2>
       <p className='text-customWhite text-sm'>Freedom to juggle between full time job and pursuing a coveted degree</p>
      </div>
