@@ -27,14 +27,16 @@ export default function Navbar() {
   return (
     <>
 
-<div className="relative w-full h-20 bg-white">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
-        <img className='w-16' src="https://www.akgec.ac.in/wp-content/themes/twentysixteen/img/AKGEC_1_0.png" alt="" />
-        <div className="hidden lg:block">
+<div className="relative w-full h-16 bg-white">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+      <a href="https://www.akgec.ac.in/" className="flex items-center space-x-3 rtl:space-x-reverse">
+      <img src="https://www.akgec.ac.in/wp-content/themes/twentysixteen/img/AKGEC_1_0.png" className="h-8" alt="AKGU Logo" />
+      <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">AKGU</span></a>
+       <div className="hidden lg:block">
           <ul className="inline-flex space-x-8">
-            <li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Home</li>
-            <Link to='/home2'><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Online Courses</li></Link>
-            <li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Contact</li>
+          <Link to='/'><li className="text-base font-semibold hover:cursor-pointer  text-gray-800 hover:text-gray-900">Home</li></Link>
+            <Link to='/home2'><li className="text-base font-semibold text-gray-800 hover:text-gray-900">Online Courses</li></Link>
+            <li className="text-base font-semibold hover:cursor-pointer  text-gray-800 hover:text-gray-900">Contact</li>
           </ul>
         </div>
         <div className="hidden lg:block">
@@ -42,7 +44,7 @@ export default function Navbar() {
             type="button"
             className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
-            Get Started
+            Enroll Now 
           </button>
         </div>
         <div className="lg:hidden">
