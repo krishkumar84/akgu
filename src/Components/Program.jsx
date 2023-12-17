@@ -4,7 +4,6 @@ import MasterCards from './MasterCards';
 import PGDiplomaCards from './PGDiplomaCards';
 
 
-
 function Program() {
 
   const [selectedDegree, setSelectedDegree] = useState('bachelor');
@@ -22,10 +21,10 @@ function Program() {
   };
 
   return (
-    <div className="mb-24 bg-customWhite" >
-    <h1 className='font-semibold text-4xl text-center mb-24 text-customblue '>OUR TOP PROGRAMMES</h1>
+    <div className=" bg-customWhite" >
+    <h1 className='font-semibold text-2xl sm:text-4xl p-12 text-center  text-customblue '>OUR TOP PROGRAMMES</h1>
     <div className='flex flex-wrap flex-row items-center justify-center mb-24 mr-4 ml-5'>
-      <ul className='flex flex-wrap flex-row justify-evenly w-full '>
+      <ul className='flex flex-wrap flex-row items-center mb-8  justify-evenly w-full md:w-3/4'>
         <li className={`uppercase mr-4 text-center text-lg hover:cursor-pointer ${selectedDegree === 'bachelor' ?   'border-b-4 border-customYellow w-1/4' : 'border-b-4 border-transparent w-1/5'}`} onClick={handleOnClick_1}>Bachelor</li>
         <li className={`uppercase mr-4 text-center text-lg hover:cursor-pointer ${selectedDegree === 'master' ? 'border-b-4 border-customYellow w-1/4' : 'border-b-4 border-transparent w-1/5'}`} onClick={handleOnClick_2}>Master</li>
         <li className={`uppercase mr-4 text-center text-lg hover:cursor-pointer ${selectedDegree === 'pgDiploma' ? 'border-b-4 border-customYellow w-1/4 ' : 'border-b-4 border-transparent w-1/5'}`} onClick={handleOnClick_3}>PG Diploma</li>
@@ -38,24 +37,24 @@ function Program() {
     </div>
 
      <div className='w-full  bg-customblue flex flex-wrap   box-border  '>
-    <div className='flex  flex-row align-middle justify-center text-center space-around px-24 pb-7 pt-10  '>
+      <div className='flex  flex-row flex-wrap align-middle justify-center text-center space-around px-10 md:px-24 py-8  '>
 
-    <div className='w-1/4  '>
-      <h2 className='text-white font-normal text-center text-lg mb-3.5'>Flexible</h2>
+    <div className='w-full md:w-1/2 lg:w-1/4 lg:border-r-2 md:border-gray-300  flex items-center justify-center flex-col  p-4'>
+      <h2 className='text-white font-normal text-center text-lg '>Flexible</h2>
       <p className='text-customWhite text-sm'>Freedom to juggle between full time job and pursuing a coveted degree</p>
      </div>
-     <div class="border-l border-gray-300 h-32"></div>
-     <div className='w-1/4 '>
+    
+     <div className='w-full md:w-1/2 lg:w-1/4 lg:border-r-2 md:border-gray-300  flex items-center justify-center flex-col p-4'>
       <h4 className='text-white font-normal text-center text-lg mb-3.5'>Flexible</h4>
       <p className='text-customWhite text-sm'>Freedom to juggle between full time job and pursuing a coveted degree</p>
      </div>
-     <div class="border-l border-gray-300 h-32"></div>
-     <div className='w-1/4  '>
+
+     <div className='w-full md:w-1/2 lg:w-1/4 lg:border-r-2 md:border-gray-300  flex items-center justify-center flex-col p-4 '>
       <h4 className='text-white font-normal text-center text-lg mb-3.5'>Flexible</h4>
       <p className='text-customWhite text-sm'>Freedom to juggle between full time job and pursuing a coveted degree</p>
      </div>
-     <div class="border-l border-gray-300 h-32"></div>
-     <div className='w-1/4 '>
+
+     <div className='w-full md:w-1/2 lg:w-1/4  flex items-center justify-center flex-col p-4'>
       <h4 className='text-white font-normal text-center text-lg mb-3.5'>Flexible</h4>
       <p className='text-customWhite text-sm'>Freedom to juggle between full time job and pursuing a coveted degree</p>
      </div>
