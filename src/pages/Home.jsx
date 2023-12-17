@@ -11,26 +11,27 @@ import Faq from '../Components/Faq'
 import { useRef } from "react";
 import LocomotiveScroll from 'locomotive-scroll';
 import { DivComponent } from '../Components/DivComponent'
+import AchievementCarousal from '../Components/AchievementCarousal'
 
 const Home = () => {
 
-    const scrollRef = useRef(null);
+    // const scrollRef = useRef(null);
 
    
 
-    useEffect(()=>{
-        const scroll = new LocomotiveScroll({
-            el: scrollRef.current,
-            smooth:true, 
-        });
+    // useEffect(()=>{
+    //     const scroll = new LocomotiveScroll({
+    //         el: scrollRef.current,
+    //         smooth:true, 
+    //     });
 
-        return()=>{
-            scroll.destroy();
-        }
-    },[])
+    //     return()=>{
+    //         scroll.destroy();
+    //     }
+    // },[])
   return (
     <>
-      <div ref={scrollRef} className='scroll-container'>
+      <div className=''>
         <Navbar />
         <Carousal />
         <Cards/>
@@ -39,6 +40,7 @@ const Home = () => {
         <CarousalCards/>
         <Cta/>
         <Faq/>
+        <AchievementCarousal/>
         <Footer/>
         <DivComponent/>
       </div>
