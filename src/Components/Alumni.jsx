@@ -20,7 +20,7 @@ const Alumni = () => {
         speed:1000,
         SwipeToSlide:true,
         autoPlaySpeed:2000,
-        slidesToShow:4,
+        slidesToShow:5,
 
         responsive:[
             {
