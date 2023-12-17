@@ -26,7 +26,7 @@ function Form(){
         <>
     
           <div className=" h-screen w-screen flex items-center justify-center  " style={{
-             backgroundImage: 'url("/Images/banner.jpg")' ,
+             backgroundImage: 'url("/Images/back.avif")' ,
               backgroundRepeat: 'no-repeat' ,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
@@ -36,14 +36,13 @@ function Form(){
     
         
         }}>
-    
-          <div className='bg-white border-2 w-1/4 border-yellow-300 rounded-lg'
-        >
+           <div className='w-full flex '>
+          <div className='bg-white border-2  w-3/4 sm:w-1/3  lg:w-1/4  md:ml-auto md:mr-[10vw] relative border-yellow-300 rounded-lg'>
            <h1 className='text-3xl text-center p-6 font-semibold'>Know More</h1>
-           <form className='flex flex-col items-center justify-center  ' onSubmit={handleSubmit}>
+           <form className='flex flex-col items-center justify-center ' onSubmit={handleSubmit}>
              
               <input
-               className='m-4 p-2 w-[90%] border-2'
+               className=' p-2 m-1 w-[90%] border-2'
                 type="text"
                 name="name"
                 value={formData.name}
@@ -52,10 +51,10 @@ function Form(){
                 required
               />
     
-            <br />
+            
            
               <input
-               className='m-1 p-2 w-[90%] border-2'
+               className=' p-2 m-1 w-[90%] border-2'
                type="email"
                 name="email"
                 value={formData.email}
@@ -63,10 +62,10 @@ function Form(){
                 placeholder='Email*'
                 required
               />
-            <br />
+            
             
               <input
-               className='m-1 p-2 w-[90%] border-2'
+               className=' p-2 m-1 w-[90%] border-2'
                type="tel"
                 name="mobile"
                 value={formData.mobile}
@@ -74,10 +73,10 @@ function Form(){
                 placeholder='Mobile*'
                 required
               />
-            <br />
+            
     
               <input
-               className='m-1 p-2 w-[90%] border-2'
+               className=' p-2 m-1 w-[90%] border-2'
                type="text"
                 name="State"
                 value={formData.mobile}
@@ -85,10 +84,10 @@ function Form(){
                 placeholder='State*'
                 required
               />
-           <br />
+           
     
               <input
-               className='m-1 p-2 w-[90%] border-2'
+               className=' p-2 m-1 w-[90%] border-2'
                type="text"
                 name="City"
                 value={formData.mobile}
@@ -96,14 +95,26 @@ function Form(){
                 placeholder='City*'
                 required
               />
-            <br />
-            <button className='bg-yellow-300 m-4 ' type="submit" >Submit</button>
+
+                <input
+               className=' p-2 m-1 w-[90%] border-2'
+               type="text"
+                name="City"
+                value={formData.mobile}
+                onChange={handleChange}
+                placeholder='Courses or Programmes*'
+                required
+              />
+            
+            
+            <button className='bg-yellow-300 m-6 py-2 px-4  md:px-16 lg:px-24  rounded-lg' type="submit" >Submit</button>
           </form> 
     
            </div>
+           </div>
         </div> 
     
-        <div className='p-16 text-lg '>
+        <div className='p-16  text-base sm:text-lg '>
           <p className='p-2 text-center'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe exercitationem assumenda nihil harum similique iure facere error, id cupiditate minima omnis rerum, asperiores quas veritatis reprehenderit voluptatem quam ad culpa.
           </p>
           <p className='p-2 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti illo nobis quidem ea reiciendis tenetur, beatae cumque sequi veniam molestias officiis deleniti adipisci omnis itaque nemo tempore explicabo alias incidunt.

@@ -10,7 +10,7 @@ import Facultycards from '../Components/Faculty-cards'
 import Faq from '../Components/Faq'
 import { useRef } from "react";
 import LocomotiveScroll from 'locomotive-scroll';
-import { DivComponent } from '../Components/DivComponent'
+import AchievementCarousal from '../Components/AchievementCarousal'
 
 const Home = () => {
 
@@ -30,7 +30,7 @@ const Home = () => {
     },[])
   return (
     <>
-      <div ref={scrollRef} className='scroll-container'>
+      <div ref={scrollRef} className='data-scroll-container data-scroll data-scroll-offset h-[770vh]'>
         <Navbar />
         <Carousal />
         <Cards/>
@@ -39,8 +39,8 @@ const Home = () => {
         <CarousalCards/>
         <Cta/>
         <Faq/>
+        <AchievementCarousal/>
         <Footer/>
-        <DivComponent/>
       </div>
     </>
   );
