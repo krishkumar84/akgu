@@ -9,10 +9,10 @@ import "./CSS/Achievement.css"
             
         <>
         <div className="flex items-center justify-between ">
-          <h1 className="text-4xl font-medium ml-24 mt-10">Our Accreditations & Recognitions</h1>
+          <h1 className="text-4xl font-medium sm:ml-24 mt-10">Our Accreditations & Recognitions</h1>
           <p className="mr-28 pt-16 text-sm w-56">Endorsements of Academic Quality & Excellence</p>
         </div>
-          <hr className="mb-10 mt-6 ml-24 w-[85%]"/>
+          <hr className="mb-10 mt-6 sm:ml-24 w-[85%]"/>
           <div className="App1 flex justify-center items-center pt-16 ml-[7vw] w-[85vw] h-[55vh] bg-[#1e1616ae] text-white">
             <Carousel
               showArrows={true}
