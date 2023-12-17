@@ -2,11 +2,11 @@ import React from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import p01 from '/Images/accenture.png';
-import p02 from '/Images/adobe.png'
+import p01 from '/Images/samsung.jpg';
+import p02 from '/Images/tech.jpg'
 import p03 from '/Images/amazon.png'
-import p04 from '/Images/grammarly.jpeg'
-import p05 from '/Images/ibm.png'
+import p04 from '/Images/hcl.jpg'
+import p05 from '/Images/lava.jpg'
 import p06 from '/Images/tcs.png'
 import p07 from '/Images/nvidia.jpeg'
 

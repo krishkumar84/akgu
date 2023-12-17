@@ -3,6 +3,10 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import ava01 from '/Images/chairman.png'
+import ava02 from '/Images/director.png'
+import ava03 from "/Images/sarvachan-sir.png"
+import ava04 from "/Images/ruchi-ma'am.png"
+
 
 
 const Mentors = () => {
@@ -41,9 +45,9 @@ const Mentors = () => {
   return (
     <div className='flex w-full mb-10 '>
 
-    <div className='w-[80%] mx-auto'>
+    <div className='w-[70%] mx-auto'>
      
-     <h1 className='text-4xl font-semibold text-center pt-14 pb-10'>Industry Mentors</h1>
+     <h1 className='text-4xl font-semibold text-center pt-14 pb-10 text-customblue'>Industry Mentors</h1>
      <Slider {...settings}>
          
         <div className=" py-4 px-3">
@@ -59,7 +63,7 @@ const Mentors = () => {
 
         <div className=" py-4 px-3">
            <div className='flex items-center flex-col  mt-3'>
-            <img src={ava01} className='w-40 h-40 rounded-2' alt="" />
+            <img src={ava02} className='w-40 h-40 rounded-2' alt="" />
             <div>
                 <h6 className='mb-0 mt-3'>John Doe2</h6>
                 <p>Customer</p>
@@ -70,7 +74,7 @@ const Mentors = () => {
 
          <div className=" py-4 px-3">
            <div className='flex flex-col items-center  mt-3'>
-            <img src={ava01} className='w-40 h-40 rounded-2' alt="" />
+            <img src={ava03} className='w-40 h-40 rounded-2' alt="" />
             <div>
                 <h6 className='mb-0 mt-3'>John Doe3</h6>
                 <p>Customer</p>
@@ -81,7 +85,7 @@ const Mentors = () => {
 
        <div className=" py-4 px-3">
            <div className='flex flex-col items-center mt-3'>
-            <img src={ava01} className='w-40 h-40 rounded-2' alt="" />
+            <img src={ava04} className='w-40 h-40 rounded-2' alt="" />
             <div>
                 <h6 className='mb-0 mt-3'>John Doe4</h6>
                 <p>Customer</p>
@@ -103,7 +107,7 @@ const Mentors = () => {
 
         <div className=" py-4 px-3">
            <div className='flex flex-col items-center mt-3'>
-            <img src={ava01} className='w-40 h-40 rounded-2' alt="" />
+            <img src={ava02} className='w-40 h-40 rounded-2' alt="" />
             <div>
                 <h6 className='mb-0 mt-3'>John Doe5</h6>
                 <p>Customer</p>
