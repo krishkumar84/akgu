@@ -25,8 +25,7 @@ html,body{
 @media (max-width:600px) {
     .height{
         width: 85vw;
-        height: 38vh;
-        margin-top: 5vh;
+        height: 34vh;
         background: transparent;
     }
 

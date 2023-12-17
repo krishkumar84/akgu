@@ -2,20 +2,6 @@ import React from 'react'
 import { Menu, X } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
-const menuItems = [
-  {
-    name: 'Home',
-    href: '#',
-  },
-  {
-    name: 'Online Course',
-    href: '#',
-  },
-  {
-    name: 'Contact',
-    href: '#',
-  },
-]
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
