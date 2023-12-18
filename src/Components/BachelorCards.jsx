@@ -73,8 +73,8 @@ function BachelorCards() {
   </div>
 
   {popupVisible1 && (
-          <div className="fixed w-[100vw] top-[16%] left-0 z-50">
-            <div className="rounded-xl w-[50%] md:w-[25%] m-auto shadow-2xl bg-[#f5f5f5] flex items-center justify-center border-yellow-300 border-2 ">
+          <div className="fixed w-[100vw] top-0 h-[100vh] flex items-center justify-center left-0 z-50">
+            <div className="rounded-xl  w-[50%] md:w-[25%] m-auto shadow-2xl bg-[#f5f5f5]  border-yellow-300 border-2 ">
               
                 <div className="">
                  <Form/>
