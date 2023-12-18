@@ -25,10 +25,9 @@ function Features() {
                   />
                 </svg>
               </div>
-              <h3 className="mt-8 text-lg font-semibold text-black">Diverse Learning Mediums</h3>
+              <h3 className="mt-8 text-lg font-semibold text-black">Academic Reputation</h3>
               <p className="mt-4 px-7 sm:px-0 text-sm text-gray-600">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                consequat duis enim velit mollit.
+        university's overall academic reputation and rankings in your field of study.
               </p>
             </div>
             <div>
@@ -48,10 +47,10 @@ function Features() {
                   />
                 </svg>
               </div>
-              <h3 className="mt-8 text-lg font-semibold text-black">Dedicated Academic Advisor</h3>
+              <h3 className="mt-8 text-lg font-semibold text-black">Facilities and Resources</h3>
               <p className="mt-4 px-7 sm:px-0 text-sm text-gray-600">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                consequat duis enim velit mollit.
+              Evaluate the campus facilities, libraries, laboratories, and technology resources available to students.
+
               </p>
             </div>
             <div>
@@ -71,10 +70,9 @@ function Features() {
                   />
                 </svg>
               </div>
-              <h3 className="mt-8 text-lg font-semibold text-black">AI-Professor AMI</h3>
+              <h3 className="mt-8 text-lg font-semibold text-black">Faculty</h3>
               <p className="mt-4 px-7 sm:px-0 text-sm text-gray-600">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                consequat duis enim velit mollit.
+              Research the qualifications and expertise of the faculty in your department of interest.
               </p>
             </div>
             <div>
@@ -96,8 +94,7 @@ function Features() {
               </div>
               <h3 className="mt-8 text-lg font-semibold text-black">Career Services</h3>
               <p className="mt-4 px-7 sm:px-0 text-sm text-gray-600">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                consequat duis enim velit mollit.
+              Look into the career services offered by the university, including internships, job placement, and alumni networks.
               </p>
             </div>
           </div>
@@ -122,10 +119,9 @@ function Features() {
                   />
                 </svg>
               </div>
-              <h3 className="mt-8 text-lg font-semibold text-black">Doorstep Delivery Of Books</h3>
+              <h3 className="mt-8 text-lg font-semibold text-black">Alumni Success</h3>
               <p className="mt-4 px-7 sm:px-0 text-sm text-gray-600">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                consequat duis enim velit mollit.
+              Research the achievements of the university's alumni to gauge the institution's impact on graduates' careers.
               </p>
             </div>
             <div>
@@ -147,10 +143,9 @@ function Features() {
 
 
               </div>
-              <h3 className="mt-8 text-lg font-semibold text-black">Metaverse Campus</h3>
+              <h3 className="mt-8 text-lg font-semibold text-black">Campus Life</h3>
               <p className="mt-4 px-7 sm:px-0 text-sm text-gray-600">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                consequat duis enim velit mollit.
+              Explore extracurricular activities, clubs, and organizations to gauge the overall campus experience.
               </p>
             </div>
             <div>
@@ -172,10 +167,9 @@ function Features() {
 
 
               </div>
-              <h3 className="mt-8 text-lg font-semibold text-black">Offline Experiences</h3>
+              <h3 className="mt-8 text-lg font-semibold text-black">Accreditation</h3>
               <p className="mt-4 px-7 sm:px-0 text-sm text-gray-600">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                consequat duis enim velit mollit.
+              Ensure the university is accredited, as this ensures academic quality and recognition.
               </p>
             </div>
             <div>
@@ -198,10 +192,9 @@ function Features() {
 
 
               </div>
-              <h3 className="mt-8 text-lg font-semibold text-black">Placement Opportunities</h3>
+              <h3 className="mt-8 text-lg font-semibold text-black"> Internship and Research Opportunities</h3>
               <p className="mt-4 px-7 sm:px-0 text-sm text-gray-600">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                consequat duis enim velit mollit.
+             Check for opportunities to gain practical experience through internships and research programs.
               </p>
             </div>
           </div>
