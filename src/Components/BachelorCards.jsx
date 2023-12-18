@@ -49,32 +49,9 @@ function BachelorCards() {
   };
 
   return ( 
-    <div className="  w-5/6 h-auto flex flex-wrap flex-row items-center justify-center bg-customWhite">
 
-
-
-  {popupVisible1 && (
-          <div className="fixed top-[3%] left-[10%] transform -translate-x-1/2 -translate-y-1/2    z-50">
-            <div className="popup-overlay rounded-xl h-[85vh] shadow-2xl bg-[#e3e3e4] w-[80vw] absolute">
-              <div className="popup-content text-center scrollable-content">
-                <div className="bg-gray-100 min-h-screen">
-                 <Form/>
-                 
-                  
-                 
-                </div>
-                <button
-                  className="right-5 top-0 absolute text-5xl"
-                  onClick={closePopup1}
-                >
-                  ×
-                </button>
-              </div>
-            </div>
-          </div>
-        )}
-
-  
+    
+ <div className="  w-5/6 h-auto flex flex-wrap flex-row items-center justify-center bg-customWhite">
   <div className="sm:w-3/4 md:w-1/3 lg:w-1/4 w-full p-4 shadow-lg m-3 bg-white">
 
     <div className=" overflow-hidden">
@@ -90,10 +67,29 @@ function BachelorCards() {
           <FontAwesomeIcon icon={faClock} className="mr-2" />
           <p>Duration: 4 years</p>
         </div>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Know More</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700" onClick={openPopup1}>Know More</button>
       </div>
     </div>
   </div>
+
+  {popupVisible1 && (
+          <div className="fixed w-[70vw] top-[16%] left-0 z-50">
+            <div className="rounded-xl w-full shadow-2xl bg-[#e3e3e4] flex items-center justify-center ">
+              
+                <div className="w-full ">
+                 <Form/>
+                 </div>
+                <button
+                  className="right-5 top-0 absolute text-5xl"
+                  onClick={closePopup1}
+                >
+                  ×
+                </button>
+              </div>
+            </div>
+          
+        )}
+
    
    <div className="sm:w-3/4 md:w-1/3 lg:w-1/4 w-full p-4  m-3 bg-white">
     <div className="overflow-hidden">
@@ -190,13 +186,9 @@ function BachelorCards() {
   </div>
    </div>  
  
- 
-  
-
   )
 }
 
 export default BachelorCards
-
 
 
