@@ -8,6 +8,7 @@ function Placements() {
   return (
     <section className="relative overflow-hidden py-24">
     <div className="relative mx-auto max-w-7xl px-4">
+      <hr  className='mb-[5vh] w-[100%]'/>
       <div className="mx-auto mb-24 max-w-2xl text-center lg:max-w-5xl">
         <h1 className="mb-8 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl">
         Placement Highlights
