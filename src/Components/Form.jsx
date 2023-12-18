@@ -1,109 +1,105 @@
 import React, { useState } from 'react';
+import axios from 'axios';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-function Form(){
+function Form() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [mobile, setMobile] = useState("");
+  const [state, setState] = useState("");
+  const [city, setCity] = useState("");
+  const [courses, setCourses] = useState("");
+  const [error, setError] = useState(null);
 
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        mobile: '',
-      });
-      
-      const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData((prevData) => ({
-          ...prevData,
-          [name]: value,
-        }));
-      };
-      
-      const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('Form Data:', formData);
-        // Add your form submission logic here
-      };
-    
-      return (
-        <>
-    
-           <div className='w-full flex items-center justify-center '>
-          <div className='bg-white border-2  w-3/4 sm:w-1/3  lg:w-1/4  md:ml-auto md:mr-[10vw] relative border-yellow-300 rounded-lg'>
-           <h1 className='text-3xl text-center p-6 font-semibold'>Know More</h1>
-           <form className='flex flex-col items-center justify-center ' onSubmit={handleSubmit}>
-             
-              <input
-               className=' p-2 m-1 w-[90%] border-2'
-                type="text"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                placeholder='Name*'
-                required
-              />
-    
-            
-           
-              <input
-               className=' p-2 m-1 w-[90%] border-2'
-               type="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                placeholder='Email*'
-                required
-              />
-            
-            
-              <input
-               className=' p-2 m-1 w-[90%] border-2'
-               type="tel"
-                name="mobile"
-                value={formData.mobile}
-                onChange={handleChange}
-                placeholder='Mobile*'
-                required
-              />
-            
-    
-              <input
-               className=' p-2 m-1 w-[90%] border-2'
-               type="text"
-                name="State"
-                value={formData.mobile}
-                onChange={handleChange}
-                placeholder='State*'
-                required
-              />
-           
-    
-              <input
-               className=' p-2 m-1 w-[90%] border-2'
-               type="text"
-                name="City"
-                value={formData.mobile}
-                onChange={handleChange}
-                placeholder='City*'
-                required
-              />
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const res = await axios.post("https://akgu-backend.onrender.com/api/form", { name, email, mobile, state, city, courses });
 
-                <input
-               className=' p-2 m-1 w-[90%] border-2'
-               type="text"
-                name="City"
-                value={formData.mobile}
-                onChange={handleChange}
-                placeholder='Courses or Programmes*'
-                required
-              />
-            
-            
-            <button className='bg-yellow-300 m-6 py-2 px-4  md:px-16 lg:px-24  rounded-lg' type="submit" >Submit</button>
-          </form> 
-    
-           </div>
-           </div>
-       
+      if (res.data.success) {
+        // If success is true, show a success toast
+        toast.success('Form submitted successfully!', {
+          position: toast.POSITION.BOTTOM_CENTER,
+          autoClose: 5000, // Close the toast after 5 seconds
+        });
+      } else {
+        // If success is false, display the error message
+        setError(res.data.message);
+      }
+    } catch (err) {
+      // Handle other errors, e.g., network issues
+      setError("An error occurred. Please try again.");
+    }
+  };
+
+  return (
+    <>
+      <div className='w-full flex items-center justify-center '>
+        <div className='bg-white border-2  w-3/4 sm:w-1/3  lg:w-1/4  md:ml-auto md:mr-[10vw] relative border-yellow-300 rounded-lg'>
+          <h1 className='text-3xl text-center p-6 font-semibold'>Know More</h1>
+          <form className='flex flex-col items-center justify-center ' onSubmit={handleSubmit}>
+            <input
+              className=' p-2 m-1 w-[90%] border-2'
+              type="text"
+              id="username"
+              onChange={(e) => setName(e.target.value)}
+              placeholder='Name*'
+              required
+            />
+            <input
+              className=' p-2 m-1 w-[90%] border-2'
+              type="email"
+              id="email"
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder='Email*'
+              required
+            />
+            <input
+              className=' p-2 m-1 w-[90%] border-2'
+              type="tel"
+              id="mobile"
+              onChange={(e) => setMobile(e.target.value)}
+              placeholder='Mobile*'
+              required
+            />
+            <input
+              className=' p-2 m-1 w-[90%] border-2'
+              type="text"
+              id="state"
+              onChange={(e) => setState(e.target.value)}
+              placeholder='State*'
+              required
+            />
+            <input
+              className=' p-2 m-1 w-[90%] border-2'
+              type="text"
+              id="city"
+              onChange={(e) => setCity(e.target.value)}
+              placeholder='City'
+              required
+            />
+            <input
+              className=' p-2 m-1 w-[90%] border-2'
+              type='text'
+              id="courses"
+              onChange={(e) => setCourses(e.target.value)}
+              placeholder='Courses or Programmes*'
+              required
+            />
+            <button className='bg-yellow-300 m-6 py-2 px-4  md:px-16 lg:px-24  rounded-lg' type="submit">Submit</button>
+          </form>
+          <ToastContainer
+            position="top-center"
+            autoClose={5000}
+            newestOnTop={false}
+            closeOnClick
+            theme="dark"
+          />
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default Form
+export default Form;
