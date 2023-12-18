@@ -16,10 +16,13 @@ function Faq() {
     return (
         <section className="mx-auto max-w-7xl mt-12 px-4 py-10 md:px-0">
           <div>
-            <div className="mx-auto max-w-3xl lg:text-center">
-              <h2 className="text-3xl font-bold h-24 text-black sm:text-4xl lg:text-5xl leading-10">
-                Frequently Asked Questions...
+            <div className="mx-auto max-w-2xl lg:text-center">
+              <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+                Frequently Asked Questions
               </h2>
+              <p className="mt-4 max-w-xl text-base leading-relaxed text-gray-600 lg:mx-auto">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, assumenda
+              </p>
             </div>
             <div className="mx-auto mt-8 max-w-3xl space-y-4 md:mt-16">
               {Array.from({ length: 4 }).map((_, i) => (
