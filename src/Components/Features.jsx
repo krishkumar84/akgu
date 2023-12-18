@@ -1,9 +1,12 @@
 import React from 'react'
 
+
 function Features() {
     return (
         <div className="mx-auto max-w-7xl px-8 lg:px-12  ">
-         <h1 className='text-4xl ml-5 mb-8 font-sans'>Why choose AKGU ?</h1>
+         {/* <h1 className='text-4xl ml-5 mb-8 font-sans'>Why choose AKGU ?</h1> */}
+         <h1 className='mb-[5vh] text-4xl font-bold'>Why choose AKGU ?</h1>
+        <hr  className='mb-[5vh] w-[100%]'/>
           <div className="grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-4 pb-12">
             <div>
               <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-blue-100">

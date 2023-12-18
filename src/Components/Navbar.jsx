@@ -1,7 +1,7 @@
 import React from 'react'
 import { Menu, X } from 'lucide-react'
 import { Link } from 'react-router-dom'
-
+import "../App.css"
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
@@ -18,9 +18,10 @@ export default function Navbar() {
       <a href="https://www.akgec.ac.in/" className="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="https://www.akgec.ac.in/wp-content/themes/twentysixteen/img/AKGEC_1_0.png" className="h-8" alt="AKGU Logo" />
       <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">AKGU</span></a>
-       <div className="hidden lg:block">
-          <ul className="inline-flex space-x-8">
-          <Link to='/'><li className="text-base font-semibold hover:cursor-pointer  text-gray-800 hover:text-gray-900">Home</li></Link>
+       <div className="hidden lg:block navbar-line">
+          <ul className="inline-flex relative space-x-8">
+            
+            <Link to='/'><li className="text-base font-semibold hover:cursor-pointer text-gray-800 hover:text-gray-900">Home</li></Link>
             <Link to='/home2'><li className="text-base font-semibold text-gray-800 hover:text-gray-900">Online Courses</li></Link>
             <li className="text-base font-semibold hover:cursor-pointer  text-gray-800 hover:text-gray-900">Contact</li>
           </ul>

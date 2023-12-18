@@ -12,8 +12,8 @@ import { Carousel } from "react-responsive-carousel";
 const Facultycards = () => {
   return (
     <div className="main-faculty-carousel mb-24">
-         <h1 className='mb-[3vh] ml-[14vw] text-4xl font-bold'>Our Top-Ranked Faculty</h1>
-        <hr  className='mb-[9vh]'/>
+         <h1 className='mb-[3vh] ml-[9vw] text-4xl font-bold'>Our Top-Ranked Faculty</h1>
+        <hr  className='mb-[9vh] w-[82%] ml-32'/>
       <Swiper
       className='sm:block hidden'
           spaceBetween={0}
@@ -134,7 +134,7 @@ const Facultycards = () => {
               // infiniteLoop={true}
               className="block sm:hidden"
             >
-          <div className="container  ml-[13vw]  sm:ml-[4vw]">
+          <div className="container  ml-[4vw]  sm:ml-[4vw]">
             <div className="card">
               <div className="imgBx">
                 <img className='' src="../../Images/ruchi-ma'am.png" />

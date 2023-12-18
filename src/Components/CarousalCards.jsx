@@ -12,8 +12,8 @@ const CarousalCards = () => {
   return (
     <>
       <div className="main-carousel-cards mb-24 mt-24">
-        <h1 className='mb-[5vh] ml-[14vw] text-4xl font-bold'>Explore Our Online Degree Programs</h1>
-        <hr  className='mb-[5vh]'/>
+        <h1 className='mb-[5vh] ml-[9vw] text-4xl font-bold'>Explore Our Online Degree Programs</h1>
+        <hr  className='mb-[5vh] w-[82%] ml-32'/>
         <Swiper className='bg-black h-[80vh] pt-9 w-[100%] relative  overflow-hidden'
             spaceBetween={70}
           // slidesPerView={3/2}
