@@ -73,13 +73,13 @@ function BachelorCards() {
   </div>
 
   {popupVisible1 && (
-          <div className="fixed w-[100vw] top-0 h-[100vh] flex items-center justify-center left-0 z-50">
+          <div className="fixed w-[100vw] top-0 h-[100vh] bg-[#00000086]  flex items-center justify-center left-0 z-50">
             <div className="rounded-xl  w-[50%] md:w-[25%] m-auto shadow-2xl bg-[#f5f5f5]  border-yellow-300 border-2 ">
               
                 <div className="">
                  <Form/>
                  <button
-                  className=" top-0  absolute text-5xl left-[60%]"
+                  className=" top-[16%]  absolute text-5xl left-[60%]"
                   onClick={closePopup1}
                 >
                   ×
