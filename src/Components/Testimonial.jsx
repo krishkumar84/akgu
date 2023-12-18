@@ -7,22 +7,20 @@ function Testimonial() {
       <div className="flex flex-col md:flex-row md:mb-2 gap-4 box-border">
         <div className="border-white border-2 w-full md:w-1/2 font-normal p-4 ">
           <p className="text-white text-sm">
-           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt quas voluptates ipsum? Veniam dolor reprehenderit vitae ullam incidunt, aliquam aperiam, beatae amet cum, culpa laudantium accusamus? Minus, ex laborum? Harum.
+          Exciting to see the face of UPTU in many ways. Wish all the best for further spiralling ups, Excellent in all respects and aspect, Impressive performance by the institute and the students academically and otherwise, Best of luck to all !
           </p>
-          <p className="text-center mt-4 text-customYellow">Lorem ipsum .</p>
+          <p className="text-center mt-4 text-customYellow">PROF. KRIPA SHANKER</p>
           <p className="text-sm text-center text-customYellow font-normal">
-            Lorem ipsum dolor sit.
+          Vice Chancellor
           </p>
         </div>
         <div className="border-white border-2 w-full md:w-1/2 font-normal p-4">
           <p className="text-white text-sm">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet saepe numquam itaque
-            deserunt modi vitae blanditiis eaque recusandae. Autem maxime delectus minima debitis
-            quas hic quod ex velit expedita amet?
+          Excellent Organization & Hospitality! Nice vibrant function, excellent academic achievements. My all the best for all your future endeavours 
           </p>
-          <p className="text-center mt-4 text-customYellow">Lorem ipsum .</p>
+          <p className="text-center mt-4 text-customYellow">DR. ROB REILLY</p>
           <p className="text-sm text-center text-customYellow font-normal">
-            Lorem ipsum dolor sit.
+            MIT, USA
           </p>
         </div>
       </div>
