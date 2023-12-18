@@ -19,7 +19,7 @@ function Highlights() {
           <p className='text-center'>Hands-on & Immersive Learning </p>
         </div>
         <div className="flex flex-col w-full shadow-lg md:1/2 lg:w-1/4 lg:h-48 items-center text-gray-600 mb-10 md:mr-6 p-4 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none bg-white">
-          <FontAwesomeIcon icon={faHandshake} className="h-10 mb-10 text-customYellow" />
+          <FontAwesomeIcon icon={faHandshake} className="h-10 mb-10 text-black" />
           <p className='text-center'>100+ Hiring Partners</p>
         </div>
         <div className="flex flex-col w-full shadow-lg md:1/2  lg:w-1/4 lg:h-48 items-center text-gray-600 mb-10 md:mr-6 p-4 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none bg-white">
