@@ -31,7 +31,7 @@ const Home = () => {
     },[])
   return (
     <>
-      <div ref={scrollRef} className='data-scroll-container sm:h-[912vh] '>
+      <div ref={scrollRef} className='data-scroll-container sm:h-[918vh] '>
         <Navbar />
         <Carousal />
         <Cards/>
