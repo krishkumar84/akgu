@@ -16,8 +16,8 @@ function Faq() {
     return (
         <section className="mx-auto max-w-7xl mt-12 px-4 py-10 md:px-0">
           <div>
-            <div className="mx-auto max-w-2xl  lg:text-center">
-              <h2 className="text-3xl h-24 font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+            <div className="mx-auto max-w-2xl lg:text-center">
+              <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
                 Frequently Asked Questions
               </h2>
             </div>
