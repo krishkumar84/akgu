@@ -2,12 +2,12 @@ import React from 'react';
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 import Program from '../Components/Program'
-import Form from '../Components/Form';
 import Mentors from '../Components/Mentors'; 
 import Alumni from '../Components/Alumni';
 import Testimonial from '../Components/Testimonial';
 import Highlights from '../Components/Highlights';
 import Belowtext from '../Components/Belowtext';
+import Formback from '../Components/Formback';
  
 
 function Home2() {
@@ -15,7 +15,7 @@ function Home2() {
   return (
     <div >
       <Navbar/>
-      <Form/>
+      <Formback/>
       <Program/>
       <Mentors/>
       <Testimonial/>
