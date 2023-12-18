@@ -130,20 +130,22 @@ function Features() {
             </div>
             <div>
               <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-orange-100">
-                <svg
-                  className="h-9 w-9 text-orange-600"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.5"
-                    d="M13 10V3L4 14h7v7l9-11h-7z"
-                  />
-                </svg>
+              <svg
+  className="h-9 w-9 text-orange-600"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  viewBox="0 0 24 24"
+  stroke="currentColor"
+>
+  <path
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="1.5"
+    d="M21 12a9 9 0 11-18 0 9 9 0 0118 0zM12 3l-4 4-4-4M12 21l4-4 4 4"
+  />
+</svg>
+
+
               </div>
               <h3 className="mt-8 text-lg font-semibold text-black">Metaverse Campus</h3>
               <p className="mt-4 px-7 sm:px-0 text-sm text-gray-600">
@@ -153,20 +155,22 @@ function Features() {
             </div>
             <div>
               <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-green-100">
-                <svg
-                  className="h-9 w-9 text-green-600"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.5"
-                    d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-                  />
-                </svg>
+              <svg
+  className="h-9 w-9 text-green-600"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  viewBox="0 0 24 24"
+  stroke="currentColor"
+>
+  <path
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="1.5"
+    d="M21 12a9 9 0 11-18 0 9 9 0 0118 0zM12 6v6l3-3m-6 0l3 3m0 0l3-3m-3 3v6"
+  />
+</svg>
+
+
               </div>
               <h3 className="mt-8 text-lg font-semibold text-black">Offline Experiences</h3>
               <p className="mt-4 px-7 sm:px-0 text-sm text-gray-600">
@@ -176,20 +180,23 @@ function Features() {
             </div>
             <div>
               <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-red-100">
-                <svg
-                  className="h-9 w-9 text-red-600"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.5"
-                    d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z"
-                  />
-                </svg>
+              <svg
+  className="h-9 w-9 text-red-600"
+  xmlns="http://www.w3.org/2000/svg"
+  fill="none"
+  viewBox="0 0 24 24"
+  stroke="currentColor"
+>
+  <path
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="1.5"
+    d="M5 5h14M5 12h14m-14 7h14"
+  />
+  <circle cx="12" cy="12" r="2" fill="currentColor" />
+</svg>
+
+
               </div>
               <h3 className="mt-8 text-lg font-semibold text-black">Placement Opportunities</h3>
               <p className="mt-4 px-7 sm:px-0 text-sm text-gray-600">
