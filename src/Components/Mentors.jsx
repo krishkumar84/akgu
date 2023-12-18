@@ -34,7 +34,7 @@ const Mentors = () => {
             {
                 breakpoint: 576,
                 settings:{
-                    slidesToShow:1,
+                    slidesToShow:1, 
                     slidesToScroll:1,
                    
                 },
@@ -54,9 +54,9 @@ const Mentors = () => {
            <div className='flex items-center flex-col  mt-3'>
             <img src={ava01} className='w-40 h-40 rounded-2' alt="" />
             <div>
-                <h6 className='mb-0 mt-3'>John Doe1</h6>
-                <p>Customer</p>
-                <p>ABC</p>
+                <h6 className='mb-0 mt-3'>Sh. Ashok Pal</h6>
+                <p>Chairman</p>
+                <p>AKGEC</p>
             </div>
            </div>
         </div>
@@ -65,9 +65,9 @@ const Mentors = () => {
            <div className='flex items-center flex-col  mt-3'>
             <img src={ava02} className='w-40 h-40 rounded-2' alt="" />
             <div>
-                <h6 className='mb-0 mt-3'>John Doe2</h6>
-                <p>Customer</p>
-                <p>ABC</p>
+                <h6 className='mb-0 mt-3'>Dr R.K. Agarwal</h6>
+                <p>Director General</p>
+                <p>AKGEC</p>
             </div>
            </div>
         </div>
@@ -76,9 +76,9 @@ const Mentors = () => {
            <div className='flex flex-col items-center  mt-3'>
             <img src={ava03} className='w-40 h-40 rounded-2' alt="" />
             <div>
-                <h6 className='mb-0 mt-3'>John Doe3</h6>
-                <p>Customer</p>
-                <p>ABC</p>
+                <h6 className='mb-0 mt-3'>Sarvachan Verma</h6>
+                <p>Assistant Professor</p>
+                <p>M.Tech, Ph.D*</p>
             </div>
            </div>
         </div>
@@ -87,9 +87,9 @@ const Mentors = () => {
            <div className='flex flex-col items-center mt-3'>
             <img src={ava04} className='w-40 h-40 rounded-2' alt="" />
             <div>
-                <h6 className='mb-0 mt-3'>John Doe4</h6>
-                <p>Customer</p>
-                <p>ABC</p>
+                <h6 className='mb-0 mt-3'>Dr. Ruchi Gupta</h6>
+                <p>Associate Professor</p>
+                <p>Ph.D</p>
             </div>
            </div>
         </div>
@@ -98,9 +98,9 @@ const Mentors = () => {
            <div className='flex flex-col items-center mt-3'>
             <img src={ava01} className='w-40 h-40 rounded-2' alt="" />
             <div>
-                <h6 className='mb-0 mt-3'>John Doe5</h6>
-                <p>Customer</p>
-                <p>ABC</p>
+                <h6 className='mb-0 mt-3'>Sh. Ashok Pal</h6>
+                <p>Chairman</p>
+                <p>AKGEC</p>
             </div>
            </div>
         </div>
@@ -109,9 +109,9 @@ const Mentors = () => {
            <div className='flex flex-col items-center mt-3'>
             <img src={ava02} className='w-40 h-40 rounded-2' alt="" />
             <div>
-                <h6 className='mb-0 mt-3'>John Doe5</h6>
-                <p>Customer</p>
-                <p>ABC</p>
+                <h6 className='mb-0 mt-3'>Dr R.K. Agarwal</h6>
+                <p>Director General</p>
+                <p>AKGEC</p>
             </div>
            </div>
         </div>

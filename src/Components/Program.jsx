@@ -45,18 +45,18 @@ function Program() {
      </div>
     
      <div className='w-full md:w-1/2 lg:w-1/4 lg:border-r-2 md:border-gray-300  flex items-center justify-center flex-col p-4'>
-      <h4 className='text-white font-normal text-center text-lg mb-3.5'>Flexible</h4>
-      <p className='text-customWhite text-sm'>Freedom to juggle between full time job and pursuing a coveted degree</p>
+      <h4 className='text-white font-normal text-center text-lg mb-3.5'>Affordable</h4>
+      <p className='text-customWhite text-sm'>AffordableGreat value in terms of both tuition fee & the fact that you can continue to work</p>
      </div>
 
      <div className='w-full md:w-1/2 lg:w-1/4 lg:border-r-2 md:border-gray-300  flex items-center justify-center flex-col p-4 '>
-      <h4 className='text-white font-normal text-center text-lg mb-3.5'>Flexible</h4>
-      <p className='text-customWhite text-sm'>Freedom to juggle between full time job and pursuing a coveted degree</p>
+      <h4 className='text-white font-normal text-center text-lg mb-3.5'>Virtual Job Fairs & Job Assistance</h4>
+      <p className='text-customWhite text-sm'>Opportunity to connect with recruiters from leading corporates</p>
      </div>
 
      <div className='w-full md:w-1/2 lg:w-1/4  flex items-center justify-center flex-col p-4'>
-      <h4 className='text-white font-normal text-center text-lg mb-3.5'>Flexible</h4>
-      <p className='text-customWhite text-sm'>Freedom to juggle between full time job and pursuing a coveted degree</p>
+      <h4 className='text-white font-normal text-center text-lg mb-3.5'>Scholarship Scheme</h4>
+      <p className='text-customWhite text-sm'>Scholarship benefits available for eligible students in applicable programmes</p>
      </div>
     </div>
     </div>
