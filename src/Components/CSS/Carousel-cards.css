@@ -60,15 +60,26 @@ html,body{
     background-color: #fff;
 }
 
+.boxes{
+    /* margin-left: 0.5vw; */
+    margin-top: 8vh;
+}
+
 @media (max-width:600px) {
+
     .main-carousel-cards .swiper-slide-active{
-        /* margin-right:63vw  !important; */
-        /* margin-left: 63vw; */
+        /* width: 40vw !important; */
+        /* margin: 0px !important; */
     }
     
     
     .main-carousel-cards .swiper-slide{
-        /* margin-right:  63vw !important; */
+        /* width: 40vw !important; */
+        /* margin: 0px !important; */
+    }
+
+    .degree .thumbs-wrapper{
+        display: none;
     }
 }
 
