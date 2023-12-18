@@ -17,7 +17,7 @@ import "./CSS/Achievement.css"
                 </p>
               </div>
               <hr className="mb-10 mt-6 sm:ml-24 w-[85%]" />
-              <div className="App1 flex justify-center items-center pt-16 ml-[7vw] w-[85vw] h-[55vh] bg-[#1e1616ae] text-white">
+              <div className="App1 flex justify-center items-center pt-16 h-[62vh] bg-[#1e1616ae] text-white">
                 <Carousel
                   showArrows={true}
                   autoPlay={true}
