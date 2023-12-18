@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGraduationCap, faClock } from '@fortawesome/free-solid-svg-icons';
+import Form from './Form';
 
 function BachelorCards() {
 
@@ -70,10 +71,12 @@ function BachelorCards() {
 
   {popupVisible1 && (
           <div className="fixed top-[3%] left-[10%] transform -translate-x-1/2 -translate-y-1/2    z-50">
-            <div className="popup-overlay rounded-xl h-[85vh] shadow-2xl bg-[#e3e3e4] w-[50vw] m-auto absolute">
+            <div className="popup-overlay rounded-xl h-[85vh] shadow-2xl bg-[#e3e3e4] w-[80vw] absolute">
               <div className="popup-content text-center scrollable-content">
                 <div className="bg-gray-100 min-h-screen">
+                 <Form/>
                  
+                  
                  
                 </div>
                 <button
@@ -82,9 +85,6 @@ function BachelorCards() {
                 >
                   ×
                 </button>
- 
-
-
               </div>
             </div>
           </div>
