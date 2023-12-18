@@ -12,3 +12,26 @@
 .placement .control-dots .dot.selected{
    background-color: black;
 }
+
+.navbar-line ul li {
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+
+.navbar-line ul li::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #2463EB;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.navbar-line ul li:hover::after{
+    width: 100%;
+}
+
