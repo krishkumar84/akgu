@@ -6,9 +6,7 @@ import Form from './Form';
 function BachelorCards() {
 
   const [popupVisible1, setPopupVisible1] = useState(false);
-  const [popupVisible2, setPopupVisible2] = useState(false);
-  const [popupVisible3, setPopupVisible3] = useState(false);
-  const [popupVisible4, setPopupVisible4] = useState(false);
+  
 
   const openPopup1 = () => {
     setPopupVisible1(true);
@@ -20,33 +18,6 @@ function BachelorCards() {
     document.body.style.overflow = 'auto';
   };
 
-  const openPopup2 = () => {
-    setPopupVisible2(true);
-     document.body.style.overflow = 'hidden';
-  };
-
-  const closePopup2 = () => {
-    setPopupVisible2(false);
-    document.body.style.overflow = 'auto';
-  };
-  const openPopup3 = () => {
-    setPopupVisible3(true);
-     document.body.style.overflow = 'hidden';
-  };
-
-  const closePopup3 = () => {
-    setPopupVisible3(false);
-    document.body.style.overflow = 'auto';
-  };
-  const openPopup4 = () => {
-    setPopupVisible4(true);
-     document.body.style.overflow = 'hidden';
-  };
-
-  const closePopup4 = () => {
-    setPopupVisible4(false);
-    document.body.style.overflow = 'auto';
-  };
 
   return ( 
 
@@ -106,7 +77,7 @@ function BachelorCards() {
           <FontAwesomeIcon icon={faClock} className="mr-2" />
           <p>Duration: 4 years</p>
         </div>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Know More</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"  onClick={openPopup1}>Know More</button>
       </div>
     </div>
   </div>
@@ -124,7 +95,7 @@ function BachelorCards() {
           <FontAwesomeIcon icon={faClock} className="mr-2" />
           <p>Duration: 4 years</p>
         </div>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Know More</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"  onClick={openPopup1}>Know More</button>
       </div>
     </div>
   </div>
@@ -144,7 +115,7 @@ function BachelorCards() {
           <FontAwesomeIcon icon={faClock} className="mr-2" />
           <p>Duration: 4 years</p>
         </div>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Know More</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"  onClick={openPopup1}>Know More</button>
       </div>
     </div>
   </div>
@@ -164,7 +135,7 @@ function BachelorCards() {
           <FontAwesomeIcon icon={faClock} className="mr-2" />
           <p>Duration: 4 years</p>
         </div>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Know More</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"  onClick={openPopup1}>Know More</button>
       </div>
     </div>
   </div>
@@ -183,7 +154,7 @@ function BachelorCards() {
           <FontAwesomeIcon icon={faClock} className="mr-2" />
           <p>Duration: 4 years</p>
         </div>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Know More</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700"  onClick={openPopup1}>Know More</button>
       </div>
     </div>
   </div>
