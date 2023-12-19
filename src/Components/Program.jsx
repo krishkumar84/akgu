@@ -40,7 +40,7 @@ function Program() {
       <div className='flex  flex-row flex-wrap align-middle justify-center text-center space-around px-10 md:px-24 py-8  '>
 
     <div className='w-full md:w-1/2 lg:w-1/4 lg:border-r-2 md:border-gray-300  flex items-center justify-center flex-col  p-4'>
-      <h2 className='text-white font-normal text-center text-lg '>Flexible</h2>
+      <h2 className='text-white font-normal text-center text-lg mb-3.5'>Flexible</h2>
       <p className='text-customWhite text-sm'>Freedom to juggle between full time job and pursuing a coveted degree</p>
      </div>
     

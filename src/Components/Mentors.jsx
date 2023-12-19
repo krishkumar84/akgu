@@ -6,6 +6,7 @@ import ava01 from '/Images/chairman.png'
 import ava02 from '/Images/director.png'
 import ava03 from "/Images/sarvachan-sir.png"
 import ava04 from "/Images/ruchi-ma'am.png"
+import ava05 from "/Images/hod.png"
 
 
 
@@ -52,10 +53,10 @@ const Mentors = () => {
          
         <div className=" py-4 px-3">
            <div className='flex items-center flex-col  mt-3'>
-            <img src={ava01} className='w-40 h-40 rounded-2' alt="" />
+            <img src={ava05} className='w-40 h-40 rounded-2' alt="" />
             <div>
-                <h6 className='mb-0 mt-3'>Sh. Ashok Pal</h6>
-                <p>Chairman</p>
+                <h6 className='mb-0 mt-3'>Prof. Rahul Sharma</h6>
+                <p>HOD</p>
                 <p>AKGEC</p>
             </div>
            </div>
