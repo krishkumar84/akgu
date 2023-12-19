@@ -36,7 +36,7 @@ function MasterCards(){
              <FontAwesomeIcon icon={faClock} className="mr-2" />
              <p>Duration: 2 years</p>
            </div>
-           <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700" onClick={openPopup1}>Know More</button>
+           <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 mt-2" onClick={openPopup1}>Know More</button>
          </div>
        </div>
      </div>
@@ -75,7 +75,7 @@ function MasterCards(){
              <FontAwesomeIcon icon={faClock} className="mr-2" />
              <p>Duration: 2 years</p>
            </div>
-           <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700" onClick={openPopup1}>Know More</button>
+           <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 mt-7" onClick={openPopup1}>Know More</button>
          </div>
        </div>
      </div>

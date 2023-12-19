@@ -6,6 +6,7 @@ import ava01 from '/Images/chairman.png'
 import ava02 from '/Images/director.png'
 import ava03 from "/Images/sarvachan-sir.png"
 import ava04 from "/Images/ruchi-ma'am.png"
+import ava05 from "/Images/hod.png"
 
 
 
@@ -50,16 +51,7 @@ const Mentors = () => {
      <h1 className='text-4xl font-semibold text-center pt-14 pb-10 text-customblue'>Industry Mentors</h1>
      <Slider {...settings}>
          
-        <div className=" py-4 px-3">
-           <div className='flex items-center flex-col  mt-3'>
-            <img src={ava01} className='w-40 h-40 rounded-2' alt="" />
-            <div>
-                <h6 className='mb-0 mt-3'>Sh. Ashok Pal</h6>
-                <p>Chairman</p>
-                <p>AKGEC</p>
-            </div>
-           </div>
-        </div>
+       
 
         <div className=" py-4 px-3">
            <div className='flex items-center flex-col  mt-3'>
@@ -67,6 +59,17 @@ const Mentors = () => {
             <div>
                 <h6 className='mb-0 mt-3'>Dr R.K. Agarwal</h6>
                 <p>Director General</p>
+                <p>AKGEC</p>
+            </div>
+           </div>
+        </div>
+
+        <div className=" py-4 px-3">
+           <div className='flex items-center flex-col  mt-3'>
+            <img src={ava05} className='w-40 h-40 rounded-2' alt="" />
+            <div>
+                <h6 className='mb-0 mt-3'>Prof. Rahul Sharma</h6>
+                <p>IT,HOD</p>
                 <p>AKGEC</p>
             </div>
            </div>
