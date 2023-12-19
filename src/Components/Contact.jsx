@@ -12,20 +12,25 @@ export default function Contact() {
   const [message, setMessage] = useState('')
   const [error, setError] = useState(null);
 
+  // const handleChange = (e)=>{
+  //   setFname('');
+  //   setLname('');
+  //   setEmail('');
+  //   setMessage('');
+  //   setMobile('');
+  // }
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+      
     try {
       const res = await axios.post("https://akgu-backend.onrender.com/api/contact", { fname,lname, email, mobile,message });
-      // console.log("succesfull");
-      setFname('');
-      setLname('');
-      setEmail('');
-      setMessage('');
-      setMobile('');
+      console.log("succesfull");
     } catch (err) {
       // Handle other errors, e.g., network issues
       setError("An error occurred. Please try again.");
     }
+      
   };
 
 
@@ -70,7 +75,7 @@ export default function Contact() {
                         First Name
                       </label>
                       <input
-                        className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50 dark:border-gray-700  dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
+                        className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 dark:border-gray-700  dark:focus:ring-gray-400 dark:focus:ring-offset-gray-900"
                         type="text"
                         id="firstname"
                         placeholder="First Name"
