@@ -5,8 +5,8 @@ import axios from 'axios';
 
 export default function Contact() {
 
-  const [firstname, setFirstname] = useState('')
-  const [lastname, setLastname] = useState('')
+  const [fname, setFname] = useState('')
+  const [lname, setLname] = useState('')
   const [email, setEmail] = useState("");
   const [mobile, setMobile] = useState("");
   const [message, setMessage] = useState('')
@@ -15,10 +15,10 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://akgu-backend.onrender.com/api/contact", { firstname,lastname, email, mobile,message });
-      console.log("succesfull");
-      setFirstname('');
-      setLastname('');
+      const res = await axios.post("https://akgu-backend.onrender.com/api/contact", { fname,lname, email, mobile,message });
+      // console.log("succesfull");
+      setFname('');
+      setLname('');
       setEmail('');
       setMessage('');
       setMobile('');
@@ -74,7 +74,7 @@ export default function Contact() {
                         type="text"
                         id="firstname"
                         placeholder="First Name"
-                        onChange={(e)=>setFirstname(e.target.value)}
+                        onChange={(e)=>setFname(e.target.value)}
                         required
                       />
                     </div>
@@ -90,7 +90,7 @@ export default function Contact() {
                         type="text"
                         id="lastname"
                         placeholder="Last Name"
-                        onChange={(e)=>setLastname(e.target.value)}
+                        onChange={(e)=>setLname(e.target.value)}
                         required
                       />
                     </div>
