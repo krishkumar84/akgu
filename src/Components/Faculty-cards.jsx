@@ -175,6 +175,39 @@ const Facultycards = () => {
         <div className="container sm:ml-[4vw]">
           <div className="card">
             <div className="imgBx">
+              <img
+                className="sm:block hidden"
+                src="../../Images/chairman.png"
+              />
+            </div>
+            <div className="contentBx">
+              <h2>Dr.Ashok Pal</h2>
+
+              <div className="color">
+                <h1>Chairman AKGIM</h1>
+              </div>
+              <a href="#">View Profile</a>
+            </div>
+          </div>
+        </div>
+        <div className="container sm:ml-[4vw]">
+          <div className="card">
+            <div className="imgBx">
+              <img className="" src="../../Images/hod1.png" />
+            </div>
+            <div className="contentBx">
+              <h2>DR. Rahul Sharma</h2>
+
+              <div className="color">
+                <h1>IT HOD</h1>
+              </div>
+              <a href="#">View Profile</a>
+            </div>
+          </div>
+        </div>
+        <div className="container sm:ml-[4vw]">
+          <div className="card">
+            <div className="imgBx">
               <img className="" src="../../Images/ruchi-ma'am.png" />
             </div>
             <div className="contentBx">
@@ -185,24 +218,6 @@ const Facultycards = () => {
                 </div>
                 <a href="#">View Profile</a>
               </div>
-          </div>
-        </div>
-        <div className="container sm:ml-[4vw]">
-          <div className="card">
-            <div className="imgBx">
-              <img
-                className="sm:block hidden"
-                src="../../Images/chairman.png"
-              />
-            </div>
-            <div className="contentBx">
-              <h2>Chairman</h2>
-
-              <div className="color">
-                <h1>Ashok Pal</h1>
-              </div>
-              <a href="#">View Profile</a>
-            </div>
           </div>
         </div>
 
@@ -224,21 +239,7 @@ const Facultycards = () => {
             </div>
           </div>
         </div>
-        <div className="container sm:ml-[4vw]">
-          <div className="card">
-            <div className="imgBx">
-              <img className="" src="../../Images/ruchi-ma'am.png" />
-            </div>
-            <div className="contentBx">
-              <h2>DR. RUCHI GUPTA</h2>
-
-              <div className="color">
-                <h1>Assistant Profesor</h1>
-              </div>
-              <a href="#">View Profile</a>
-            </div>
-          </div>
-        </div>
+        
       </Carousel>
     </div>
   );
