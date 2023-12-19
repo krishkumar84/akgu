@@ -30,7 +30,7 @@ const Carousal = () => {
         mousewheel={{
           mousewheel: true,
         }}
-        navigation={true}
+        // navigation={true}
         breakpoints={{
           0: {
             slidesPerView: 1,
