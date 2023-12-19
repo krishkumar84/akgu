@@ -48,7 +48,7 @@ function MasterCards(){
                 <div className="">
                  <Form/>
                  <button
-                  className=" top-[16%]  absolute text-5xl left-[60%]"
+                  className=" top-0  sticky bg-yellow-300 px-4 py-2 rounded-tl-[50px]  text-5xl left-[60%]"
                   onClick={closePopup1}
                 >
                   ×

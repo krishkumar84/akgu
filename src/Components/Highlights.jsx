@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faUser, faChalkboard, faHandshake, faBookOpenReader, faBookOpen } from '@fortawesome/free-solid-svg-icons';
