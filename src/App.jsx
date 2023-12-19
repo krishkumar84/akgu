@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import Home2 from './pages/Home2';
 import './Components/CSS/Locomotive.css'
 import './App.css';
+import Contact from './Components/Contact';
+import Form from './Components/Form';
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home2" element={<Home2 />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/form" element={<Form />} />
       </Routes>
     </Router>
   );

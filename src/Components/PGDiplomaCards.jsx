@@ -21,9 +21,9 @@ function PGDiplomaCards() {
 
 
   return (
-    <div className="  w-5/6 h-auto flex flex-wrap flex-row items-center justify-center bg-customWhite">
+    <div className="  w-full h-auto flex flex-wrap flex-row items-center justify-center bg-customWhite">
    
-   <div className="sm:w-3/4 md:w-1/3 lg:w-1/4 w-full p-4  m-3 bg-white">
+   <div className="sm:w-3/4 h-[470px] md:w-1/3 lg:w-1/4 w-full p-4  m-3 bg-white">
     <div className="overflow-hidden">
       <img className="h-[250px]  object-cover  " src="../../Images/pro1.jpg" alt="" />
       <div className="p-4">
@@ -62,7 +62,7 @@ function PGDiplomaCards() {
           
         )}
     
-  <div className="sm:w-3/4 md:w-1/3 lg:w-1/4 w-full p-4  m-3 bg-white">
+  <div className="sm:w-3/4  h-[470px] md:w-1/3 lg:w-1/4 w-full p-4  m-3 bg-white">
     <div className=" overflow-hidden">
       <img className="h-[250px] w-full object-cover" src="../../Images/pro2.jpg" alt="" />
       <div className="p-4">
@@ -81,7 +81,7 @@ function PGDiplomaCards() {
     </div>
   </div>
      
-  <div className="sm:w-3/4 md:w-1/3 lg:w-1/4 w-full p-4 m-3 bg-white">
+  <div className="sm:w-3/4 h-[470px] md:w-1/3 lg:w-1/4 w-full p-4 m-3 bg-white">
     <div className=" overflow-hidden">
       <img className="h-[250px] w-full object-cover" src="../../Images/pro3.jpeg" alt="" />
       <div className="p-4">

@@ -23,16 +23,16 @@ export default function Navbar() {
             
             <Link to='/'><li className="text-base font-semibold hover:cursor-pointer text-gray-800 hover:text-gray-900">Home</li></Link>
             <Link to='/home2'><li className="text-base font-semibold text-gray-800 hover:text-gray-900">Online Courses</li></Link>
-            <li className="text-base font-semibold hover:cursor-pointer  text-gray-800 hover:text-gray-900">Contact</li>
+           <Link to='/contact'><li className="text-base font-semibold hover:cursor-pointer  text-gray-800 hover:text-gray-900">Contact</li></Link> 
           </ul>
         </div>
         <div className="hidden lg:block">
-          <button
+          <Link to='/form'><button
             type="button"
             className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
             Enroll Now 
-          </button>
+          </button></Link>
         </div>
         <div className="lg:hidden">
           <Menu onClick={toggleMenu} className="h-6 w-6 cursor-pointer" />
@@ -56,9 +56,9 @@ export default function Navbar() {
                 </div>
                 <div className="mt-6">
                   <nav className="grid gap-y-4 list-none">
-                    <li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Home</li>
+                   <Link to="/"> <li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Home</li></Link>
                     <Link to='/home2'><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Online Courses</li></Link>
-                    <li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Contact</li>
+                   <Link to="/contact"><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Contact</li></Link>
                   </nav>
                 </div>
                 <button

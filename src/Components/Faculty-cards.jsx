@@ -48,7 +48,7 @@ const Facultycards = () => {
             <div className="card">
               <div className="imgBx">
                 <img
-                  className="sm:block hidden"
+                  className="w-16"
                   src="../../Images/director.png"
                 />
               </div>
@@ -73,10 +73,30 @@ const Facultycards = () => {
                 />
               </div>
               <div className="contentBx">
-                <h2>Ashok Pal</h2>
+                <h2>Dr. Ashok Pal</h2>
 
                 <div className="color">
                   <h1>Chairman</h1>
+                </div>
+                <a href="#">View Profile</a>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className="container ml-[0.7vw]">
+            <div className="card">
+              <div className="imgBx">
+                <img
+                  className="sm:block hidden"
+                  src="../../Images/hod1.png"
+                />
+              </div>
+              <div className="contentBx">
+                <h2>DR. Rahul Sharma</h2>
+
+                <div className="color">
+                  <h1>IT HOD</h1>
                 </div>
                 <a href="#">View Profile</a>
               </div>
@@ -123,35 +143,18 @@ const Facultycards = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="container ml-[0.7vw]">
-            <div className="card">
-              <div className="imgBx">
-                <img
-                  className="sm:block hidden"
-                  src="../../Images/ruchi-ma'am.png"
-                />
-              </div>
-              <div className="contentBx">
-                <h2>DR. RUCHI GUPTA</h2>
-
-                <div className="color">
-                  <h1>Assistant Profesor</h1>
-                </div>
-                <a href="#">View Profile</a>
-              </div>
-            </div>
-          </div>
-        </SwiperSlide>
+        
+          
+        
       </Swiper>
 
       <Carousel
         showArrows={true}
         // autoPlay={true}
         // infiniteLoop={true}
-        className="block sm:hidden"
+        className="block sm:hidden faculty-middle"
       >
-        <div className="container ml-[4vw] sm:ml-[4vw]">
+        <div className="container sm:ml-[4vw]">
           <div className="card">
             <div className="imgBx">
               <img
@@ -169,7 +172,40 @@ const Facultycards = () => {
             </div>
           </div>
         </div>
-        <div className="container  ml-[4vw]  sm:ml-[4vw]">
+        <div className="container sm:ml-[4vw]">
+          <div className="card">
+            <div className="imgBx">
+              <img
+                className="sm:block hidden"
+                src="../../Images/chairman.png"
+              />
+            </div>
+            <div className="contentBx">
+              <h2>Dr.Ashok Pal</h2>
+
+              <div className="color">
+                <h1>Chairman AKGIM</h1>
+              </div>
+              <a href="#">View Profile</a>
+            </div>
+          </div>
+        </div>
+        <div className="container sm:ml-[4vw]">
+          <div className="card">
+            <div className="imgBx">
+              <img className="" src="../../Images/hod1.png" />
+            </div>
+            <div className="contentBx">
+              <h2>DR. Rahul Sharma</h2>
+
+              <div className="color">
+                <h1>IT HOD</h1>
+              </div>
+              <a href="#">View Profile</a>
+            </div>
+          </div>
+        </div>
+        <div className="container sm:ml-[4vw]">
           <div className="card">
             <div className="imgBx">
               <img className="" src="../../Images/ruchi-ma'am.png" />
@@ -184,26 +220,8 @@ const Facultycards = () => {
               </div>
           </div>
         </div>
-        <div className="container ml-[4vw] sm:ml-[4vw]">
-          <div className="card">
-            <div className="imgBx">
-              <img
-                className="sm:block hidden"
-                src="../../Images/chairman.png"
-              />
-            </div>
-            <div className="contentBx">
-              <h2>Chairman</h2>
 
-              <div className="color">
-                <h1>Ashok Pal</h1>
-              </div>
-              <a href="#">View Profile</a>
-            </div>
-          </div>
-        </div>
-
-        <div className="container ml-[4vw] sm:ml-[4vw]">
+        <div className="container sm:ml-[4vw]">
           <div className="card">
             <div className="imgBx">
               <img
@@ -221,21 +239,7 @@ const Facultycards = () => {
             </div>
           </div>
         </div>
-        <div className="container ml-[4vw] sm:ml-[4vw]">
-          <div className="card">
-            <div className="imgBx">
-              <img className="" src="../../Images/ruchi-ma'am.png" />
-            </div>
-            <div className="contentBx">
-              <h2>DR. RUCHI GUPTA</h2>
-
-              <div className="color">
-                <h1>Assistant Profesor</h1>
-              </div>
-              <a href="#">View Profile</a>
-            </div>
-          </div>
-        </div>
+        
       </Carousel>
     </div>
   );

@@ -1,9 +1,27 @@
 import React, { useState } from 'react';
 import { ChevronUp, ChevronDown } from 'lucide-react';
 
+const faqData = [
+  {
+    question: 'How will I get admission confirmation?',
+    answer: 'Upon successful review of your application, the university will typically send you an official admission offer through email or mail.',
+  },
+  {
+    question: 'Are there English language proficiency requirements?',
+    answer: 'Yes, many universities have English language proficiency requirements for international applicants.',
+  },
+  {
+    question: 'What are the admission requirements?',
+    answer: 'Admission requirements typically include a completed application form and submission of academic transcripts, standardized test scores, and letters of recommendation.',
+  },
+  {
+    question: 'How do I apply to the university?',
+    answer: 'To apply to the university, visit the official admissions page on the university website. Follow the application instructions, complete the online application form, and submit the required documents before the specified deadline.',
+  },
+];
 
 function Faq() {
-    const [faqOpen, setFaqOpen] = useState([]);
+  const [faqOpen, setFaqOpen] = useState([]);
 
   const toggleFaq = (index) => {
     setFaqOpen((prev) => {
@@ -16,13 +34,10 @@ function Faq() {
     return (
         <section className="mx-auto max-w-7xl mt-12 px-4 py-10 md:px-0">
           <div>
-            <div className="mx-auto max-w-2xl lg:text-center">
-              <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-                Frequently Asked Questions
+            <div className="mx-auto max-w-3xl lg:text-center">
+              <h2 className="text-3xl font-bold h-24 leading-tight text-black sm:text-4xl lg:text-5xl">
+                Frequently Asked Questions...
               </h2>
-              <p className="mt-4 max-w-xl text-base leading-relaxed text-gray-600 lg:mx-auto">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, assumenda
-              </p>
             </div>
             <div className="mx-auto mt-8 max-w-3xl space-y-4 md:mt-16">
               {Array.from({ length: 4 }).map((_, i) => (
@@ -67,6 +82,4 @@ function Faq() {
 );
 }
 
-export default Faq
-
-
+export default Faq;
