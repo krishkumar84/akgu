@@ -58,7 +58,7 @@ export default function Navbar() {
                   <nav className="grid gap-y-4 list-none">
                     <li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Home</li>
                     <Link to='/home2'><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Online Courses</li></Link>
-                    <li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Contact</li>
+                   <Link to="/contact"><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Contact</li></Link>
                   </nav>
                 </div>
                 <button
