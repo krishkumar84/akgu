@@ -44,7 +44,7 @@ const Facultycards = () => {
         modules={[Autoplay, Pagination, Navigation, Mousewheel]}
       >
         <SwiperSlide>
-          <div className="container ml-[0.7vw]">
+          <div className="container ml-[0.7vw] ">
             <div className="card">
               <div className="imgBx">
                 <img
@@ -64,7 +64,7 @@ const Facultycards = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="container ml-[0.7vw]">
+          <div className="container ">
             <div className="card">
               <div className="imgBx">
                 <img
@@ -84,7 +84,7 @@ const Facultycards = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-        <div className="container ml-[0.7vw]">
+        <div className="container ">
             <div className="card">
               <div className="imgBx">
                 <img
@@ -104,7 +104,7 @@ const Facultycards = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="container ml-[0.9vw]">
+          <div className="container ]">
             <div className="card">
               <div className="imgBx">
                 <img
@@ -124,7 +124,7 @@ const Facultycards = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="container ml-[0.7vw]">
+          <div className="container ">
             <div className="card">
               <div className="imgBx">
                 <img
