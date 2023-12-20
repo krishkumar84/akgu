@@ -18,19 +18,5 @@
     background: #555; /* Set the color of the thumb on hover */
   }
 
-  .loco{
-    height: 916vh;
-  }
 
-  @media (max-width:1250px) {
-    .loco{
-      height: 875vh;
-    }
-  }
-
-  @media (max-width:1000px) {
-    .loco{
-      height: 825vh;
-    }
-  }
   
