@@ -198,6 +198,10 @@
       /* border-left: 26px solid red !important; */
     }
 
+    .faculty-middle .container{
+      margin-left: 4vw;
+     }
+
     .carousel-status{
       display: none;
     }
@@ -220,7 +224,7 @@
 
   @media (max-width:320px){
      .faculty-middle .container{
-      margin-right: 0.1vw;
+      margin-right: 4vw;
      }
   }
 
