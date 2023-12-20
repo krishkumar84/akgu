@@ -9,8 +9,8 @@ function Testimonial() {
           <p className="text-white text-sm">
           Exciting to see the face of UPTU in many ways. Wish all the best for further spiralling ups, Excellent in all respects and aspect, Impressive performance by the institute and the students academically and otherwise, Best of luck to all !
           </p>
-          <p className="text-center mt-4 text-customYellow">PROF. KRIPA SHANKER</p>
-          <p className="text-sm text-center text-customYellow font-normal">
+          <p className="text-center mt-4 text-aqua">PROF. KRIPA SHANKER</p>
+          <p className="text-sm text-center text-aqua font-normal">
           Vice Chancellor
           </p>
         </div>
@@ -18,8 +18,8 @@ function Testimonial() {
           <p className="text-white text-sm">
           Excellent Organization & Hospitality! Nice vibrant function, excellent academic achievements. My all the best for all your future endeavours 
           </p>
-          <p className="text-center mt-4 text-customYellow">DR. ROB REILLY</p>
-          <p className="text-sm text-center text-customYellow font-normal">
+          <p className="text-center mt-4 text-aqua">DR. ROB REILLY</p>
+          <p className="text-sm text-center text-aqua font-normal">
             MIT, USA
           </p>
         </div>
