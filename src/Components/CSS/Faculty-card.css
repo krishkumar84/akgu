@@ -198,9 +198,6 @@
       /* border-left: 26px solid red !important; */
     }
 
-    .faculty-middle .container{
-      margin-left: 4vw;
-     }
 
     .carousel-status{
       display: none;
@@ -220,16 +217,4 @@
       transform: translate(-50%, -50%);
       width: 317px;
     }
-  }
-
-  @media (max-width:320px){
-     .faculty-middle .container{
-      margin-right: 4vw;
-     }
-  }
-
-  @media (max-width:350px) {
-    .faculty-middle .container{
-      margin-left: 4vw;
-     }
   }
