@@ -197,7 +197,7 @@ const CarousalCards = () => {
               <img
                   src="https://i.pinimg.com/564x/2e/f0/0e/2ef00e15b491ea75b73d228dca4596e4.jpg"
                   alt="AirMax Pro"
-                className=" h-[90%] w-[100%]"
+                className=" h-[86%] w-[100%]"
               />
               <div className="absolute w-[100%]  inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
               <div className="absolute bottom-4 left-4 text-left">
@@ -257,7 +257,7 @@ const CarousalCards = () => {
               <img
                   src="https://i.pinimg.com/564x/9c/6c/8d/9c6c8d65c57cfb431861737d7f3b6e62.jpg"
                   alt="AirMax Pro"
-                className="z-0 h-[100%] w-[100%] object-cover"
+                className="z-0 h-[96%] w-[100%] object-cover"
               />
               <div className="absolute w-[100%]  inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
               <div className="absolute bottom-4 left-4 text-left">
@@ -272,7 +272,7 @@ const CarousalCards = () => {
               <img
                   src="https://media.istockphoto.com/id/1278019267/vector/mba-school-students.jpg?s=612x612&w=0&k=20&c=pfBUN2rUcvgsos7GL-ZQX2Dm3ukNQQ1tFCMXOwMBAsI="
                   alt="AirMax Pro"
-                className="z-0 h-[80%] w-[100%]"
+                className="z-0 h-[77%] w-[100%]"
               />
               <div className="absolute w-[100%]  inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
               <div className="absolute bottom-4 left-4 text-left">
@@ -287,7 +287,7 @@ const CarousalCards = () => {
               <img
                   src="https://www.shutterstock.com/image-illustration/conceptual-business-illustration-words-bachelor-260nw-1013206882.jpg"
                   alt="AirMax Pro"
-                className="z-0 h-[87%] w-[100%] "
+                className="z-0 h-[84%] w-[100%] "
               />
               <div className="absolute w-[100%]  inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
               <div className="absolute bottom-4 left-4 text-left">
