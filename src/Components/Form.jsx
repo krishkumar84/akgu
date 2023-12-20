@@ -23,6 +23,15 @@ function Form() {
           position: toast.POSITION.BOTTOM_CENTER,
           autoClose: 5000, // Close the toast after 5 seconds
         });
+
+        setName("");
+        setEmail("");
+        setMobile("");
+        setState("");
+        setCity("");
+        setCourses("");
+
+
       } else {
         // If success is false, display the error message
         setError(res.data.message);

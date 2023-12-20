@@ -40,14 +40,14 @@ const PlacementCarousal = () => {
               </div>
             </div>
           </div>
-          <div className="-mt-4  w-full hover:scale-110 hover:cursor-pointer transition-transform lg:-mt-0 lg:w-1/3">
+          <div className=" mt-6 sm:-mt-4  w-full hover:scale-110 hover:cursor-pointer transition-transform lg:-mt-0 lg:w-1/3">
             <div className="pt-22 relative mx-auto max-w-sm rounded-lg bg-black px-10 pb-16 ">
               <div className="absolute left-1/2 top-0 inline-flex -translate-x-1/2 -translate-y-1/2 transform items-center justify-center rounded-full bg-white p-2">
                 <div className="flex-shrink-0 rounded-full bg-black px-5 py-3 text-base font-semibold uppercase text-white">
                 HIGHEST
                 </div>
               </div>
-              <img src={deepak} className='h-auto mb-6 rounded-b-md  bg-cover' />
+              <img src={deepak} className='h-auto mt-0 sm:mt-7 mb-6 rounded-b-md  bg-cover' />
               <span className="flex items-end text-white">
                 <span className="text-4xl font-extrabold leading-none">1.13</span>
                 <span className="text-2xl ml-2 font-semibold">Crore</span>

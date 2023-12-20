@@ -7,7 +7,7 @@ import red from '../assets/red.png'
 
 function Cards() {
   return (
-    <div className='flex flex-wrap gap-8 items-center justify-center pt-10 pb-28'>
+    <div className='flex flex-wrap gap-8 items-center justify-center pt-10 pb-28 cursor-pointer'>
   <div className="yellow w-80 sm:w-72 h-44 sm:h-40 bg-yellow-400 text-white rounded-2xl relative">
     <img src={yellow} className='absolute right-1 top-1 pb-2 h-full' alt="" />
     <div className="text-overlay">
