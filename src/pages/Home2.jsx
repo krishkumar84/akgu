@@ -8,6 +8,7 @@ import Testimonial from '../Components/Testimonial';
 import Highlights from '../Components/Highlights';
 import Belowtext from '../Components/Belowtext';
 import Formback from '../Components/Formback';
+import "../Components/CSS/Home2.css"
  
 
 function Home2() {

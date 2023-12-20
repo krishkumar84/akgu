@@ -14,9 +14,9 @@ export default function Navbar() {
     <>
 
 <div className="relative w-full h-16 bg-white">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
       <a href="https://www.akgec.ac.in/" className="flex items-center space-x-3 rtl:space-x-reverse">
-      <img src="https://www.akgec.ac.in/wp-content/themes/twentysixteen/img/AKGEC_1_0.png" className="h-8" alt="AKGU Logo" />
+      <img src="https://www.akgec.ac.in/wp-content/themes/twentysixteen/img/AKGEC_1_0.png" className="h-12" alt="AKGU Logo" />
       <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">AKGU</span></a>
        <div className="hidden lg:block navbar-line">
           <ul className="inline-flex relative space-x-8">
@@ -42,7 +42,8 @@ export default function Navbar() {
             <div className="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
               <div className="px-5 pb-6 pt-5">
                 <div className="flex items-center justify-between">
-                  <img className='w-12' src="https://www.akgec.ac.in/wp-content/themes/twentysixteen/img/AKGEC_1_0.png" alt="" />
+                  <img className='h-16 w-16 ' src="https://www.akgec.ac.in/wp-content/themes/twentysixteen/img/AKGEC_1_0.png" alt="" />
+                  <span className=" text-2xl font-semibold whitespace-nowrap dark:text-black">AKGU</span>
                   <div className="-mr-2">
                     <button
                       type="button"
