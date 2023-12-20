@@ -154,7 +154,7 @@ const Facultycards = () => {
         // infiniteLoop={true}
         className="block sm:hidden faculty-middle"
       >
-        <div className="container">
+        <div className="container ml-[4vw]">
           <div className="card">
             <div className="imgBx">
               <img
@@ -172,7 +172,7 @@ const Facultycards = () => {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container ml-[4vw]">
           <div className="card">
             <div className="imgBx">
               <img
@@ -190,7 +190,7 @@ const Facultycards = () => {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container ml-[4vw]">
           <div className="card">
             <div className="imgBx">
               <img className="" src="../../Images/hod1.png" />
@@ -205,7 +205,7 @@ const Facultycards = () => {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="container ml-[4vw]">
           <div className="card">
             <div className="imgBx">
               <img className="" src="../../Images/ruchi-ma'am.png" />
@@ -221,7 +221,7 @@ const Facultycards = () => {
           </div>
         </div>
 
-        <div className="container">
+        <div className="container ml-[4vw]">
           <div className="card">
             <div className="imgBx">
               <img
