@@ -50,7 +50,18 @@ const Mentors = () => {
      
      <h1 className='text-4xl font-semibold text-center pt-14 pb-10 text-customblue'>Industry Mentors</h1>
      <Slider {...settings}>
-         
+
+       
+        <div className=" py-4 px-3">
+           <div className='flex flex-col items-center mt-3'>
+            <img src={ava01} className='w-40 h-40 rounded-2' alt="" />
+            <div>
+                <h6 className='mb-0 mt-3'>Sh. Ashok Pal</h6>
+                <p>Chairman</p>
+                <p>AKGEC</p>
+            </div>
+           </div>
+        </div>  
        
 
         <div className=" py-4 px-3">
@@ -96,28 +107,7 @@ const Mentors = () => {
             </div>
            </div>
         </div>
-
-        <div className=" py-4 px-3">
-           <div className='flex flex-col items-center mt-3'>
-            <img src={ava01} className='w-40 h-40 rounded-2' alt="" />
-            <div>
-                <h6 className='mb-0 mt-3'>Sh. Ashok Pal</h6>
-                <p>Chairman</p>
-                <p>AKGEC</p>
-            </div>
-           </div>
-        </div>
-
-        <div className=" py-4 px-3">
-           <div className='flex flex-col items-center mt-3'>
-            <img src={ava02} className='w-40 h-40 rounded-2' alt="" />
-            <div>
-                <h6 className='mb-0 mt-3'>Dr R.K. Agarwal</h6>
-                <p>Director General</p>
-                <p>AKGEC</p>
-            </div>
-           </div>
-        </div>
+  
 
      </Slider>
      </div>

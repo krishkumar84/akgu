@@ -23,7 +23,7 @@ function BachelorCards() {
 
     
     <div className="  w-full h-auto flex flex-wrap flex-row items-center justify-center bg-customWhite">
-  <div className="sm:w-3/4 md:w-1/3 lg:w-1/4 w-full p-4 shadow-lg m-3 bg-white">
+  <div className="sm:w-3/4 h-[470px]  md:w-1/3 lg:w-1/4 w-full p-4 shadow-lg m-3 bg-white">
 
     <div className=" overflow-hidden">
       <img className="h-[250px] w-full object-cover" src="../../Images/pro2.jpg" alt="" />
@@ -38,19 +38,19 @@ function BachelorCards() {
           <FontAwesomeIcon icon={faClock} className="mr-2" />
           <p>Duration: 4 years</p>
         </div>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 mt-9" onClick={openPopup1}>Know More</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 mt-4" onClick={openPopup1}>Know More</button>
       </div>
     </div>
   </div>
 
   {popupVisible1 && (
           <div className="fixed w-[100vw] top-0 h-[100vh] bg-[#00000086]  flex items-center justify-center left-0 z-50">
-            <div className="rounded-xl  w-[50%] md:w-[25%] m-auto shadow-2xl bg-[#f5f5f5]  border-yellow-300 border-2 ">
+            <div className="rounded-xl  w-3/4 md:w-1/3  lg:w-1/4 m-auto shadow-2xl bg-[#f5f5f5]  border-yellow-300 border-2 ">
               
                 <div className="">
                  <Form/>
                  <button
-                  className=" top-0  sticky bg-yellow-300 px-4 py-2 rounded-tl-[50px]  text-5xl left-[60%]"
+                  className=" top-0  sticky bg-yellow-300 px-4 py-2 rounded-tl-[50px]  text-5xl left-[100%]"
                   onClick={closePopup1}
                 >
                   ×
@@ -64,7 +64,7 @@ function BachelorCards() {
         )}
 
    
-   <div className="sm:w-3/4 h-[470px] md:w-1/3 lg:w-1/4 w-full p-4  m-3 bg-white">
+   <div className="sm:w-3/4 h-[470px] md:w-1/3 lg:w-1/4 w-full p-4 shadow-lg m-3 bg-white">
     <div className="overflow-hidden">
       <img className="h-[250px] w-full object-cover  " src="../../Images/pro1.jpg" alt="" />
       <div className="p-4">
@@ -77,12 +77,12 @@ function BachelorCards() {
           <FontAwesomeIcon icon={faClock} className="mr-2" />
           <p>Duration: 4 years</p>
         </div>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 mt-9"  onClick={openPopup1}>Know More</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 mt-8"  onClick={openPopup1}>Know More</button>
       </div>
     </div>
   </div>
 
-  <div className="sm:w-3/4 h-[470px] md:w-1/3 lg:w-1/4 w-full  p-4  m-3 bg-white">
+  <div className="sm:w-3/4 h-[470px] md:w-1/3 lg:w-1/4 w-full  p-4 shadow-lg m-3 bg-white">
     <div className="overflow-hidden">
       <img className="h-[250px] w-full object-cover" src="../../Images/download_1.jpg" alt="" />
       <div className="p-4">
@@ -102,7 +102,7 @@ function BachelorCards() {
     
   
      
-  <div className="sm:w-3/4 h-[470px] md:w-1/3 lg:w-1/4 w-full p-4  m-3 bg-white">
+  <div className="sm:w-3/4 h-[470px] md:w-1/3 lg:w-1/4 w-full p-4 shadow-lg m-3 bg-white">
     <div className=" overflow-hidden">
       <img className="h-[250px] w-full object-cover" src="../../Images/pro3.jpeg" alt="" />
       <div className="p-4">
@@ -120,7 +120,7 @@ function BachelorCards() {
     </div>
   </div>
   
-  <div className="sm:w-3/4 h-[470px] md:w-1/3 lg:w-1/4 w-full p-4 m-3 bg-white">
+  <div className="sm:w-3/4 h-[470px] md:w-1/3 lg:w-1/4 w-full p-4 m-3 shadow-lg bg-white">
     <div className=" overflow-hidden">
       <img className="h-[250px] w-full object-cover" src="../../Images/pro4.avif" alt="" />
       <div className="p-4">
@@ -139,7 +139,7 @@ function BachelorCards() {
     </div>
   </div>
     
-  <div className="sm:w-3/4 h-[470px] md:w-1/3 lg:w-1/4 w-full p-4  m-3 bg-white">
+  <div className="sm:w-3/4 h-[470px] md:w-1/3 lg:w-1/4 w-full p-4  m-3 shadow-lg bg-white">
     <div className="overflow-hidden">
       <img className="h-[250px] w-full object-cover" src="../../Images/pro5.jpg" alt="" />
       <div className="p-4">

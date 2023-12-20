@@ -9,7 +9,7 @@ function Highlights() {
       <div className='flex flex-wrap flex-row items-center justify-center px-4 md:px-24 pb-7 pt-10'>
        
         <div className="flex flex-col w-full shadow-lg  md:1/2 lg:w-1/4 lg:h-48 items-center text-gray-600 mb-10 md:mr-6 p-4 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none bg-white  ">
-          <FontAwesomeIcon icon={faUser} className="h-10 mb-10 text-customblue" />
+          <FontAwesomeIcon icon={faUser} className="h-10 mb-10 text-red-400" />
           <p className='text-center'>Hand Holding By Student Relationship Managers </p>
         </div>
         <div className="flex flex-col w-full shadow-lg md:1/2 lg:w-1/4 lg:h-48 items-center text-gray-600 mb-10 md:mr-6 p-4 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none bg-white ">
@@ -17,19 +17,19 @@ function Highlights() {
           <p className='text-center'>Hands-on & Immersive Learning </p>
         </div>
         <div className="flex flex-col w-full shadow-lg md:1/2 lg:w-1/4 lg:h-48 items-center text-gray-600 mb-10 md:mr-6 p-4 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none bg-white">
-          <FontAwesomeIcon icon={faHandshake} className="h-10 mb-10 text-black" />
+          <FontAwesomeIcon icon={faHandshake} className="h-10 mb-10 text-amber-300" />
           <p className='text-center'>100+ Hiring Partners</p>
         </div>
         <div className="flex flex-col w-full shadow-lg md:1/2  lg:w-1/4 lg:h-48 items-center text-gray-600 mb-10 md:mr-6 p-4 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none bg-white">
-          <FontAwesomeIcon icon={faBookOpenReader} className="h-10 mb-10 text-customblack" />
+          <FontAwesomeIcon icon={faBookOpenReader} className="h-10 mb-10 text-lime-800" />
           <p className='text-center'>Hands-on & Immersive Learning </p>
         </div>
         <div className="flex flex-col w-full  shadow-lg md:1/2 lg:w-1/4 lg:h-48 items-center text-gray-600 mb-10 md:mr-6 p-4 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none bg-white">
-          <FontAwesomeIcon icon={faUser} className="h-10 mb-10 text-customblue" />
+          <FontAwesomeIcon icon={faUser} className="h-10 mb-10 text-amber-950" />
           <p className='text-center'>Personalized Mentorship By Top Industry Leaders </p>
         </div>
         <div className="flex flex-col w-full shadow-lg md:1/2 lg:w-1/4 lg:h-48 items-center text-gray-600 mb-10 md:mr-6 p-4 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none bg-white">
-          <FontAwesomeIcon icon={faBookOpen} className="h-10 mb-10 text-customGrey" />
+          <FontAwesomeIcon icon={faBookOpen} className="h-10 mb-10 text-pink-700" />
           <p className='text-center'>Portfolio Building With Real-world Industry Projects </p>
         </div>
       </div>
