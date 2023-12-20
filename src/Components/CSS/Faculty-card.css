@@ -218,13 +218,13 @@
     }
   }
 
-  @media (width:375px){
+  @media (max-width:320px){
      .faculty-middle .container{
-      margin-left: 6.8vw;
+      margin-right: 0.1vw;
      }
   }
 
-  @media (min-width:350px) {
+  @media (max-width:350px) {
     .faculty-middle .container{
       margin-left: 4vw;
      }

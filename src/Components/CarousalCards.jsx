@@ -14,10 +14,10 @@ const CarousalCards = () => {
   return (
     <>
       <div className="main-carousel-cards mb-24 mt-24">
-        <h1 className="mb-[5vh] sm:ml-[9vw] text-4xl font-bold">
-          Explore Our Online Degree Programs
+        <h1 className="mb-[2vh] sm:ml-[9vw] p-3 text-4xl font-bold">
+          Explore Our Degree Programs
         </h1>
-        <hr className="mb-[5vh] sm:w-[82%] sm:ml-32" />
+        <hr className="mb-[3vh] sm:w-[82%] sm:ml-32" />
 
         <div className="bg-black sm:h-[85vh] w-[100%] overflow-hidden">
           <Swiper
@@ -195,9 +195,9 @@ const CarousalCards = () => {
           >
             <div className=" boxes h-[70vh] sm:w-[100%]  ">
               <img
-                  src="https://www.krmangalam.edu.in/Uploads/blogs/346bs_BlogBanner2.webp"
+                  src="https://i.pinimg.com/564x/2e/f0/0e/2ef00e15b491ea75b73d228dca4596e4.jpg"
                   alt="AirMax Pro"
-                className="z-0 h-[84%] w-[100%]"
+                className=" h-[90%] w-[100%]"
               />
               <div className="absolute w-[100%]  inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
               <div className="absolute bottom-4 left-4 text-left">
@@ -225,9 +225,9 @@ const CarousalCards = () => {
             </div>
             <div className=" boxes h-[70vh] sm:w-[100%]  ">
               <img
-                  src="https://www.ncertbooks.guru/wp-content/uploads/2022/03/Diploma-Course-After-Ba.png"
+                  src="https://images.unsplash.com/photo-1501556466850-7c9fa1fccb4c?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="AirMax Pro"
-                className="z-0 h-[73%] w-[100%]"
+                className="z-0 h-[100%] w-[100%]"
               />
               <div className="absolute w-[100%]  inset-0 bg-gradient-to-t from-gray-900 to-transparent"></div>
               <div className="absolute bottom-4 left-4 text-left">
@@ -255,7 +255,7 @@ const CarousalCards = () => {
             </div>
             <div className=" boxes h-[70vh] sm:w-[100%]  ">
               <img
-                  src="https://images.shiksha.com/mediadata/images/articles/1693301376phpAQDwXC.jpeg"
+                  src="https://i.pinimg.com/564x/9c/6c/8d/9c6c8d65c57cfb431861737d7f3b6e62.jpg"
                   alt="AirMax Pro"
                 className="z-0 h-[100%] w-[100%] object-cover"
               />

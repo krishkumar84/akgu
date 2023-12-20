@@ -12,6 +12,7 @@ import { useRef } from "react";
 import LocomotiveScroll from 'locomotive-scroll';
 import AchievementCarousal from '../Components/AchievementCarousal'
 import Placements from '../Components/Placements'
+import "../index.css"
 
 const Home = () => {
 
@@ -31,7 +32,7 @@ const Home = () => {
     },[])
   return (
     <>
-      <div ref={scrollRef} className='data-scroll-container sm:h-[918vh] '>
+      <div ref={scrollRef} className='data-scroll-container loco'>
         <Navbar />
         <Carousal />
         <Cards/>
