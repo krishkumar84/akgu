@@ -38,14 +38,14 @@ function BachelorCards() {
           <FontAwesomeIcon icon={faClock} className="mr-2" />
           <p>Duration: 4 years</p>
         </div>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 mt-9" onClick={openPopup1}>Know More</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 mt-4" onClick={openPopup1}>Know More</button>
       </div>
     </div>
   </div>
 
   {popupVisible1 && (
           <div className="fixed w-[100vw] top-0 h-[100vh] bg-[#00000086]  flex items-center justify-center left-0 z-50">
-            <div className="rounded-xl  w-[50%] md:w-[25%] m-auto shadow-2xl bg-[#f5f5f5]  border-yellow-300 border-2 ">
+            <div className="rounded-xl  w-3/4 sm:w-1/3  lg:w-1/4 m-auto shadow-2xl bg-[#f5f5f5]  border-yellow-300 border-2 ">
               
                 <div className="">
                  <Form/>
@@ -77,7 +77,7 @@ function BachelorCards() {
           <FontAwesomeIcon icon={faClock} className="mr-2" />
           <p>Duration: 4 years</p>
         </div>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 mt-9"  onClick={openPopup1}>Know More</button>
+        <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 mt-8"  onClick={openPopup1}>Know More</button>
       </div>
     </div>
   </div>
