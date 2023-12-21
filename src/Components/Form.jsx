@@ -71,6 +71,27 @@ function Form() {
               placeholder='Mobile*'
               required
             />
+
+            <div className=' m-1 w-[90%] flex'>
+            <input
+               className='p-2 w-[50%] border-2'
+               type='text'
+               id='otp'
+               onChange={(e) => setOtp(e.target.value)}
+               placeholder='Enter OTP*'
+               required
+             />
+
+            
+              <button className='bg-green-300 ml-2 py-1 px-4 rounded-lg' type='button'>
+                Verify
+               </button>
+                <button className='bg-blue-300 ml-2 py-1 px-4 rounded-lg' type='button'>
+                 Resend
+            </button>
+            </div>
+
+          
             <input
               className=' p-2 m-1 w-[90%] border-2'
               type="text"
@@ -87,6 +108,17 @@ function Form() {
               placeholder='City'
               required
             />
+              <select
+                 className='p-2 m-1 w-[90%] border-2  text-gray-400 '
+                 id="programType"
+                 onChange={(e) => setProgramType(e.target.value)}
+                 required
+                 >
+                 <option className='text-gray-500' value="type" disabled selected>Select Program Type*</option>
+                 <option value="Certificate">PG</option>
+                 <option value="Diploma">UG</option>
+               </select>
+
             <input
               className=' p-2 m-1 w-[90%] border-2'
               type='text'
