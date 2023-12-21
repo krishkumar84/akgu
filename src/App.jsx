@@ -13,8 +13,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home2" element={<Home2 />} />
+        <Route path="/home2" element={<Home />} />
+        <Route path="/" element={<Home2 />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/form" element={<Form />} />
       </Routes>
