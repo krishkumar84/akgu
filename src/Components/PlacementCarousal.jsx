@@ -19,7 +19,7 @@ const PlacementCarousal = () => {
               className="block sm:hidden placement"
             >
               
-          <div className="w-full  hover:scale-110  transition-transform lg:-mr-2 lg:w-1/3">
+          <div className="w-full  hover:scale-110 hover:cursor-pointer transition-transform lg:-mr-2 lg:w-1/3">
             <div className="mx-auto max-w-sm rounded-md border border-gray-200 bg-white pb-[8vh] pl-5 pr-8 pt-6 lg:pb-8">
             <a href="https://www.akgec.ac.in/placement-highlights/">
             <img src="https://media.licdn.com/dms/image/C4E03AQHOT6IGmZC-fA/profile-displayphoto-shrink_800_800/0/1641287483407?e=1708560000&v=beta&t=_ClIgDD3yHhA7R_Yqwh6TwBygCAtvCuHRHSJd3AfDhk" className='h-auto mb-6 rounded-b-xl  bg-cover' />
