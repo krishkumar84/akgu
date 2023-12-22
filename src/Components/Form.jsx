@@ -4,19 +4,24 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 function Form() {
-  const [name, setName] = useState("");
+  const [f_name, setFirstName] = useState("");
+  const [l_name, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [mobile, setMobile] = useState("");
+  const [ProgramType, setProgramType] = useState("");
   const [state, setState] = useState("");
   const [city, setCity] = useState("");
+  const [otp, setOtp] = useState("");
   const [courses, setCourses] = useState("");
   const [error, setError] = useState(null);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://akgu-backend.onrender.com/api/form", { name, email, mobile, state, city, courses });
+      const res = await axios.post("https://akgu-backend.onrender.com/api/form", { f_name,l_name, email, mobile, state, city, courses });
 
+
+      console.log(res);
       if (res.data.success) {
         // If success is true, show a success toast
         toast.success('Form submitted successfully!', {
@@ -42,31 +47,95 @@ function Form() {
     }
   };
 
+
+
+  const sendEmail = async (e) => {
+    e.preventDefault();
+    try {
+      const res = await axios.post("https://akgu-backend.onrender.com/api/otp", { email });
+
+      if (res.data.success) {
+        // If success is true, show a success toast
+        toast.success('otp send successfully!', {
+          position: toast.POSITION.BOTTOM_CENTER,
+          autoClose: 5000, // Close the toast after 5 seconds
+        });
+
+        // setOtp("");
+        
+
+      } else {
+        // If success is false, display the error message
+        setError(res.data.message);
+      }
+    } catch (err) {
+      // Handle other errors, e.g., network issues
+      setError("An error occurred. Please try again.");
+    }
+  };
+
+  const verifyOtp = async (e) => {
+    e.preventDefault();
+    try {
+      const res = await axios.post("https://akgu-backend.onrender.com/api/verify", { otp });
+      console.log(res); // Log the response to the console
+
+      if (res.data.success) {
+        // If success is true, show a success toast
+       
+        toast.success('otp send successfully!', {
+          position: toast.POSITION.BOTTOM_CENTER,
+          autoClose: 5000, // Close the toast after 5 seconds
+        });
+
+        setOtp("");
+        
+
+      } else {
+        // If success is false, display the error message
+        setError(res.data.message);
+      }
+    } catch (err) {
+      // Handle other errors, e.g., network issues
+      setError("An error occurred. Please try again.");
+    }
+  };
+
   return (
     <>
       
           <h1 className='text-3xl text-center p-6 font-semibold'>Know More</h1>
           <form className='flex flex-col items-center justify-center ' onSubmit={handleSubmit}>
+        <div className='m-1 w-[90%] flex'>
             <input
               className=' p-2 m-1 w-[90%] border-2 rounded-md'
               type="text"
-              id="username"
-              onChange={(e) => setName(e.target.value)}
-              placeholder='Name*'
+              id="f_name"
+              onChange={(e) => setFirstName(e.target.value)}
+              placeholder='First Name*'
               required
             />
-
+            <input
+              className=' p-2 m-1 w-[90%] border-2 rounded-md'
+              type="text"
+              id="l_name"
+              onChange={(e) => setLastName(e.target.value)}
+              placeholder='Last Name*'
+              required
+            />
+        </div>
             <div className='m-1 w-[90%] flex'>
             <input
               className=' p-2 w-[65%] border-2 rounded-md'
               type="email"
               id="email"
               onChange={(e) => setEmail(e.target.value)}
+              
               placeholder='Email*'
               required
             />
 
-             <button className='bg-green-300 ml-2 py-1 px-4 rounded-lg' type='button'>
+             <button onClick={sendEmail} className='bg-green-300 ml-2 py-1 px-4 rounded-lg' type='button'>
                 Send OTP
                </button>
                </div>
@@ -91,10 +160,10 @@ function Form() {
              />
 
             
-              <button className='bg-green-300 ml-2 py-1 px-4 rounded-lg' type='button'>
+              <button onClick={verifyOtp} className='bg-green-300 ml-2 py-1 px-4 rounded-lg' type='button'>
                 Verify
                </button>
-                <button className='bg-blue-300 ml-2 py-1 px-4 rounded-lg' type='button'>
+                <button  onClick={sendEmail} className='bg-blue-300 ml-2 py-1 px-4 rounded-lg' type='button'>
                  Resend
             </button>
             </div>
