@@ -5,8 +5,9 @@ import Form from '../Components/Form';
 const Formback = () => {
   return (
     <>
-    <div className=" h-screen w-screen flex items-center justify-center  " style={{
-        backgroundImage: 'url("/Images/backg.webp")' ,
+    <div className=" h-screen  w-screen flex items-center justify-center  " style={{
+      
+        backgroundImage: 'url("/Images/Group 1.png")' ,
          backgroundRepeat: 'no-repeat' ,
          backgroundSize: 'cover',
          backgroundPosition: 'center',
