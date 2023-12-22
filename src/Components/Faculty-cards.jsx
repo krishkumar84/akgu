@@ -58,7 +58,7 @@ const Facultycards = () => {
                 <div className="color">
                   <h1>Director General</h1>
                 </div>
-                <a href="#">View Profile</a>
+                <a href="https://www.akgec.ac.in/about/director/">View Profile</a>
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ const Facultycards = () => {
                 <div className="color">
                   <h1>Chairman</h1>
                 </div>
-                <a href="#">View Profile</a>
+                <a href="https://www.akgec.ac.in/about/management/">View Profile</a>
               </div>
             </div>
           </div>
@@ -98,7 +98,7 @@ const Facultycards = () => {
                 <div className="color">
                   <h1>IT HOD</h1>
                 </div>
-                <a href="#">View Profile</a>
+                <a href="https://www.akgec.ac.in/it-faculty/">View Profile</a>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ const Facultycards = () => {
                 <div className="color">
                   <h1>Assistant Profesor</h1>
                 </div>
-                <a href="#">View Profile</a>
+                <a href="https://www.akgec.ac.in/it-faculty/">View Profile</a>
               </div>
             </div>
           </div>
@@ -138,7 +138,7 @@ const Facultycards = () => {
                 <div className="color">
                   <h1>Assistant Profesor</h1>
                 </div>
-                <a href="#">View Profile</a>
+                <a href="https://www.akgec.ac.in/it-faculty/">View Profile</a>
               </div>
             </div>
           </div>
@@ -168,7 +168,7 @@ const Facultycards = () => {
               <div className="color">
                 <h1>Director General</h1>
               </div>
-              <a href="#">View Profile</a>
+              <a href="https://www.akgec.ac.in/about/director/">View Profile</a>
             </div>
           </div>
         </div>
@@ -186,7 +186,7 @@ const Facultycards = () => {
               <div className="color">
                 <h1>Chairman AKGIM</h1>
               </div>
-              <a href="#">View Profile</a>
+              <a href="https://www.akgec.ac.in/about/management/">View Profile</a>
             </div>
           </div>
         </div>
@@ -201,7 +201,7 @@ const Facultycards = () => {
               <div className="color">
                 <h1>IT HOD</h1>
               </div>
-              <a href="#">View Profile</a>
+              <a href="https://www.akgec.ac.in/it-faculty/">View Profile</a>
             </div>
           </div>
         </div>
@@ -216,7 +216,7 @@ const Facultycards = () => {
                 <div className="color">
                   <h1>Assistant Profesor</h1>
                 </div>
-                <a href="#">View Profile</a>
+                <a href="https://www.akgec.ac.in/it-faculty/">View Profile</a>
               </div>
           </div>
         </div>
@@ -235,7 +235,7 @@ const Facultycards = () => {
               <div className="color">
                 <h1>Assistant Profesor</h1>
               </div>
-              <a href="#">View Profile</a>
+              <a href="https://www.akgec.ac.in/it-faculty/">View Profile</a>
             </div>
           </div>
         </div>

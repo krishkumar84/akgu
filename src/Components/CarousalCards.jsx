@@ -65,9 +65,9 @@ const CarousalCards = () => {
                     Embark on a transformative journey with our Bachelor of
                     Technology (B.Tech) degree program.
                   </p>
-                  <button className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+                  <a className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white" href="https://www.akgec.ac.in/courses-offered/">
                     Explore Degree &rarr;
-                  </button>
+                  </a>
                 </div>
               </div>
             </SwiperSlide>
@@ -84,9 +84,9 @@ const CarousalCards = () => {
                   <p className=" text-sm text-gray-300">
                   Unleash your creativity, critical thinking, and communication skills with our Bachelor of Arts (BA) degree program.
                   </p>
-                  <button className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+                  <a className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white" href="https://www.akgec.ac.in/courses-offered/">
                     Explore Degree &rarr;
-                  </button>
+                  </a>
                 </div>
               </div>
             </SwiperSlide>
@@ -103,9 +103,9 @@ const CarousalCards = () => {
                   <p className=" text-sm text-gray-300">
                   Embark on a focused and hands-on educational journey with our <br /> Diploma program. 
                   </p>
-                  <button className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+                  <a className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white" href="https://www.akgec.ac.in/courses-offered/">
                     Explore Degree &rarr;
-                  </button>
+                  </a>
                 </div>
               </div>
             </SwiperSlide>
@@ -122,9 +122,9 @@ const CarousalCards = () => {
                   <p className="text-sm text-gray-300">
                   Advance your career with our Master's program, designed for professionals seeking to excel in their chosen field.
                   </p>
-                  <button className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+                  <a className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white" href="https://www.akgec.ac.in/courses-offered/">
                     Explore Degree &rarr;
-                  </button>
+                  </a>
                 </div>
               </div>
             </SwiperSlide>
@@ -141,9 +141,9 @@ const CarousalCards = () => {
                   <p className=" text-sm text-gray-300">
                   Embark on a journey of scientific discovery with our Bachelor of Science (BSc) program.
                   </p>
-                  <button className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+                  <a className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white" href="https://www.akgec.ac.in/courses-offered/">
                     Explore Degree &rarr;
-                  </button>
+                  </a>
                 </div>
               </div>
             </SwiperSlide>
@@ -160,9 +160,9 @@ const CarousalCards = () => {
                   <p className=" text-sm text-gray-300">
                   Prepare for leadership excellence and strategic thinking with our Master of Business Administration (MBA) program.
                   </p>
-                  <button className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+                  <a className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white" href="https://www.akgec.ac.in/courses-offered/">
                     Explore Degree &rarr;
-                  </button>
+                  </a>
                 </div>
               </div>
             </SwiperSlide>
@@ -179,9 +179,9 @@ const CarousalCards = () => {
                   <p className=" text-sm text-gray-300">
                   Unleash your potential in the world of commerce with our Bachelor of Commerce (BCom) program.
                   </p>
-                  <button className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+                  <a className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white" href="https://www.akgec.ac.in/courses-offered/">
                     Explore Degree &rarr;
-                  </button>
+                  </a>
                 </div>
               </div>
             </SwiperSlide>
@@ -203,9 +203,9 @@ const CarousalCards = () => {
               <div className="absolute bottom-4 left-4 text-left">
                 <h1 className="text-lg mb-2 font-semibold text-white">B.TECH</h1>
                 
-                <button className=" bg-red-500 mb-4 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+                <a className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white" href="https://www.akgec.ac.in/courses-offered/">
                     Explore Degree &rarr;
-                  </button>
+                  </a>
               </div>
             </div>
             <div className=" boxes h-[70vh] sm:w-[100%]  ">
@@ -218,9 +218,9 @@ const CarousalCards = () => {
               <div className="absolute bottom-4 left-4 text-left">
                 <h1 className="text-lg mb-2 font-semibold text-white">BACHELOR OF ARTS</h1>
                 
-                 <button className=" bg-red-500 mb-4 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+                <a className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white" href="https://www.akgec.ac.in/courses-offered/">
                     Explore Degree &rarr;
-                  </button>
+                  </a>
               </div>
             </div>
             <div className=" boxes h-[70vh] sm:w-[100%]  ">
@@ -233,9 +233,9 @@ const CarousalCards = () => {
               <div className="absolute bottom-4 left-4 text-left">
                 <h1 className="text-lg mb-2 font-semibold text-white">DIPLOMA</h1>
                 
-                <button className=" bg-red-500 mb-4 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+                <a className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white" href="https://www.akgec.ac.in/courses-offered/">
                     Explore Degree &rarr;
-                  </button>
+                  </a>
               </div>
             </div>
             <div className=" boxes h-[70vh] sm:w-[100%]  ">
@@ -248,9 +248,9 @@ const CarousalCards = () => {
               <div className="absolute bottom-4 left-4 text-left">
                 <h1 className="text-lg mb-2 font-semibold text-white">MASTERS</h1>
                 
-                <button className=" bg-red-500 mb-4 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+                <a className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white" href="https://www.akgec.ac.in/courses-offered/">
                     Explore Degree &rarr;
-                  </button>
+                  </a>
               </div>
             </div>
             <div className=" boxes h-[70vh] sm:w-[100%]  ">
@@ -263,9 +263,9 @@ const CarousalCards = () => {
               <div className="absolute bottom-4 left-4 text-left">
                 <h1 className="text-lg mb-2 font-semibold text-white">BACHELOR OF SCIENCE</h1>
               
-                <button className=" bg-red-500 mb-4 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+                <a className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white" href="https://www.akgec.ac.in/courses-offered/">
                     Explore Degree &rarr;
-                  </button>
+                  </a>
               </div>
             </div>
             <div className=" boxes h-[70vh] sm:w-[100%]  ">
@@ -278,9 +278,9 @@ const CarousalCards = () => {
               <div className="absolute bottom-4 left-4 text-left">
                 <h1 className="text-lg mb-2 font-semibold text-white">MBA</h1>
                 
-                <button className=" bg-red-500 mb-4 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+                <a className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white" href="https://www.akgec.ac.in/courses-offered/">
                     Explore Degree &rarr;
-                  </button>
+                  </a>
               </div>
             </div>
             <div className=" boxes h-[70vh] sm:w-[100%]  ">
@@ -293,9 +293,9 @@ const CarousalCards = () => {
               <div className="absolute bottom-4 left-4 text-left">
                 <h1 className="text-lg mb-2 font-semibold text-white">BACHELOR OF COMMERCE</h1>
                 
-                <button className=" bg-red-500 mb-4 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
+                <a className="ml-56 bg-red-500 p-4 rounded-lg hover:bg-red-700 h-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white" href="https://www.akgec.ac.in/courses-offered/">
                     Explore Degree &rarr;
-                  </button>
+                  </a>
               </div>
             </div>
           </Carousel>
