@@ -8,6 +8,7 @@ const Formback = () => {
     <div className=" h-screen  w-screen flex items-center justify-center  " style={{
       
         backgroundImage: 'url("/Images/Group 1.png")' ,
+        opacity:'',
          backgroundRepeat: 'no-repeat' ,
          backgroundSize: 'cover',
          backgroundPosition: 'center',
