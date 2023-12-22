@@ -48,23 +48,31 @@ function Form() {
           <h1 className='text-3xl text-center p-6 font-semibold'>Know More</h1>
           <form className='flex flex-col items-center justify-center ' onSubmit={handleSubmit}>
             <input
-              className=' p-2 m-1 w-[90%] border-2'
+              className=' p-2 m-1 w-[90%] border-2 rounded-md'
               type="text"
               id="username"
               onChange={(e) => setName(e.target.value)}
               placeholder='Name*'
               required
             />
+
+            <div className='m-1 w-[90%] flex'>
             <input
-              className=' p-2 m-1 w-[90%] border-2'
+              className=' p-2 w-[65%] border-2 rounded-md'
               type="email"
               id="email"
               onChange={(e) => setEmail(e.target.value)}
               placeholder='Email*'
               required
             />
+
+             <button className='bg-green-300 ml-2 py-1 px-4 rounded-lg' type='button'>
+                Send OTP
+               </button>
+               </div>
+
             <input
-              className=' p-2 m-1 w-[90%] border-2'
+              className=' p-2 m-1 w-[90%] border-2 rounded-md'
               type="tel"
               id="mobile"
               onChange={(e) => setMobile(e.target.value)}
@@ -74,7 +82,7 @@ function Form() {
 
             <div className=' m-1 w-[90%] flex'>
             <input
-               className='p-2 w-[50%] border-2'
+               className='p-2 w-[50%] border-2 rounded-md'
                type='text'
                id='otp'
                onChange={(e) => setOtp(e.target.value)}
@@ -93,7 +101,7 @@ function Form() {
 
           
             <input
-              className=' p-2 m-1 w-[90%] border-2'
+              className=' p-2 m-1 w-[90%] border-2 rounded-md'
               type="text"
               id="state"
               onChange={(e) => setState(e.target.value)}
@@ -101,7 +109,7 @@ function Form() {
               required
             />
             <input
-              className=' p-2 m-1 w-[90%] border-2'
+              className=' p-2 m-1 w-[90%] border-2 rounded-md'
               type="text"
               id="city"
               onChange={(e) => setCity(e.target.value)}
@@ -109,7 +117,7 @@ function Form() {
               required
             />
               <select
-                 className='p-2 m-1 w-[90%] border-2  text-gray-400 '
+                 className='p-2 m-1 w-[90%] border-2  rounded-md  text-gray-400 '
                  id="programType"
                  onChange={(e) => setProgramType(e.target.value)}
                  required
@@ -120,7 +128,7 @@ function Form() {
                </select>
 
             <input
-              className=' p-2 m-1 w-[90%] border-2'
+              className=' p-2 m-1 w-[90%] border-2 rounded-md'
               type='text'
               id="courses"
               onChange={(e) => setCourses(e.target.value)}
