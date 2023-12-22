@@ -14,7 +14,7 @@ export default function Navbar() {
     <>
 
 <div className="relative w-full h-16 bg-white">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2  sm:px-6 lg:px-8">
       <a href="https://www.akgec.ac.in/" className="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="https://www.akgec.ac.in/wp-content/themes/twentysixteen/img/AKGEC_1_0.png" className="h-12" alt="AKGU Logo" />
       <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black">AKGU</span></a>
@@ -27,12 +27,12 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="hidden lg:block">
-          <Link to='/form'><button
+          {/* <Link to='/form'><button
             type="button"
             className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
           >
             Enroll Now 
-          </button></Link>
+          </button></Link> */}
         </div>
         <div className="lg:hidden">
           <Menu onClick={toggleMenu} className="h-6 w-6 cursor-pointer" />
@@ -62,13 +62,13 @@ export default function Navbar() {
                    <Link to="/contact"><li className="text-sm font-semibold text-gray-800 hover:text-gray-900">Contact</li></Link>
                   </nav>
                 </div>
-                <Link to='/form'>
+                {/* <Link to='/form'>
                 <button
                   type="button"
                   className="mt-4 w-full rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
                   Enroll Now
-                </button></Link>
+                </button></Link> */}
               </div>
             </div>
           </div>

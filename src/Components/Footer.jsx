@@ -5,24 +5,25 @@ function  Footer()  {
   return (
     <footer className="w-full pb-4  mt-12">
       <hr className=" bg-black  mb-6" />
-      <div className="mx-auto flex max-w-6xl flex-col items-start space-x-8 md:flex-row">
+      <div className="mx-auto flex max-w-6xl flex-col items-start space-x-32 md:flex-row">
         <div className="w-full px-4 md:w-1/2 lg:px-0">
-          <h1 className="max-w-sm text-4xl font-bold">Admission in Akgu</h1>
+          <h1 className="max-w-sm text-4xl font-bold">Locate Us</h1>
           <form
             action=""
-            className="mt-8 inline-flex w-full items-center md:w-3/4"
+            className="mt-2 inline-flex w-full items-center md:w-3/4"
           >
-            <input
-              className="flex h-10 w-full rounded-md border border-black/20 bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
-              type="email"
-              placeholder="Email"
-            ></input>
-            <button
-              type="button"
-              className="ml-4 rounded-full bg-black px-3 py-3 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-            >
-              <ChevronRight className="h-4 w-4" />
-            </button>
+           <div className="formMap mt-4 sm:w-44 w-76">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.467007802247!2d77.49981541461779!3d28.67567358240077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf30885b1e2a5%3A0x9983675e24c6638b!2sAKGEC%3A%20Ajay%20Kumar%20Garg%20Engineering%20College%2C%20Ghaziabad!5e0!3m2!1sen!2sin!4v1676826055930!5m2!1sen!2sin"
+                width="400"
+                height="180"
+                title="location"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </form>
         </div>
         <div className="mt-8 grid grid-cols-2 gap-6 md:mt-0 lg:w-3/4 lg:grid-cols-3">
