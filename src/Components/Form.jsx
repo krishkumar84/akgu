@@ -30,7 +30,7 @@ function Form() {
           courses,
         });
   
-        console.log(res.data);
+       // console.log(res.data);
         toast.success('Form submitted successfully!', {
           position: toast.POSITION.TOP_CENTER,
           autoClose: 5000, // Close the toast after 5 seconds
@@ -111,7 +111,7 @@ function Form() {
         }
       }
       catch (err) {
-      console.error("Error in verifyOtp:", err);
+     // console.error("Error in verifyOtp:", err);
       toast.error('Failed to verify OTP. Please try again.', {
       position: toast.POSITION.TOP_CENTER,
       autoClose: 5000,
@@ -125,7 +125,7 @@ function Form() {
     const fetchData = async () => {
       try {
         const response = await axios.post('https://akgu-backend.onrender.com/api/page', { });
-        console.log(response.data);
+        //console.log(response.data);
       } catch (error) {
         // Handle errors
         console.error('Error making POST request:', error);
