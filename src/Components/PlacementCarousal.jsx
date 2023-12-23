@@ -56,10 +56,10 @@ const PlacementCarousal = () => {
                 HIGHEST
                 </div>
               </div>
-              <a href="https://www.akgec.ac.in/placement-highlights/" target="_blank" rel="noopener noreferrer">
+             
 
               <img src={deepak} className='h-auto mt-0 sm:mt-7 mb-6 rounded-b-md  bg-cover' />
-              </a>
+           
               <span className="flex items-end text-white">
                 <span className="text-4xl font-extrabold leading-none">1.13</span>
                 <span className="text-2xl ml-2 font-semibold">Crore</span>
