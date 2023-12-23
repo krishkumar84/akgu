@@ -19,29 +19,42 @@ function Form() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("https://akgu-backend.onrender.com/api/form", { f_name,l_name, email, mobile, state, city, courses });
-
-
-      console.log(res);
-      if (res.data.success) {
-        // If success is true, show a success toast
-        toast.success('Form submitted successfully!', {
-          position: toast.POSITION.BOTTOM_CENTER,
-          autoClose: 5000, // Close the toast after 5 seconds
+      if (isOtpVerified) {
+        const res = await axios.post("https://akgu-backend.onrender.com/api/form", {
+          f_name,
+          l_name,
+          email,
+          mobile,
+          state,
+          city,
+          courses,
         });
-
-        setFirstName("");
-        setLastName("");
-        setEmail("");
-        setMobile("");
-        setState("");
-        setCity("");
-        setCourses("");
-
-
+  
+        console.log(res.data);
+        if (res.data.success) {
+          // If success is true, show a success toast
+          toast.success('Form submitted successfully!', {
+            position: toast.POSITION.BOTTOM_CENTER,
+            autoClose: 5000, // Close the toast after 5 seconds
+          });
+  
+          setFirstName("");
+          setLastName("");
+          setEmail("");
+          setMobile("");
+          setState("");
+          setCity("");
+          setCourses("");
+        } else {
+          // If success is false, display the error message
+          setError(res.data.message);
+        }
       } else {
-        // If success is false, display the error message
-        setError(res.data.message);
+        // Show a message indicating that the OTP is not verified
+        toast.warning('Please verify OTP before submitting the form.', {
+          position: toast.POSITION.TOP_CENTER,
+          autoClose: 5000,
+        });
       }
     } catch (err) {
       // Handle other errors, e.g., network issues
@@ -235,7 +248,7 @@ function Form() {
           <button
             className="bg-yellow-300 hover:bg-yellow-400 m-6 py-2 px-4  md:px-16 lg:px-24  rounded-lg"
             type="submit"
-            onClick={handleSubmit}
+            // onClick={handleSubmit}
           >
             Submit
           </button>
