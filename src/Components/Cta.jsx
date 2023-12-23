@@ -20,13 +20,13 @@ function Cta() {
               <form action="#" method="POST" className="mt-8 max-w-xl">
                 <div className="flex flex-col sm:flex-row sm:items-center">
                   <div className="flex w-full max-w-sm items-center space-x-2">
-                    <button
+                    <a href="/"
                       type="button"
                       className="rounded-md flex gap-2 bg-black px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                     >
                       Know More
                       <ChevronRight className="h-6 w-5" />
-                    </button>
+                    </a>
                   </div>
                 </div>
               </form>
