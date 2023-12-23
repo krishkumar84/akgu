@@ -39,12 +39,12 @@ const PlacementCarousal = () => {
                     <span className="ml-2 text-sm text-gray-900">B.TECH-IT</span>
                   </li>
                 </ul>
-                <a href="https://www.akgec.ac.in/placement-highlights/"
-                  
+                <a href="https://www.akgec.ac.in/placement-highlights/"><button
+                  type="button"
                   className="rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
                   GOOGLE
-                </a>
+                </button></a>
               </div>
             </div>
           </div>
@@ -73,11 +73,12 @@ const PlacementCarousal = () => {
                     <span className="ml-2 text-sm text-white">B.TECH-CSE</span>
                   </li>
                 </ul>
-                <a href="https://www.akgec.ac.in/placement-highlights/"
+                <a href="https://www.akgec.ac.in/placement-highlights/"><button
+                type="button"
                  className="rounded-md bg-white px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                  AMAZON
-                </a>
+                </button></a>
               </div>
             </div>
           </div>
@@ -99,11 +100,12 @@ const PlacementCarousal = () => {
                     <span className="ml-2 text-sm text-gray-900">B.TECH-CSE</span>
                   </li>
                 </ul>
-                <a href="https://www.akgec.ac.in/placement-highlights/"
+                <a href="https://www.akgec.ac.in/placement-highlights/"><button
+                type="button"
                 className="rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
                   CLOUDERA
-                </a>
+                </button></a>
               </div>
             </div>
           </div>
