@@ -9,6 +9,7 @@ import "../App.css"
 
 
 
+
 const PlacementCarousal = () => {
   return (
     <>
@@ -21,9 +22,9 @@ const PlacementCarousal = () => {
               
           <div className="w-full  hover:scale-110 hover:cursor-pointer transition-transform lg:-mr-2 lg:w-1/3">
             <div className="mx-auto max-w-sm rounded-md border border-gray-200 bg-white pb-[8vh] pl-5 pr-8 pt-6 lg:pb-8">
-            <a href="https://www.akgec.ac.in/placement-highlights/">
-            <img src="https://media.licdn.com/dms/image/C4E03AQHOT6IGmZC-fA/profile-displayphoto-shrink_800_800/0/1641287483407?e=1708560000&v=beta&t=_ClIgDD3yHhA7R_Yqwh6TwBygCAtvCuHRHSJd3AfDhk" className='h-auto mb-6 rounded-b-xl  bg-cover' />
-            </a>
+
+            <img src="https://media.licdn.com/dms/image/C4E03AQHOT6IGmZC-fA/profile-displayphoto-shrink_800_800/0/1641287483407?e=1708560000&v=beta&t=_ClIgDD3yHhA7R_Yqwh6TwBygCAtvCuHRHSJd3AfDhk" className='h-auto mb-6 rounded-b-xl  bg-cover'  />
+            
               <span className="flex items-end">
               <span className="text-4xl font-extrabold leading-none">32.41</span>
                 <span className="text-2xl ml-2 font-semibold">LPA</span>
@@ -38,12 +39,12 @@ const PlacementCarousal = () => {
                     <span className="ml-2 text-sm text-gray-900">B.TECH-IT</span>
                   </li>
                 </ul>
-                <button
-                  type="button"
+                <a href="https://www.akgec.ac.in/placement-highlights/"
+                  
                   className="rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
                   GOOGLE
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -55,8 +56,10 @@ const PlacementCarousal = () => {
                 HIGHEST
                 </div>
               </div>
-              
+              <a href="https://www.akgec.ac.in/placement-highlights/" target="_blank" rel="noopener noreferrer">
+
               <img src={deepak} className='h-auto mt-0 sm:mt-7 mb-6 rounded-b-md  bg-cover' />
+              </a>
               <span className="flex items-end text-white">
                 <span className="text-4xl font-extrabold leading-none">1.13</span>
                 <span className="text-2xl ml-2 font-semibold">Crore</span>
@@ -70,18 +73,19 @@ const PlacementCarousal = () => {
                     <span className="ml-2 text-sm text-white">B.TECH-CSE</span>
                   </li>
                 </ul>
-                <button
-                  type="button"
-                  className="rounded-md bg-white px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                <a href="https://www.akgec.ac.in/placement-highlights/"
+                 className="rounded-md bg-white px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                  AMAZON
-                </button>
+                </a>
               </div>
             </div>
           </div>
           <div className="-mt-4 w-full hover:scale-110  hover:cursor-pointer transition-transform lg:ml-2 lg:-mt-0 lg:w-1/3">
             <div className="rounded-md mx-auto max-w-sm border border-gray-200 bg-white pb-8 pl-8 pr-5 pt-12 lg:rounded-b-none lg:pt-6">
+            
             <img src={muskan} className='h-auto mb-6 rounded-b-xl  bg-cover' />
+            
               <span className="flex items-end">
               <span className="text-4xl font-extrabold leading-none">28.70</span>
                 <span className="text-2xl ml-2 font-semibold">LPA</span>
@@ -95,12 +99,12 @@ const PlacementCarousal = () => {
                     <span className="ml-2 text-sm text-gray-900">B.TECH-CSE</span>
                   </li>
                 </ul>
-                <button
-                  type="button"
+                <a href="https://www.akgec.ac.in/placement-highlights/"
+                  
                   className="rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
                   CLOUDERA
-                </button>
+                </a>
               </div>
             </div>
           </div>
