@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -31,7 +31,11 @@ function Form() {
         });
   
         console.log(res.data);
-        if (res.data.success) {
+        toast.success('Form submitted successfully!', {
+          position: toast.POSITION.TOP_CENTER,
+          autoClose: 5000, // Close the toast after 5 seconds
+        });
+        if (res.data.success ) {
           // If success is true, show a success toast
           toast.success('Form submitted successfully!', {
             position: toast.POSITION.BOTTOM_CENTER,
@@ -117,6 +121,20 @@ function Form() {
     }
   };
 
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.post('https://akgu-backend.onrender.com/api/page', { });
+        console.log(response.data);
+      } catch (error) {
+        // Handle errors
+        console.error('Error making POST request:', error);
+      }
+    };
+
+    fetchData(); 
+  }, []);
+
 
   
 
@@ -184,7 +202,7 @@ function Form() {
         <div className=" m-1 w-[90%] flex">
           <input
             className="p-2 w-[50%] border-2 rounded-md"
-            type="text"
+            type="number"
             id="otp"
             onChange={(e) => setOtp(e.target.value)}
             placeholder="Enter OTP*"
