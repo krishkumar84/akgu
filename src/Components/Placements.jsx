@@ -35,12 +35,12 @@ function Placements() {
                     <span className="ml-2 text-sm text-gray-900">B.TECH-IT</span>
                   </li>
                 </ul>
-                <button
+                <a href="https://www.akgec.ac.in/"><button
                   type="button"
                   className="rounded-md border border-black px-3 py-2 text-sm font-semibold text-black shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                 >
                   GOOGLE
-                </button>
+                </button></a>
               </div>
             </div>
           </div>
@@ -65,12 +65,12 @@ function Placements() {
                     <span className="ml-2 text-sm text-white">B.TECH-CSE</span>
                   </li>
                 </ul>
-                <button
+                <a href="https://www.akgec.ac.in/"><button
                   type="button"
                   className="rounded-md bg-white px-3 py-2 text-sm font-semibold text-black shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                  AMAZON
-                </button>
+                </button></a>
               </div>
             </div>
           </div>

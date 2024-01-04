@@ -33,13 +33,12 @@ function Form() {
        // console.log(res.data);
         toast.success('Form submitted successfully!', {
           position: toast.POSITION.TOP_CENTER,
-          autoClose: 5000, // Close the toast after 5 seconds
+          autoClose: 5000,
         });
         if (res.data.success ) {
-          // If success is true, show a success toast
           toast.success('Form submitted successfully!', {
             position: toast.POSITION.BOTTOM_CENTER,
-            autoClose: 5000, // Close the toast after 5 seconds
+            autoClose: 5000, 
           });
   
           setFirstName("");
@@ -50,18 +49,15 @@ function Form() {
           setCity("");
           setCourses("");
         } else {
-          // If success is false, display the error message
           setError(res.data.message);
         }
       } else {
-        // Show a message indicating that the OTP is not verified
         toast.warning('Please verify OTP before submitting the form.', {
           position: toast.POSITION.TOP_CENTER,
           autoClose: 5000,
         });
       }
     } catch (err) {
-      // Handle other errors, e.g., network issues
       setError("An error occurred. Please try again.");
     }
   };
@@ -75,14 +71,13 @@ function Form() {
 
       toast.success('otp sent successfully!', {
         position: toast.POSITION.TOP_CENTER,
-        autoClose: 5000, // Close the toast after 5 seconds
+        autoClose: 5000, 
       });
     } catch (err) {
       toast.error('Failed to sent OTP. Please try again.', {
         position: toast.POSITION.TOP_CENTER,
         autoClose: 5000,
       });
-      // Handle other errors, e.g., network issues
       setError("An error occurred. Please try again.");
     }
   };
@@ -95,7 +90,6 @@ function Form() {
       
       // console.log(res);
 
-        // If success is true, show a success toast
         if (res.data.message==="OTP verified successfully") {
           toast.success(`${res.data.message}`, {
             position: toast.POSITION.TOP_CENTER,
@@ -116,7 +110,6 @@ function Form() {
       position: toast.POSITION.TOP_CENTER,
       autoClose: 5000,
     });
-      // Handle other errors, e.g., network issues
       setError("An error occurred. Please try again.");
     }
   };
