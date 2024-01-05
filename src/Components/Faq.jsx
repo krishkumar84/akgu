@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import { ChevronUp, ChevronDown } from 'lucide-react';
+import {Link } from 'react-router-dom' ;
+
+
 
 const faqData = [
   {
@@ -21,6 +24,12 @@ const faqData = [
 ];
 
 function Faq() {
+  // const history = useHistory();
+
+  // const handleContactClick = () => {
+    
+  //   history.push('/contact');
+
   const [faqOpen, setFaqOpen] = useState(Array(faqData.length).fill(false));
 
   const toggleFaq = (index) => {
@@ -71,9 +80,9 @@ function Faq() {
         </div>
         <p className="text-base mt-6 text-center text-gray-600">
           Can&apos;t find what you&apos;re looking for?{' '}
-          <a href="#" title="" className="font-semibold text-black hover:underline">
+          <Link to="/contact" className="font-semibold text-black hover:underline">
             Contact our support
-          </a>
+          </Link>
         </p>
       </div>
     </section>
