@@ -47,14 +47,24 @@ function Form() {
       
           <h1 className='text-3xl text-center p-6 font-semibold'>Know More</h1>
           <form className='flex flex-col items-center justify-center ' onSubmit={handleSubmit}>
+            <div className='m-1 w-[90%] flex'>
             <input
-              className=' p-2 m-1 w-[90%] border-2 rounded-md'
+              className=' p-2 w-[49%] border-2 rounded-md'
               type="text"
-              id="username"
+              id="firstname"
               onChange={(e) => setName(e.target.value)}
-              placeholder='Name*'
+              placeholder='FirstName*'
               required
             />
+             <input
+              className=' p-2 w-[49%] ml-1 border-2 rounded-md'
+              type="text"
+              id="lastname"
+              onChange={(e) => setName(e.target.value)}
+              placeholder='LastName*'
+              required
+            />
+            </div>
 
             <div className='m-1 w-[90%] flex'>
             <input
