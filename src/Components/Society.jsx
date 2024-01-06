@@ -90,14 +90,14 @@ const Society = () => {
   
  <div className= 'bdcoe flex flex-col mb-10 items-center' >
   <hr  className=' w-[90%] border-t-2 border-gray-300  h-px '/>
-  <h1 className='text-3xl mt-10  font-semibold'>Big Data Centre of Excellence</h1>
+  <h1 className='sm:text-3xl text-xl mt-10  font-semibold'>Big Data Centre of Excellence</h1>
 </div> 
 
-<div className='mx-20 mb-10 flex flex-wrap'>
-<div className='w-[30%] '>
+<div className='sm:mx-20 mx-4 mb-10 flex flex-wrap'>
+<div className='lg:w-[30%] sm:m-10 m-4 lg:m-0  '>
 <img src="../../Images/bdcoe1.jpg" alt="" />
 </div>
-<div className='w-[70%] '>
+<div className='lg:w-[70%] w-full'>
 <p className=' mx-6 text-justify'>“Big Data Centre of Excellence" is the Research and Development centre of AKGEC. It is the first “Centre of Excellence" in AKTU, working in the field of BigData. It was established in 2013 and since 4 years it has been motivating and guiding the students into the world of Big Data. Big Data is the most trending technology of 21st century. It is the hottest market currently. Companies require Big Data Analysts to analyze the large amount of data being generated and gain insights from the data. Businesses are focusing more on agility and innovation, adopting BigData technologies help the companies achieve that in no time. The team aspires to develope skills in Big Data and gradually move from Machine Learning to Deep Learning and finally Artificial Intelligence.
 We are a student run community of data enthusiasts at Ajay Kumar Garg Engineering College, Ghaziabad. We strive to provide our members with the knowledge, skills, and resources needed to excel in the world of Big Data. We also bring in industry professionals and leaders to give our members access to the most up-to-date trends and insights. Big Data Centre of Excellence was established in the year 2015 and since 
 9  years it has been motivating and guiding the students into the world of Big Data. We are the first 'Centre of Excellence' in A.K.T.U. working in the field of Big Data.</p>
@@ -107,17 +107,17 @@ We are a student run community of data enthusiasts at Ajay Kumar Garg Engineerin
 
 <div className='csi flex flex-col mb-10 items-center'>
   <hr  className=' w-[90%] border-t-2 border-gray-300  h-px '/>
-  <h1 className='text-3xl mt-10  font-semibold'>Computer Society Of India</h1>
+  <h1 className='sm:text-3xl text-xl mt-10  font-semibold'>Computer Society Of India</h1>
 </div> 
 
-<div className='mx-20 mb-10 flex flex-wrap'>
+<div className='sm:mx-20 mx-4 mb-10 flex flex-wrap'>
 
-<div className='w-[70%] '>
+<div className='lg:w-[70%] w-full '>
 <p className=' mx-6 text-justify'>The COMPUTER SOCIETY OF INDIA (acronym as CSI) was formed in the year 1965. Since its inception, CSI has been paving the way for the IT industry to advance in the right direction. By indulging within itself most famous IT leaders, brilliant scientists and dedicated academicians, CSI has been highly successful in setting highest benchmarks in the field of professional competence with high quality commitment. It has set up a remarkable example by providing high range of services and networking opportunities through workshops, seminars, conventions and courses in which major faces of the industry have actively participated and exchanged valuable knowledge and ideas
 .C.S.I. in A.K.G.E.C. Since CSI student chapter has evolved in AKGEC, it has been one of the most active societies of the institute by organising events and workshops which have proven to be blockbusters in the college. The active image of the society becomes more prominent during the annual national level event, The Initiative, wherein the society asks students to provide solutions to the burning issues our country is facing. CSI AKGEC Chapter is known for its highly skilled team members, and the efficiency & quality of the events and workshops that it conducts. </p>
 </div>
 
-<div className='w-[30%] '>
+<div className='lg:w-[30%] sm:m-10 m-4 lg:m-0   '>
 <img src="../../Images/csi1.jpg" alt="" />
 </div>
 
@@ -125,14 +125,14 @@ We are a student run community of data enthusiasts at Ajay Kumar Garg Engineerin
 
 <div className='ccc flex flex-col mb-10 items-center'>
   <hr  className=' w-[90%] border-t-2 border-gray-300  h-px '/>
-  <h1 className='text-3xl mt-10  font-semibold'>Cloud Computing Cell</h1>
+  <h1 className='sm:text-3xl text-xl mt-10  font-semibold'>Cloud Computing Cell</h1>
 </div> 
 
-<div className='mx-20 mb-10 flex flex-wrap'>
-<div className='w-[30%] '>
+<div className='sm:mx-20 mx-4 mb-10 flex flex-wrap items-center justify-center'>
+<div className='lg:w-[30%] sm:m-10 m-4  lg:m-0  '>
 <img src="../../Images/ccc1.jpg" alt="" />
 </div>
-<div className='w-[70%] '>
+<div className='lg:w-[70%] w-full '>
 <p className=' mx-6 text-justify'>Cloud Computing Cell,the technical society, has been a part of Ajay Kumar Garg Engineering College since February 2016. The members are exposed to the latest Cloud Technologies that enable them to be market ready thereby increasing their opportunities in placements and research. It provides a platform to the students to compute, manage and deploy the cloud. The Cell is coordinated by Mr.Santosh Kumar Mishra and Mr, Sundeep Raj, faculty members, IT department.
 Cloud computing is a growing computing technology that provides almost unlimited computing resources on demand. It connects a number of other technologies like IoT, Big Data, Fog etc. The users of cloud can access data, applications and storage etc. with least management of local environment. It can be understood as a delivery system that delivers computing in the same way as a power grid delivers electricity. The Cloud Computing Cell, has successfully installed private cloud using Apache Cloudstack. Cloudstack works on the IaaS model of cloud where the services are the complete virtual computers that are able to do the computation as on local machine.
 
