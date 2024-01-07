@@ -34,7 +34,7 @@ const Labs_dropdown = () => {
           className="flex w-full items-start justify-between px-4  sm:p-2 md:items-center"
         >
 
-          <span className='flex text-start text-sm sm:text-lg font-normal text-sky-700'>Adequate-and-well-equipped-laboratories-of-IT-department</span>
+          <span className='flex text-start text-sm sm:text-lg font-normal text-black'>Adequate-and-well-equipped-laboratories-of-IT-department</span>
           {setParagraphVisible_1 ? (
                   <ChevronUp className="h-5 w-5 text-gray-500 md:block" />
                 ) : (
@@ -61,7 +61,7 @@ const Labs_dropdown = () => {
           className="flex w-full items-start justify-between px-4  sm:p-2 md:items-center"
         >
 
-          <span className='flex text-start text-sm sm:text-lg font-normal text-sky-700'>The department is equipped with following labs for Odd and Even Semesters</span>
+          <span className='flex text-start text-sm sm:text-lg font-normal text-black'>The department is equipped with following labs for Odd and Even Semesters</span>
           {setParagraphVisible_2 ? (
                   <ChevronUp className="h-5 w-5 text-gray-500 md:block" />
                 ) : (
@@ -89,7 +89,7 @@ const Labs_dropdown = () => {
           className="flex w-full items-start justify-between px-4  sm:p-2 md:items-center"
         >
 
-          <span className='flex text-start text-sm sm:text-lg font-normal text-sky-700'>Facilities available in IT Department Laboratories</span>
+          <span className='flex text-start text-sm sm:text-lg font-normal text-black'>Facilities available in IT Department Laboratories</span>
           {setParagraphVisible_3 ? (
                   <ChevronUp className="h-5 w-5 text-gray-500 md:block" />
                 ) : (
@@ -195,7 +195,7 @@ const Labs_dropdown = () => {
           className="flex w-full items-start justify-between px-4  sm:p-2 md:items-center"
         >
 
-          <span className='flex text-start text-sm sm:text-lg font-normal text-sky-700'>Details of Technical Manpower Support available in IT Department Laboratories</span>
+          <span className='flex text-start text-sm sm:text-lg font-normal text-black'>Details of Technical Manpower Support available in IT Department Laboratories</span>
           {setParagraphVisible_4 ? (
                   <ChevronUp className="h-5 w-5 text-gray-500 md:block" />
                 ) : (
