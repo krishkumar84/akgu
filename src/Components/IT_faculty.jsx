@@ -79,7 +79,7 @@ function IT_faculty() {
        </div>
 
        <div className="h-[370px] w-[250px] p-4 shadow-lg m-3 bg-white">
-         <img className="h-[250px] w-full object-cover" src="https://www.akgec.ac.in/wp-content/uploads/2023/04/pancham.jpgg" alt="" />
+         <img className="h-[250px] w-full object-cover" src="https://www.akgec.ac.in/wp-content/uploads/2023/04/pancham.jpg" alt="" />
          <div className='p-2 mb-2' >
            <h3 className="text-xl  font-semibold  text-customblue">Mr. Pancham Singh</h3>
            <p className="text-base">Associate Professor</p>
