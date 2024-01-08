@@ -131,17 +131,17 @@ const Society = () => {
         </div>
       </div>
 
-      <div className="bdcoe flex flex-col mb-10 items-center">
-        <hr className=" w-[90%] border-t-2 border-gray-300  h-px " />
-        <h1 className="text-3xl mt-10  font-semibold">
-          Big Data Centre of Excellence
-        </h1>
-      </div>
+  
+ <div className= 'bdcoe flex flex-col mb-10 items-center' >
+  <hr  className=' w-[90%] border-t-2 border-gray-300  h-px '/>
+  <h1 className='sm:text-3xl text-xl mt-10  font-semibold'>Big Data Centre of Excellence</h1>
+</div> 
 
-      <div className="mx-20 mb-10 flex flex-wrap">
-        <div className="w-[30%] ">
-          <img src="../../Images/bdcoe1.jpg" alt="" />
-        </div>
+<div className='sm:mx-20 mx-4 mb-10 flex flex-wrap'>
+<div className='lg:w-[30%] sm:m-10 m-4 lg:m-0  '>
+<img src="../../Images/bdcoe1.jpg" alt="" />
+</div>
+
         <div className="w-[70%] ">
           <p className=" mx-6 text-justify">
             “Big Data Centre of Excellence" is the Research and Development
@@ -171,13 +171,13 @@ const Society = () => {
 
       <div className="csi flex flex-col mb-10 items-center">
         <hr className=" w-[90%] border-t-2 border-gray-300  h-px " />
-        <h1 className="text-3xl mt-10  font-semibold">
+        <h1 className="sm:text-3xl text-xl mt-10  font-semibold">
           Computer Society Of India
         </h1>
       </div>
 
-      <div className="mx-20 mb-10 flex flex-wrap">
-        <div className="w-[70%] ">
+      <div className="sm:mx-20 mx-4 mb-10 flex flex-wrap">
+        <div className="lg:w-[70%] w-full ">
           <p className=" mx-6 text-justify">
             The COMPUTER SOCIETY OF INDIA (acronym as CSI) was formed in the
             year 1965. Since its inception, CSI has been paving the way for the
@@ -201,21 +201,21 @@ const Society = () => {
           </p>
         </div>
 
-        <div className="w-[30%] ">
+        <div className="lg:w-[30%] sm:m-10 m-4 lg:m-0   ">
           <img src="../../Images/csi1.jpg" alt="" />
         </div>
       </div>
 
       <div className="ccc flex flex-col mb-10 items-center">
         <hr className=" w-[90%] border-t-2 border-gray-300  h-px " />
-        <h1 className="text-3xl mt-10  font-semibold">Cloud Computing Cell</h1>
+        <h1 className="sm:text-3xl text-xl mt-10  font-semibold">Cloud Computing Cell</h1>
       </div>
 
-      <div className="mx-20 mb-10 flex flex-wrap">
-        <div className="w-[30%] ">
+      <div className="sm:mx-20 mx-4 mb-10 flex flex-wrap items-center justify-center">
+        <div className="lg:w-[30%] sm:m-10 m-4  lg:m-0  ">
           <img src="../../Images/ccc1.jpg" alt="" />
         </div>
-        <div className="w-[70%] ">
+        <div className="lg:w-[70%] w-full ">
           <p className=" mx-6 text-justify">
             Cloud Computing Cell,the technical society, has been a part of Ajay
             Kumar Garg Engineering College since February 2016. The members are
