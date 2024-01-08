@@ -1,8 +1,38 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 function IT_faculty() {
   return (
     <div>
+      <div className="btn flex gap-3 flex-wrap justify-evenly mt-10 mb-10 ">
+        <Link to='/home3/faculty'>
+        <button  className="bg-yellow-500 rounded-xl font-medium border border-black  w-36 h-12">
+          FACULTY
+        </button>
+        </Link>
+        <Link to='/home3/labs'>
+        <button className="bg-yellow-500 rounded-xl font-medium border border-black  w-36 h-12">
+          LABS
+        </button>
+        </Link>
+
+        <Link to='/home3/achievement'>
+        <button className="bg-yellow-500 rounded-xl font-medium border border-black  w-36 h-12">
+          ACHIEVEMENT
+        </button>
+        </Link>
+
+        <Link to='/home3/society'>
+        <button className="bg-yellow-500 rounded-xl font-medium border border-black  w-36 h-12">
+          SOCIETY
+        </button>
+        </Link>
+
+        <Link to='/home3/department'>
+        <button className="bg-yellow-500 rounded-xl font-medium border border-black  w-60 h-12">
+          DEPARTMENTAL ACTIVITIES
+        </button>
+        </Link>
+      </div>
        <div className="  w-full h-auto flex flex-wrap flex-row items-center justify-center bg-customWhite ">
        <div className=" h-[370px] w-[250px] p-4 shadow-lg m-3 bg-white">
        
