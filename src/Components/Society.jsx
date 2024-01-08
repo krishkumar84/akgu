@@ -131,14 +131,6 @@ const Society = () => {
         </div>
       </div>
 
-      <div className="bdcoe flex flex-col mb-10 items-center">
-        <hr className=" w-[90%] border-t-2 border-gray-300  h-px " />
-        <h1 className="sm:text-3xl text-xl mt-10  font-semibold">
-          Big Data Centre of Excellence
-        </h1>
-      </div>
-
-  
   
  <div className= 'bdcoe flex flex-col mb-10 items-center' >
   <hr  className=' w-[90%] border-t-2 border-gray-300  h-px '/>
