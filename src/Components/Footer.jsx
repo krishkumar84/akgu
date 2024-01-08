@@ -3,20 +3,21 @@ import React from 'react'
 
 function  Footer()  {
   return (
-    <footer className="w-full pb-4  mt-12">
+    <footer className="w-full pb-4 mt-12">
       <hr className=" bg-black  mb-6" />
-      <div className="mx-auto flex max-w-6xl flex-col items-start space-x-32 md:flex-row">
+      <div className="mx-auto flex max-w-6xl flex-col items-start sm:space-x-32 md:flex-row">
         <div className="w-full px-4 md:w-1/2 lg:px-0">
           <h1 className="max-w-sm text-4xl font-bold">Locate Us</h1>
           <form
             action=""
             className="mt-2 inline-flex w-full items-center md:w-3/4"
           >
-           <div className="formMap mt-4 sm:w-44 w-76">
+           <div className="formMap mt-4 sm:w-64 w-40">
               <iframe
+              className='sm:w-[27vw] sm:h-56 w-72 h-48'
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.467007802247!2d77.49981541461779!3d28.67567358240077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf30885b1e2a5%3A0x9983675e24c6638b!2sAKGEC%3A%20Ajay%20Kumar%20Garg%20Engineering%20College%2C%20Ghaziabad!5e0!3m2!1sen!2sin!4v1676826055930!5m2!1sen!2sin"
-                width="400"
-                height="180"
+                width=""
+                height=""
                 title="location"
                 style={{ border: 0 }}
                 allowFullScreen=""
@@ -26,7 +27,7 @@ function  Footer()  {
             </div>
           </form>
         </div>
-        <div className="mt-8 grid grid-cols-2 gap-6 md:mt-0 lg:w-3/4 lg:grid-cols-3">
+        <div className="mt-8 grid grid-cols-2 sm:gap-6 gap-2 md:mt-0 lg:w-3/4 lg:grid-cols-3">
           <div className="mb-8 lg:mb-0">
             <p className="mb-6 text-lg font-semibold text-gray-700 ">Quick Links</p>
             <ul className="flex flex-col space-y-4 text-[14px] font-medium text-gray-500">
