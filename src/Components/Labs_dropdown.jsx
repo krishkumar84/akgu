@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ChevronUp, ChevronDown } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Labs_dropdown = () => {
 
@@ -25,7 +26,39 @@ const Labs_dropdown = () => {
   };
 
   return (
+
+    
     <div className="mt-4 sm:mx-20 ">
+      <div className="btn flex gap-3 flex-wrap justify-evenly mt-10 mb-10 ">
+        <Link to='/home3/faculty'>
+        <button  className="bg-yellow-500 rounded-xl font-medium border border-black  w-36 h-12">
+          FACULTY
+        </button>
+        </Link>
+        <Link to='/home3/labs'>
+        <button className="bg-yellow-500 rounded-xl font-medium border border-black  w-36 h-12">
+          LABS
+        </button>
+        </Link>
+
+        <Link to='/home3/achievement'>
+        <button className="bg-yellow-500 rounded-xl font-medium border border-black  w-36 h-12">
+          ACHIEVEMENT
+        </button>
+        </Link>
+
+        <Link to='/home3/society'>
+        <button className="bg-yellow-500 rounded-xl font-medium border border-black  w-36 h-12">
+          SOCIETY
+        </button>
+        </Link>
+
+        <Link to='/home3/department'>
+        <button className="bg-yellow-500 rounded-xl font-medium border border-black  w-60 h-12">
+          DEPARTMENTAL ACTIVITIES
+        </button>
+        </Link>
+      </div>
       <div className={`cursor-pointer rounded-md border mb-2 mx-2 border-gray-400 transition-all duration-300 ${
                 setParagraphVisible_1 ? 'shadow-md' : ''
               }`} >                  

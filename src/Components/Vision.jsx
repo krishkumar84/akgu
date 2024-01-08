@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Vision() {
+function vision() {
   return (
     <div>
       <div className="header flex justify-center items-center text-white h-20 w-full bg-black">
@@ -33,4 +33,4 @@ function Vision() {
   );
 }
 
-export default Vision
+export default vision

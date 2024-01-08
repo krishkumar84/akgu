@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer"
 import Hod from "../Components/Hod"
 import IT from "../Components/IT"
 import ITfaculty from "../Components/ITfaculty"
@@ -13,6 +14,7 @@ const Home3 = () => {
       <Vision/>
       <Hod/>
       <ITfaculty/>
+      <Footer/>
     </div>
   )
 }
