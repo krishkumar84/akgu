@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function IT() {
   return (
@@ -7,21 +8,34 @@ function IT() {
         <h1 className="font-bold text-2xl">INFORMATION TECHNOLOGY</h1>
       </div>
       <div className="btn flex gap-3 flex-wrap justify-evenly mt-10 ">
-        <button className="bg-yellow-500 rounded-xl font-medium border border-black  w-36 h-12">
+        <Link to='/home3/faculty'>
+        <button  className="bg-yellow-500 rounded-xl font-medium border border-black  w-36 h-12">
           FACULTY
         </button>
+        </Link>
+        <Link to='/home3/labs'>
         <button className="bg-yellow-500 rounded-xl font-medium border border-black  w-36 h-12">
           LABS
         </button>
+        </Link>
+
+        <Link to='/home3/achievement'>
         <button className="bg-yellow-500 rounded-xl font-medium border border-black  w-36 h-12">
           ACHIEVEMENT
         </button>
+        </Link>
+
+        <Link to='/home3/society'>
         <button className="bg-yellow-500 rounded-xl font-medium border border-black  w-36 h-12">
           SOCIETY
         </button>
+        </Link>
+
+        <Link to='/home3/department'>
         <button className="bg-yellow-500 rounded-xl font-medium border border-black  w-60 h-12">
           DEPARTMENTAL ACTIVITIES
         </button>
+        </Link>
       </div>
       <div className="p-10">
       <div className="blue-text font-medium text-blue-600">

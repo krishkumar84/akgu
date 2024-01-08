@@ -21,10 +21,10 @@ export default function Navbar() {
        <div className="hidden lg:block navbar-line">
           <ul className="inline-flex relative space-x-8">
             
-            <Link to='/'><li className="text-base font-semibold hover:cursor-pointer text-gray-800 hover:text-gray-900">Home</li></Link>
-            <Link to='/home2'><li className="text-base font-semibold text-gray-800 hover:text-gray-900">Courses</li></Link>
+            <Link to='/home2'><li className="text-base font-semibold text-gray-800 hover:text-gray-900">Home</li></Link>
+            <Link to='/'><li className="text-base font-semibold hover:cursor-pointer text-gray-800 hover:text-gray-900">Courses</li></Link>
+            <Link to='/home3'><li className="text-base font-semibold hover:cursor-pointer  text-gray-800 hover:text-gray-900">IT</li></Link> 
             <Link to='/contact'><li className="text-base font-semibold hover:cursor-pointer  text-gray-800 hover:text-gray-900">Contact</li></Link> 
-            <Link to='/home3'><li className="text-base font-semibold hover:cursor-pointer  text-gray-800 hover:text-gray-900">Courses</li></Link> 
           </ul>
         </div>
         <div className="hidden lg:block">

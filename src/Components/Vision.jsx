@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Vision() {
+const Vision = ()=>{
   return (
     <div>
       <div className="header flex justify-center items-center text-white h-20 w-full bg-black">
