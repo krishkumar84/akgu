@@ -44,9 +44,9 @@ function IT() {
       </div>
       <div className="para font-medium">
         <p>
-          IT has changed the way of our life and the pace of change is very
+          Information Technology has changed the way of our life and the pace of change is very
           fast. This scenario is giving us new opportunity as well as new
-          challenges. IT has enhanced the efficiency and effectiveness of
+          challenges. Information Technology has enhanced the efficiency and effectiveness of
           business processes dramatically. ERP solutions have further empowered
           the organizations to do multi-location, multilingual and multicurrency
           operation in the global business environment. New ways of marketing,
@@ -54,11 +54,11 @@ function IT() {
           form of blogs, forums, chats, emails etc.
         </p>
         <p className="mt-3">
-          IT is working as a hub to drive the businesses to new heights. IT jobs
+          Information Technology is working as a hub to drive the businesses to new heights. Information Technology jobs
           are more paying as well as more demanding. To continuously learn and
           grasp new technologies is a real challenge for IT professionals.
           Creating such professionals to take this challenge and rise to the
-          apex of IT profession is our goal. At AKGEC excellence is the way of
+          apex of Information Technology profession is our goal. At AKGEC excellence is the way of
           life. We are committed to give students an environment to nurture
           their talent in to its fullest potential. This is achieved by learned
           faculty members, year round conduction of numerous seminars, guest
