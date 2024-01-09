@@ -142,7 +142,7 @@ const Society = () => {
 <img src="../../Images/bdcoe1.jpg" alt="" />
 </div>
 
-        <div className="w-[70%] ">
+        <div className=" lg:w-[70%] w-full ">
           <p className=" mx-6 text-justify">
             “Big Data Centre of Excellence" is the Research and Development
             centre of AKGEC. It is the first “Centre of Excellence" in AKTU,
