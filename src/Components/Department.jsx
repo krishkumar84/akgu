@@ -95,7 +95,7 @@ const Department = () => {
          </div>
 
        <div className='border-[1px] flex border-yellow-500 m-1 '>
-         <table className='border-[1px] w-full border-yellow-500 m-2 '>
+         <table className='table-bordered table-striped w-full border-yellow-500 m-2 '>
           <thead>
             <th>DATE</th>
             <th>TOPIC</th>
