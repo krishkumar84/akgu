@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 import { Link } from 'react-router-dom'
 function IT_faculty() {
   return (
@@ -252,7 +253,7 @@ function IT_faculty() {
            <p className="text-base">Ph.D</p>
        </div>
        </div>
-
+       <Footer/>
      </div>
     </div>
   )
