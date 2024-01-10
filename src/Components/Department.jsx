@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../Components/Navbar'
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
+import '../App.css'
 
 const Department = () => {
   return (
@@ -49,16 +50,16 @@ const Department = () => {
        <div className=' flex-wrap  border-[1px] border-yellow-500 m-1 bg-gray-900 text-yellow-500 p-2' >
          <div className='w-full flex flex-wrap m-2 justify-around'>
          <div className='border-2 border-yellow-500 p-2 m-1'>
-          guest lectures
+          Guest lectures
          </div>
             <div className='border-2 border-yellow-500 p-2 m-1 ' >
           Seminars, conferences and FDPs organised
          </div>
          <div className='border-2 border-yellow-500 p-2 m-1'>
-          conferences and trainings attended by faculties
+          Conferences and trainings attended by faculties
          </div>
          <div className='border-2 border-yellow-500 p-2 m-1'>
-          faculty seminars
+          Faculty seminars
          </div>
         
          </div>
@@ -66,13 +67,13 @@ const Department = () => {
 
          <div className='w-full flex flex-wrap m-2 justify-around'>
          <div className='border-2 border-yellow-500 p-2 m-1'>
-          mentorship program
+          Mentorship program
          </div>
          <div className='border-2 border-yellow-500 p-2 m-1'>
-          staff development programs organised
+          Staff development programs organised
          </div>
          <div className='border-2 border-yellow-500 p-2 m-1'>
-          e-paper presentation
+          E-paper presentation
          </div>
          <div className='border-2 border-yellow-500 p-2 m-1'>
           MOOC/swayam online courses completed by faculty (year wise)
@@ -82,10 +83,10 @@ const Department = () => {
 
          <div className='w-full flex flex-wrap m-2 justify-around'>
          <div className='border-2 border-yellow-500 p-2 m-1'>
-          student achievements
+          Student achievements
          </div>
          <div className='border-2 border-yellow-500 p-2 m-1'>
-          student activities
+        Student activities
          </div>
          <div className='border-2 border-yellow-500 p-2 m-1'>
           Research paper study and presentation
@@ -95,7 +96,7 @@ const Department = () => {
          </div>
 
        <div className='border-[1px] flex border-yellow-500 m-1 '>
-         <table className='table-bordered table-striped w-full border-yellow-500 m-2 '>
+         <table className=' w-full border-yellow-500 m-2 border-2 '>
           <thead>
             <th>DATE</th>
             <th>TOPIC</th>
