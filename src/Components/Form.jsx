@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { X } from 'lucide-react';
+import PropTypes from 'prop-types';
 
-function Form() {
+function Form({closeForm}) {
   const [f_name, setFirstName] = useState("");
   const [l_name, setLastName] = useState("");
   const [email, setEmail] = useState("");
@@ -15,6 +17,8 @@ function Form() {
   const [courses, setCourses] = useState("");
   const [error, setError] = useState(null);
   const [isOtpVerified, setIsOtpVerified] = useState(false);
+  
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -129,7 +133,7 @@ function Form() {
   }, []);
 
 
-  
+
 
   return (
     <>
@@ -141,7 +145,12 @@ function Form() {
         closeOnClick
         theme="dark"
       />
-      <h1 className="text-3xl text-center p-6 font-semibold">Know More</h1>
+      <div className='flex items-center justify-between mr-4'>
+       <h1 className="text-3xl text-center p-6 font-semibold">Know More</h1>
+       <button onClick={closeForm}>
+       <X />
+       </button>
+      </div>
       <form
         className="flex flex-col items-center justify-center "
         onSubmit={handleSubmit}
@@ -166,7 +175,7 @@ function Form() {
         </div>
         <div className="m-1 w-[90%] flex">
           <input
-            className=" p-2 w-[65%] border-2 rounded-md"
+            className=" p-2 m-1 w-[65%] border-2 rounded-md"
             type="email"
             id="email"
             onChange={(e) => setEmail(e.target.value)}
@@ -176,7 +185,7 @@ function Form() {
 
           <button
             onClick={sendEmail}
-            className="bg-green-300 hover:bg-green-500 ml-2 py-1 px-4 rounded-lg"
+            className="bg-green-300 hover:bg-green-500 ml-2 px-4 rounded-lg"
             type="button"
           >
             Send OTP
@@ -271,5 +280,10 @@ function Form() {
     </>
   );
 }
+
+Form.propTypes = {
+  toggle: PropTypes.bool.isRequired,
+  closeForm: PropTypes.func.isRequired,
+};
 
 export default Form;
