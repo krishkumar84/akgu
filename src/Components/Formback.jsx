@@ -1,5 +1,5 @@
-import React from 'react'
-import Form from '../Components/Form';
+// import React from 'react'
+// import Form from '../Components/Form';
 
 
 const Formback = () => {
@@ -20,10 +20,9 @@ const Formback = () => {
    }}>
 
 <div className='w-full flex items-center justify-center '>
-          <div className='bg-white border-2  w-3/4 sm:w-1/3  lg:w-1/4  md:ml-auto md:mr-[10vw] relative border-yellow-300 rounded-lg'>
-    <Form/>
+          {/* <div className='bg-white border-2  w-3/4 sm:w-1/3  lg:w-1/4  md:ml-auto md:mr-[10vw] relative border-yellow-300 rounded-lg'>
 
-    </div>
+    </div> */}
            </div>
       </div> 
     
