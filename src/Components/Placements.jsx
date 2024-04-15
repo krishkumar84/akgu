@@ -21,7 +21,7 @@ function Placements() {
         <div className="flex flex-wrap items-center">
           <div className="w-full  hover:scale-110 hover:cursor-pointer transition-transform lg:-mr-2 lg:w-1/3">
             <div className="mx-auto max-w-sm rounded-md border border-gray-200 bg-white pb-15 pl-5 pr-8 pt-6 lg:pb-8">
-            <img src="https://media.licdn.com/dms/image/C4E03AQHOT6IGmZC-fA/profile-displayphoto-shrink_800_800/0/1641287483407?e=1708560000&v=beta&t=_ClIgDD3yHhA7R_Yqwh6TwBygCAtvCuHRHSJd3AfDhk" className='h-auto mb-6 rounded-b-xl  bg-cover' />
+            <img src="https://media.licdn.com/dms/image/C4E03AQHOT6IGmZC-fA/profile-displayphoto-shrink_800_800/0/1641287483407?e=1718841600&v=beta&t=9lwE_XQqeES-8aIlqbwyfHR7-RpGvIHtHELIXyCYTlY" className='h-auto mb-6 rounded-b-xl  bg-cover' />
               <span className="flex items-end">
               <span className="text-4xl font-extrabold leading-none">32.41</span>
                 <span className="text-2xl ml-2 font-semibold">LPA</span>

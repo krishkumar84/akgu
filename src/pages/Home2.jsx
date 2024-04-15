@@ -9,6 +9,9 @@ import Highlights from '../Components/Highlights';
 import Belowtext from '../Components/Belowtext';
 import Formback from '../Components/Formback';
 import "../Components/CSS/Home2.css"
+import Placements from '../Components/Placements';
+import Facultycards from '../Components/Faculty-cards';
+import AchievementCarousal from '../Components/AchievementCarousal';
  
 
 function Home2() {
@@ -18,10 +21,13 @@ function Home2() {
       <Navbar/>
       <Formback/>
       <Program/>
-      <Mentors/>
+      <Facultycards/>
+      {/* <Mentors/> */}
       <Testimonial/>
       <Alumni/>
+      <Placements/>
       <Highlights/>
+      <AchievementCarousal/>
       <Belowtext/>
       <Footer/>
     </div>

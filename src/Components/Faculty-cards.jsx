@@ -11,7 +11,7 @@ import { Carousel } from "react-responsive-carousel";
 
 const Facultycards = () => {
   return (
-    <div className="main-faculty-carousel mb-24">
+    <div className="main-faculty-carousel mt-24 mb-24">
       <h1 className="mb-[3vh] ml-[9vw] text-4xl font-bold">
         Our Top-Ranked Faculty
       </h1>
