@@ -12,6 +12,8 @@ import Placements from '../Components/Placements';
 import Facultycards from '../Components/Faculty-cards';
 import AchievementCarousal from '../Components/AchievementCarousal';
 import Form from '../Components/Form';
+import Infrastructure from '../Components/Infrastructure';
+import Hostel from '../Components/Hostel';
  
 
 function Home2() {
@@ -34,6 +36,8 @@ function Home2() {
       <Alumni />
       <Placements />
       <Highlights />
+      <Infrastructure/>
+      <Hostel/>
       <AchievementCarousal />
       <Belowtext />
       <Footer />
