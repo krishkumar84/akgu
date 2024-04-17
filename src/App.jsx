@@ -13,6 +13,7 @@ import Society from './Components/Society';
 import Labs from './Components/Labs';
 import Faculty from './Components/Faculty';
 import Department from './Components/Department';
+import Hostel from './Components/Hostel';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/home3/labs" element={<Labs />} />
         <Route path="/home3/faculty" element={<Faculty />} />
         <Route path="/home3/Department" element={<Department />} />
+        <Route path="/home2/hostels" element={<Hostel />} />
       </Routes>
     </Router>
   );

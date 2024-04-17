@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { X } from 'lucide-react';
+import PropTypes from 'prop-types';
 
-function Form() {
+function Form({closeForm}) {
   const [f_name, setFirstName] = useState("");
   const [l_name, setLastName] = useState("");
   const [email, setEmail] = useState("");
@@ -141,7 +143,12 @@ function Form() {
         closeOnClick
         theme="dark"
       />
-      <h1 className="text-3xl text-center p-6 font-semibold">Know More</h1>
+     <div className='flex items-center justify-between mr-4'>
+       <h1 className="text-3xl text-center p-6 font-semibold">Know More</h1>
+       <button onClick={closeForm}>
+       <X />
+       </button>
+      </div>
       <form
         className="flex flex-col items-center justify-center "
         onSubmit={handleSubmit}
@@ -271,5 +278,10 @@ function Form() {
     </>
   );
 }
+
+Form.propTypes = {
+  toggle: PropTypes.bool.isRequired,
+  closeForm: PropTypes.func.isRequired,
+};
 
 export default Form;
