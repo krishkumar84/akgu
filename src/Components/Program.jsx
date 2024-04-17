@@ -27,7 +27,7 @@ function Program() {
       <ul className='flex flex-wrap flex-row items-center mb-8  justify-evenly w-full md:w-3/4'>
         <li className={`uppercase mr-4 text-center text-lg hover:cursor-pointer ${selectedDegree === 'bachelor' ?   'border-b-4 border-customYellow ' : ''}`} onClick={handleOnClick_1}>Bachelor</li>
         <li className={`uppercase mr-4 text-center text-lg hover:cursor-pointer ${selectedDegree === 'master' ? 'border-b-4 border-customYellow ' : ''}`} onClick={handleOnClick_2}>Master</li>
-        <li className={`uppercase mr-4 text-center text-lg hover:cursor-pointer ${selectedDegree === 'pgDiploma' ? 'border-b-4 border-customYellow  ' : ''}`} onClick={handleOnClick_3}>PG Diploma</li>
+        <li className={`uppercase mr-36 text-center text-lg hover:cursor-pointer ${selectedDegree === 'pgDiploma' ? 'border-b-4 border-customYellow  ' : ''}`} onClick={handleOnClick_3}>PG Diploma</li>
       </ul>
 
     
