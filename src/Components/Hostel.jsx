@@ -21,18 +21,18 @@ const Hostel = () => {
            for pursuit of academic and all round development.
 </p>
 
-       <h2 className='text-2xl text-center mt-10 font-semibold mb-8 '>List of Amenities at a Glance</h2>
+       <h2 className='text-2xl text-center mt-10 font-semibold mb-4 '>List of Amenities at a Glance</h2>
        <ul  style={{ listStyleType: 'disc' }}>
-        <li>Furnished rooms including Curtains, Mattress, Pillow, Bed Sheets</li>
-        <li>Clean and Hygienic – Mess & Dining</li>
-        <li>Indoor and Outdoor Sports Facilities</li>
-        <li>Internet Facility (wi fi)</li>
-        <li>Solar Water Heaters</li>
-        <li>Gymnasium</li>
-        <li>TV Room</li>
-        <li>Library</li>
-        <li>Utility Store</li>
-        <li>Canteen</li>
+        <li className='mx-6'>Furnished rooms including Curtains, Mattress, Pillow, Bed Sheets</li>
+        <li className='mx-6'>Clean and Hygienic – Mess & Dining</li>
+        <li className='mx-6'>Indoor and Outdoor Sports Facilities</li>
+        <li className='mx-6'>Internet Facility (wi fi)</li>
+        <li className='mx-6'>Solar Water Heaters</li>
+        <li className='mx-6'>Gymnasium</li>
+        <li className='mx-6'>TV Room</li>
+        <li className='mx-6'>Library</li>
+        <li className='mx-6'>Utility Store</li>
+        <li className='mx-6'>Canteen</li>
        </ul>
 
        <div className='w-full flex flex-col items-center  mt-14'>
@@ -63,8 +63,7 @@ const Hostel = () => {
         <h2 className='text-2xl text-center  font-semibold mt-10 mb-6 '>Boys Hostel</h2>
         <ResponsiveMasonry columnsCountBreakPoints={{350:1,768:3,992:4}} className='w-[90%] pb-10'>
         <Masonry gutter='1rem'className=''>
-         
-                 <img src='/Images/bh1.jpg' alt=""
+                <img src='/Images/bh1.jpg' alt=""
                  style={{'width':'100%','display':'block','borderRadius':'10px'}} />
                  <img src='/Images/bh2.jpg' alt=""
                  style={{'width':'100%','display':'block','borderRadius':'10px'}} />
@@ -80,8 +79,7 @@ const Hostel = () => {
                  style={{'width':'100%','display':'block','borderRadius':'10px'}} />
                   <img src='/Images/bh7.jpeg' alt=""
                  style={{'width':'100%','display':'block','borderRadius':'10px'}} />
-
-                 </Masonry>
+            </Masonry>
     </ResponsiveMasonry>
 
         
